@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '99b4daa0878ecdce3e2e9b289e3cd8c8',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f55b959346667f714a451ce9258907ac',
+  'native_key' => 'use_weblink_target',
+  'object' => '{"key":"use_weblink_target","value":false,"xtype":"combo-boolean","namespace":"core","area":"site","editedon":null}',
+);

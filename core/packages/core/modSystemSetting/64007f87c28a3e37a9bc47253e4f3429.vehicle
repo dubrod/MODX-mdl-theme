@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f09efa8e802784d5edc278848a27dd21',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '64007f87c28a3e37a9bc47253e4f3429',
+  'native_key' => 'signupemail_message',
+  'object' => '{"key":"signupemail_message","value":"<p>Hello [[+uid]],<\\/p>\\n    <p>Here are your login details for the [[+sname]] MODX Manager:<\\/p>\\n\\n    <p>\\n        <strong>Username:<\\/strong> [[+uid]]<br \\/>\\n        <strong>Password:<\\/strong> [[+pwd]]<br \\/>\\n    <\\/p>\\n\\n    <p>Once you log into the MODX Manager at [[+surl]], you can change your password.<\\/p>\\n\\n    <p>Regards,<br \\/>Site Administrator<\\/p>","xtype":"textarea","namespace":"core","area":"authentication","editedon":null}',
+);
