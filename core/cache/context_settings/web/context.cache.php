@@ -17,10 +17,20 @@
     'OnChunkFormPrerender' => 
     array (
       1 => '1',
+      2 => '2',
+    ),
+    'OnChunkFormSave' => 
+    array (
+      2 => '2',
     ),
     'OnDocFormPrerender' => 
     array (
       1 => '1',
+      2 => '2',
+    ),
+    'OnDocFormSave' => 
+    array (
+      2 => '2',
     ),
     'OnFileCreateFormPrerender' => 
     array (
@@ -40,11 +50,17 @@
     ),
     'OnSnipFormPrerender' => 
     array (
+      2 => '2',
       1 => '1',
     ),
     'OnTempFormPrerender' => 
     array (
+      2 => '2',
       1 => '1',
+    ),
+    'OnTempFormSave' => 
+    array (
+      2 => '2',
     ),
   ),
   'pluginCache' => 
@@ -66,6 +82,103 @@
       'moduleguid' => '',
       'static' => '1',
       'static_file' => 'ace/elements/plugins/ace.plugin.php',
+    ),
+    2 => 
+    array (
+      'id' => '2',
+      'source' => '1',
+      'property_preprocess' => '0',
+      'name' => 'modDevTools',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '2',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * modDevTools
+ *
+ * Copyright 2014 by Vitaly Kireev <kireevvit@gmail.com>
+ *
+ * @package moddevtools
+ *
+ * @var modX $modx
+ * @var int $id
+ * @var string $mode
+ */
+
+/**
+ * @var modx $modx
+ */
+$path = $modx->getOption(\'moddevtools_core_path\',null,$modx->getOption(\'core_path\').\'components/moddevtools/\').\'model/moddevtools/\';
+/**
+ * @var modDevTools $devTools
+ */
+$devTools = $modx->getService(\'devTools\',\'modDevTools\',$path, array(\'debug\' => false));
+$eventName = $modx->event->name;
+
+switch($eventName) {
+    case \'OnDocFormSave\':
+        $devTools->debug(\'Start OnDocFormSave\');
+        $devTools->parseContent($resource);
+        break;
+    case \'OnTempFormSave\':
+        $devTools->debug(\'Start OnTempFormSave\');
+        $devTools->parseContent($template);
+        break;
+    case \'OnTVFormSave\':
+
+        break;
+    case \'OnChunkFormSave\':
+        $devTools->debug(\'Start OnChunkFormSave\');
+        $devTools->parseContent($chunk);
+        break;
+    case \'OnSnipFormSave\':
+
+        break;
+    /* Add tabs */
+    case \'OnDocFormPrerender\':
+        if ($modx->event->name == \'OnDocFormPrerender\') {
+            $devTools->getBreadCrumbs($scriptProperties);
+            return;
+        }
+        break;
+
+    case \'OnTempFormPrerender\':
+        if ($mode == modSystemEvent::MODE_UPD) {
+            $result = $devTools->outputTab(\'Template\');
+        }
+        break;
+
+    case \'OnTVFormPrerender\':
+        break;
+
+
+    case \'OnChunkFormPrerender\':
+        if ($mode == modSystemEvent::MODE_UPD) {
+            $result = $devTools->outputTab(\'Chunk\');
+        }
+        break;
+
+    case \'OnSnipFormPrerender\':
+        if ($mode == modSystemEvent::MODE_UPD) {
+            $result = $devTools->outputTab(\'Snippet\');
+        }
+        break;
+
+
+}
+
+if (isset($result) && $result === true)
+    return;
+elseif (isset($result)) {
+    $modx->log(modX::LOG_LEVEL_ERROR,\'[modDevTools] An error occured. Event: \'.$eventName.\' - Error: \'.($result === false) ? \'undefined error\' : $result);
+    return;
+}',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => 'core/components/moddevtools/elements/plugins/plugin.moddevtools.php',
     ),
   ),
   'policies' => 
