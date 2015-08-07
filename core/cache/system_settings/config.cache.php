@@ -49,7 +49,7 @@
   'default_media_source' => '1',
   'default_per_page' => '20',
   'default_context' => 'web',
-  'default_template' => '1',
+  'default_template' => '2',
   'default_content_type' => '1',
   'editor_css_path' => '',
   'editor_css_selectors' => '',
@@ -203,7 +203,7 @@
     <p>Once you log into the MODX Manager at [[+surl]], you can change your password.</p>
 
     <p>Regards,<br />Site Administrator</p>',
-  'site_name' => 'MODX Revolution',
+  'site_name' => 'MODX Revolution Material Design Theme',
   'site_start' => '1',
   'site_status' => '1',
   'site_unavailable_message' => 'The site is currently unavailable',
@@ -267,7 +267,7 @@
   'auto_isfolder' => '1',
   'settings_version' => '2.4.0-dev',
   'settings_distro' => 'traditional',
-  'mxt.theme' => '',
+  'mxt.theme' => 'mdl',
   'mxt.default_slogan' => 'This is a MODX Theme website',
   'mxt.default_copyright' => '©2015 MODX',
   'mxt.default_theme_img' => '',
