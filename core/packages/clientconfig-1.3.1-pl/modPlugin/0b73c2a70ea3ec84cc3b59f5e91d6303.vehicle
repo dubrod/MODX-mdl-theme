@@ -1,0 +1,54 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      '856a2881cc0db2a8aeed118f1bb5ff8e' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnHandleRequest","priority":0,"propertyset":0}',
+        'guid' => '25d6bae66ceffb888418345863ad5d84',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnHandleRequest',
+        ),
+        'signature' => '57c40380e73aeb80fb1d97b57c3b6bc7',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'clientconfig',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '52c2a6ea023c5c3326ee0745abecfe32',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => '0b73c2a70ea3ec84cc3b59f5e91d6303',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"ClientConfig","description":"Sets system settings from the Client Config CMP.","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * ClientConfig\\n *\\n * Copyright 2011 by Mark Hamstra <hello@markhamstra.com>\\n *\\n * ClientConfig is free software; you can redistribute it and\\/or modify it under the\\n * terms of the GNU General Public License as published by the Free Software\\n * Foundation; either version 2 of the License, or (at your option) any later\\n * version.\\n *\\n * ClientConfig is distributed in the hope that it will be useful, but WITHOUT ANY\\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\\n * A PARTICULAR PURPOSE. See the GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * ClientConfig; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package clientconfig\\n *\\n * @var modX $modx\\n * @var int $id\\n * @var string $mode\\n * @var modResource $resource\\n * @var modTemplate $template\\n * @var modTemplateVar $tv\\n * @var modChunk $chunk\\n * @var modSnippet $snippet\\n * @var modPlugin $plugin\\n*\\/\\n\\n$eventName = $modx->event->name;\\n\\nswitch($eventName) {\\n    case \'OnHandleRequest\':\\n        \\/* Grab the class *\\/\\n        $path = $modx->getOption(\'clientconfig.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/clientconfig\\/\');\\n        $path .= \'model\\/clientconfig\\/\';\\n        $clientConfig = $modx->getService(\'clientconfig\',\'ClientConfig\', $path);\\n\\n        \\/* If we got the class (gotta be careful of failed migrations), grab settings and go! *\\/\\n        if ($clientConfig instanceof ClientConfig) {\\n            $settings = $clientConfig->getSettings();\\n\\n            \\/* Make settings available as [[++tags]] *\\/\\n            $modx->setPlaceholders($settings, \'+\');\\n\\n            \\/* Make settings available for $modx->getOption() *\\/\\n            foreach ($settings as $key => $value) {\\n                $modx->setOption($key, $value);\\n            }\\n        }\\n        break;\\n}\\n\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * ClientConfig\\n *\\n * Copyright 2011 by Mark Hamstra <hello@markhamstra.com>\\n *\\n * ClientConfig is free software; you can redistribute it and\\/or modify it under the\\n * terms of the GNU General Public License as published by the Free Software\\n * Foundation; either version 2 of the License, or (at your option) any later\\n * version.\\n *\\n * ClientConfig is distributed in the hope that it will be useful, but WITHOUT ANY\\n * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR\\n * A PARTICULAR PURPOSE. See the GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License along with\\n * ClientConfig; if not, write to the Free Software Foundation, Inc., 59 Temple\\n * Place, Suite 330, Boston, MA 02111-1307 USA\\n *\\n * @package clientconfig\\n *\\n * @var modX $modx\\n * @var int $id\\n * @var string $mode\\n * @var modResource $resource\\n * @var modTemplate $template\\n * @var modTemplateVar $tv\\n * @var modChunk $chunk\\n * @var modSnippet $snippet\\n * @var modPlugin $plugin\\n*\\/\\n\\n$eventName = $modx->event->name;\\n\\nswitch($eventName) {\\n    case \'OnHandleRequest\':\\n        \\/* Grab the class *\\/\\n        $path = $modx->getOption(\'clientconfig.core_path\', null, $modx->getOption(\'core_path\') . \'components\\/clientconfig\\/\');\\n        $path .= \'model\\/clientconfig\\/\';\\n        $clientConfig = $modx->getService(\'clientconfig\',\'ClientConfig\', $path);\\n\\n        \\/* If we got the class (gotta be careful of failed migrations), grab settings and go! *\\/\\n        if ($clientConfig instanceof ClientConfig) {\\n            $settings = $clientConfig->getSettings();\\n\\n            \\/* Make settings available as [[++tags]] *\\/\\n            $modx->setPlaceholders($settings, \'+\');\\n\\n            \\/* Make settings available for $modx->getOption() *\\/\\n            foreach ($settings as $key => $value) {\\n                $modx->setOption($key, $value);\\n            }\\n        }\\n        break;\\n}\\n\\nreturn;"}',
+);

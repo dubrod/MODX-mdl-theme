@@ -284,4 +284,8 @@
   'ace.show_invisibles' => '0',
   'ace.snippets' => '',
   'ace.height' => '',
+  'clientconfig.admin_groups' => 'Administrator',
+  'clientconfig.clear_cache' => '1',
+  'clientconfig.vertical_tabs' => '',
+  'clientconfig.google_fonts_api_key' => '',
 );
