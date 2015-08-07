@@ -267,4 +267,12 @@
   'auto_isfolder' => '1',
   'settings_version' => '2.4.0-dev',
   'settings_distro' => 'traditional',
+  'mxt.theme' => '',
+  'mxt.default_slogan' => 'This is a MODX Theme website',
+  'mxt.default_copyright' => '©2015 MODX',
+  'mxt.default_theme_img' => '',
+  'mxt.default_fposts' => '',
+  'mxt.default_carousel' => '',
+  'mxt.social_twitter' => '',
+  'mxt.social_facebook' => '',
 );

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7ab40473b6cb91469405f3efc64fe7c0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1a8688b602703ef0494402058980a45e',
+  'native_key' => 'mxt.default_carousel',
+  'object' => '{"key":"mxt.default_carousel","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);
