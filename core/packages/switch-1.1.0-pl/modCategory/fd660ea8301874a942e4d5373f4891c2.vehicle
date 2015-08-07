@@ -1,0 +1,97 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '64ef03c729ac1c544451ad072ed3182e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"switch","description":"Simple switch snippet","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * Switch\\n *\\n * Created by Uro\\\\\\\\u0161 Likar\\n * uros.likar@gmail.com\\n * http:\\/\\/uros.likar.si\\n *\\n * Update to 1.1.0 by\\n * Thomas Jakobi\\n * thomas.jakobi@partout.info\\n *\\/\\n\\n$default = $modx->getOption(\'default\', $scriptProperties, \'\');\\n$get = trim($modx->getOption(\'get\', $scriptProperties, false));\\n\\n$output = $default;\\nif ($get !== false) {\\n    foreach ($scriptProperties as $key => $value) {\\n        if (substr($key, 0, 1) == \'c\' && strlen($key) > 1 && isset($scriptProperties[\'do\' . substr($key, 1)])) {\\n            if ($value == $get) {\\n                $output = $scriptProperties[\'do\' . substr($key, 1)];\\n                break;\\n            }\\n        }\\n    }\\n}\\nreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * Switch\\n *\\n * Created by Uro\\\\\\\\u0161 Likar\\n * uros.likar@gmail.com\\n * http:\\/\\/uros.likar.si\\n *\\n * Update to 1.1.0 by\\n * Thomas Jakobi\\n * thomas.jakobi@partout.info\\n *\\/\\n\\n$default = $modx->getOption(\'default\', $scriptProperties, \'\');\\n$get = trim($modx->getOption(\'get\', $scriptProperties, false));\\n\\n$output = $default;\\nif ($get !== false) {\\n    foreach ($scriptProperties as $key => $value) {\\n        if (substr($key, 0, 1) == \'c\' && strlen($key) > 1 && isset($scriptProperties[\'do\' . substr($key, 1)])) {\\n            if ($value == $get) {\\n                $output = $scriptProperties[\'do\' . substr($key, 1)];\\n                break;\\n            }\\n        }\\n    }\\n}\\nreturn $output;"}',
+        'guid' => '6c6bce05242265de4b50ea83cc772612',
+        'native_key' => NULL,
+        'signature' => '119421850609da1fae86811a7dd13dba',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'switch',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"switch-1.1.0-pl\\/modCategory\\/fd660ea8301874a942e4d5373f4891c2\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"switch"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '00f076393ec605bb20ed4e8107c3be60',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'fd660ea8301874a942e4d5373f4891c2',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"Switch"}',
+);

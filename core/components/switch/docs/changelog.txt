@@ -1,0 +1,9 @@
+Changelog for Switch
+
+Switch 1.1.0
+======================
+- The switch cases do not need to be sequential or numeric
+
+Switch 1.0.0
+======================
+- Initial public release
