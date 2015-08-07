@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ace',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2cb31b60495ba9f46e01c67a30f680c7',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '68774fb6893073994943a8988ef17ae0',
+  'native_key' => 'ace.height',
+  'object' => '{"key":"ace.height","value":"","xtype":"textfield","namespace":"ace","area":"general","editedon":null}',
+);

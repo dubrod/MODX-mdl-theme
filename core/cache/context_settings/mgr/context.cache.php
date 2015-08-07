@@ -9,9 +9,63 @@
   ),
   'eventMap' => 
   array (
+    'OnChunkFormPrerender' => 
+    array (
+      1 => '1',
+    ),
+    'OnDocFormPrerender' => 
+    array (
+      1 => '1',
+    ),
+    'OnFileCreateFormPrerender' => 
+    array (
+      1 => '1',
+    ),
+    'OnFileEditFormPrerender' => 
+    array (
+      1 => '1',
+    ),
+    'OnManagerPageBeforeRender' => 
+    array (
+      1 => '1',
+    ),
+    'OnPluginFormPrerender' => 
+    array (
+      1 => '1',
+    ),
+    'OnRichTextEditorRegister' => 
+    array (
+      1 => '1',
+    ),
+    'OnSnipFormPrerender' => 
+    array (
+      1 => '1',
+    ),
+    'OnTempFormPrerender' => 
+    array (
+      1 => '1',
+    ),
   ),
   'pluginCache' => 
   array (
+    1 => 
+    array (
+      'id' => '1',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'Ace',
+      'description' => 'Ace code editor plugin for MODx Revolution',
+      'editor_type' => '0',
+      'category' => '0',
+      'cache_type' => '0',
+      'plugincode' => '',
+      'locked' => '0',
+      'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '1',
+      'static_file' => 'ace/elements/plugins/ace.plugin.php',
+    ),
   ),
   'policies' => 
   array (

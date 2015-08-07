@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ace',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7b1f28b1ec79a4b1bcb2e47061f6c4c2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'fdb7967c961a03d1a88d4f530abb99d3',
+  'native_key' => 'ace.font_size',
+  'object' => '{"key":"ace.font_size","value":"13px","xtype":"textfield","namespace":"ace","area":"general","editedon":null}',
+);
