@@ -288,4 +288,13 @@
   'clientconfig.clear_cache' => '1',
   'clientconfig.vertical_tabs' => '',
   'clientconfig.google_fonts_api_key' => '',
+  'collections.mgr_date_format' => 'M d',
+  'collections.mgr_time_format' => 'g:i a',
+  'collections.mgr_datetime_format' => 'M d, g:i a',
+  'collections.user_js' => '',
+  'collections.user_css' => '',
+  'mgr_tree_icon_collectioncontainer' => 'collectioncontainer',
+  'mgr_tree_icon_selectioncontainer' => 'selectioncontainer',
+  'collections.renderer_image_path' => '',
+  'extension_packages' => '[{"collections":{"path":"[[++core_path]]components/collections/model/"}}]',
 );

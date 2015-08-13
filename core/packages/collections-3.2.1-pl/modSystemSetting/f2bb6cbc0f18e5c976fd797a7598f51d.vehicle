@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'collections',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'de89081ff5df2fe1b6cebe5426f9cbd2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f2bb6cbc0f18e5c976fd797a7598f51d',
+  'native_key' => 'collections.renderer_image_path',
+  'object' => '{"key":"collections.renderer_image_path","value":"","xtype":"textfield","namespace":"collections","area":"default","editedon":null}',
+);

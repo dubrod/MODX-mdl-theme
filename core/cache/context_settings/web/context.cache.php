@@ -7,6 +7,12 @@
     0 => 
     array (
       0 => 1,
+      1 => 2,
+      2 => 3,
+    ),
+    3 => 
+    array (
+      0 => 4,
     ),
   ),
   'webLinkMap' => 
@@ -14,6 +20,14 @@
   ),
   'eventMap' => 
   array (
+    'OnBeforeDocFormSave' => 
+    array (
+      4 => '4',
+    ),
+    'OnBeforeEmptyTrash' => 
+    array (
+      4 => '4',
+    ),
     'OnChunkFormPrerender' => 
     array (
       1 => '1',
@@ -27,6 +41,11 @@
     array (
       1 => '1',
       2 => '2',
+      4 => '4',
+    ),
+    'OnDocFormRender' => 
+    array (
+      4 => '4',
     ),
     'OnDocFormSave' => 
     array (
@@ -47,6 +66,10 @@
     'OnPluginFormPrerender' => 
     array (
       1 => '1',
+    ),
+    'OnResourceBeforeSort' => 
+    array (
+      4 => '4',
     ),
     'OnRichTextEditorRegister' => 
     array (
@@ -252,6 +275,54 @@ switch($eventName) {
 return;',
       'locked' => '0',
       'properties' => NULL,
+      'disabled' => '0',
+      'moduleguid' => '',
+      'static' => '0',
+      'static_file' => '',
+    ),
+    4 => 
+    array (
+      'id' => '4',
+      'source' => '0',
+      'property_preprocess' => '0',
+      'name' => 'Collections',
+      'description' => '',
+      'editor_type' => '0',
+      'category' => '12',
+      'cache_type' => '0',
+      'plugincode' => '/**
+ * Collections
+ *
+ * DESCRIPTION
+ *
+ * This plugin inject JS to handle proper working of close buttons in Resource\'s panel (OnDocFormPrerender)
+ * This plugin handles setting proper show_in_tree parameter (OnBeforeDocFormSave, OnResourceSort)
+ *
+ */
+$corePath = $modx->getOption(\'collections.core_path\', null, $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components/collections/\');
+/** @var Collections $collections */
+$collections = $modx->getService(
+    \'collections\',
+    \'Collections\',
+    $corePath . \'model/collections/\',
+    array(
+        \'core_path\' => $corePath
+    )
+);
+
+$className = \'Collections\' . $modx->event->name;
+
+$modx->loadClass(\'CollectionsPlugin\', $collections->getOption(\'modelPath\') . \'collections/events/\', true, true);
+$modx->loadClass($className, $collections->getOption(\'modelPath\') . \'collections/events/\', true, true);
+
+if (class_exists($className)) {
+    $handler = new $className($modx, $scriptProperties);
+    $handler->run();
+}
+
+return;',
+      'locked' => '0',
+      'properties' => 'a:0:{}',
       'disabled' => '0',
       'moduleguid' => '',
       'static' => '0',

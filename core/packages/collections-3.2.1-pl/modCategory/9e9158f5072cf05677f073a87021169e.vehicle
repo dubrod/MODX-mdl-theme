@@ -1,0 +1,242 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '1313db3d47556e5ea5b17d90bc5582e0' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"getSelections","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * getSelections\\n *\\n * DESCRIPTION\\n *\\n * This snippet is a helper for getResources call.\\n * It will allows you to select all linked resources under specific Selection with a usage of getResources snippet.\\n * Returns distinct list of linked Resources for given Selections\\n *\\n * getResources are required\\n *\\n * PROPERTIES:\\n *\\n * &sortdir                 string  optional    Direction of sorting by linked resource\'s menuindex. Default: ASC\\n * &selections              string  optional    Comma separated list of Selection IDs for which should be retrieved linked resources. Default: empty string\\n * &getResourcesSnippet     string  optional    Name of getResources snippet. Default: getResources\\n *\\n * USAGE:\\n *\\n * [[getSelections? &selections=`1` &tpl=`rowTpl`]]\\n * [[getSelections? &selections=`1` &tpl=`rowTpl` &sortby=`RAND()`]]\\n *\\n *\\/\\n\\n$collections = $modx->getService(\'collections\',\'Collections\',$modx->getOption(\'collections.core_path\',null,$modx->getOption(\'core_path\').\'components\\/collections\\/\').\'model\\/collections\\/\',$scriptProperties);\\nif (!($collections instanceof Collections)) return \'\';\\n\\n$getResourcesSnippet = $modx->getOption(\'getResourcesSnippet\', $scriptProperties, \'getResources\');\\n\\n$getResourcesExists = $modx->getCount(\'modSnippet\', array(\'name\' => $getResourcesSnippet));\\nif ($getResourcesExists == 0) return \'getResources not found\';\\n\\n$sortDir = strtolower($modx->getOption(\'sortdir\', $scriptProperties, \'asc\'));\\n$selections = $modx->getOption(\'selections\', $scriptProperties, \'\');\\n$sortBy = $modx->getOption(\'sortby\', $scriptProperties, \'\');\\n\\n$selections = $modx->collections->explodeAndClean($selections);\\n\\nif ($sortDir != \'asc\') {\\n    $sortDir = \'desc\';\\n}\\n\\n$linkedResourcesQuery = $modx->newQuery(\'CollectionSelection\');\\n\\nif (!empty($selections)) {\\n    $linkedResourcesQuery->where(array(\\n        \'collection:IN\' => $selections\\n    ));\\n}\\n\\nif ($sortBy == \'\') {\\n    $linkedResourcesQuery->sortby(\'menuindex\', $sortDir);\\n}\\n\\n$linkedResourcesQuery->select(array(\\n    \'resource\' => \'DISTINCT(resource)\'\\n));\\n\\n$linkedResourcesQuery->prepare();\\n\\n$linkedResourcesQuery->stmt->execute();\\n\\n$linkedResources = $linkedResourcesQuery->stmt->fetchAll(PDO::FETCH_COLUMN, 0);\\n$linkedResources = implode(\',\', $linkedResources);\\n\\n$properties = $scriptProperties;\\nunset($properties[\'selections\']);\\n\\n$properties[\'resources\'] = $linkedResources;\\n$properties[\'parents\'] = -1;\\n\\nif ($sortBy == \'\') {\\n    $properties[\'sortby\'] = \'FIELD(modResource.id, \' . $linkedResources . \' )\';\\n    $properties[\'sortdir\'] = \'asc\';\\n}\\n\\nreturn $modx->runSnippet($getResourcesSnippet, $properties);","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * getSelections\\n *\\n * DESCRIPTION\\n *\\n * This snippet is a helper for getResources call.\\n * It will allows you to select all linked resources under specific Selection with a usage of getResources snippet.\\n * Returns distinct list of linked Resources for given Selections\\n *\\n * getResources are required\\n *\\n * PROPERTIES:\\n *\\n * &sortdir                 string  optional    Direction of sorting by linked resource\'s menuindex. Default: ASC\\n * &selections              string  optional    Comma separated list of Selection IDs for which should be retrieved linked resources. Default: empty string\\n * &getResourcesSnippet     string  optional    Name of getResources snippet. Default: getResources\\n *\\n * USAGE:\\n *\\n * [[getSelections? &selections=`1` &tpl=`rowTpl`]]\\n * [[getSelections? &selections=`1` &tpl=`rowTpl` &sortby=`RAND()`]]\\n *\\n *\\/\\n\\n$collections = $modx->getService(\'collections\',\'Collections\',$modx->getOption(\'collections.core_path\',null,$modx->getOption(\'core_path\').\'components\\/collections\\/\').\'model\\/collections\\/\',$scriptProperties);\\nif (!($collections instanceof Collections)) return \'\';\\n\\n$getResourcesSnippet = $modx->getOption(\'getResourcesSnippet\', $scriptProperties, \'getResources\');\\n\\n$getResourcesExists = $modx->getCount(\'modSnippet\', array(\'name\' => $getResourcesSnippet));\\nif ($getResourcesExists == 0) return \'getResources not found\';\\n\\n$sortDir = strtolower($modx->getOption(\'sortdir\', $scriptProperties, \'asc\'));\\n$selections = $modx->getOption(\'selections\', $scriptProperties, \'\');\\n$sortBy = $modx->getOption(\'sortby\', $scriptProperties, \'\');\\n\\n$selections = $modx->collections->explodeAndClean($selections);\\n\\nif ($sortDir != \'asc\') {\\n    $sortDir = \'desc\';\\n}\\n\\n$linkedResourcesQuery = $modx->newQuery(\'CollectionSelection\');\\n\\nif (!empty($selections)) {\\n    $linkedResourcesQuery->where(array(\\n        \'collection:IN\' => $selections\\n    ));\\n}\\n\\nif ($sortBy == \'\') {\\n    $linkedResourcesQuery->sortby(\'menuindex\', $sortDir);\\n}\\n\\n$linkedResourcesQuery->select(array(\\n    \'resource\' => \'DISTINCT(resource)\'\\n));\\n\\n$linkedResourcesQuery->prepare();\\n\\n$linkedResourcesQuery->stmt->execute();\\n\\n$linkedResources = $linkedResourcesQuery->stmt->fetchAll(PDO::FETCH_COLUMN, 0);\\n$linkedResources = implode(\',\', $linkedResources);\\n\\n$properties = $scriptProperties;\\nunset($properties[\'selections\']);\\n\\n$properties[\'resources\'] = $linkedResources;\\n$properties[\'parents\'] = -1;\\n\\nif ($sortBy == \'\') {\\n    $properties[\'sortby\'] = \'FIELD(modResource.id, \' . $linkedResources . \' )\';\\n    $properties[\'sortdir\'] = \'asc\';\\n}\\n\\nreturn $modx->runSnippet($getResourcesSnippet, $properties);"}',
+        'guid' => '4fe955388e938af63798fb571f64be6c',
+        'native_key' => NULL,
+        'signature' => 'ed1f532d78811f1ce82b6b112711e253',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      '3b4e2ad6c988028b23358ac4d2daf7ce' => 
+      array (
+        'unique_key' => 'name',
+        'preserve_keys' => false,
+        'update_object' => true,
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'b6e28ded42df713e045edb59ed6fff9f' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnManagerPageInit","priority":0,"propertyset":0}',
+              'guid' => '7c2c7923deba4c76b43e69037dfbae1c',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnManagerPageInit',
+              ),
+              'signature' => '2a9b32d49d50ec1fcf43b553dc1c2aa8',
+            ),
+            'b9e3440067b635b264705975fe18cd88' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnBeforeDocFormSave","priority":0,"propertyset":0}',
+              'guid' => 'a4b485707ca9607e677a4e1ef4580023',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnBeforeDocFormSave',
+              ),
+              'signature' => 'dba9490d3a3a68b7da5ae34691a003b6',
+            ),
+            '34b9c5691060a282d130b7f9c14d882a' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnResourceBeforeSort","priority":0,"propertyset":0}',
+              'guid' => '56336e8a910e2efa3fca29234032e16d',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnResourceBeforeSort',
+              ),
+              'signature' => 'f7f2019fd8cd0ac394048adc03fd23f6',
+            ),
+            'e30b801a35da2ecfb00940db0f1c4f28' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormPrerender","priority":0,"propertyset":0}',
+              'guid' => '4551426b348dc7433ff4107676fd1414',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormPrerender',
+              ),
+              'signature' => '5df2d6dee191eec5ffa79d5806b763b3',
+            ),
+            '1235277d518f86c3260f8137e1f78d43' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnBeforeEmptyTrash","priority":0,"propertyset":0}',
+              'guid' => '2d6521ece94055ff6a28035fc77fced3',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnBeforeEmptyTrash',
+              ),
+              'signature' => 'd9b9b117427653892e316bb562acacd9',
+            ),
+            '4de22fe72d18ae032e722c293c04e9f2' => 
+            array (
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormRender","priority":0,"propertyset":0}',
+              'guid' => 'd369c355797066c5ba8753a7d1a2fb4c',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormRender',
+              ),
+              'signature' => '144578174819b66b7c20cb76d674f2d4',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => false,
+            'unique_key' => 
+            array (
+              0 => 'pluginid',
+              1 => 'event',
+            ),
+          ),
+        ),
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"Collections","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/**\\n * Collections\\n *\\n * DESCRIPTION\\n *\\n * This plugin inject JS to handle proper working of close buttons in Resource\'s panel (OnDocFormPrerender)\\n * This plugin handles setting proper show_in_tree parameter (OnBeforeDocFormSave, OnResourceSort)\\n *\\n *\\/\\n$corePath = $modx->getOption(\'collections.core_path\', null, $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/collections\\/\');\\n\\/** @var Collections $collections *\\/\\n$collections = $modx->getService(\\n    \'collections\',\\n    \'Collections\',\\n    $corePath . \'model\\/collections\\/\',\\n    array(\\n        \'core_path\' => $corePath\\n    )\\n);\\n\\n$className = \'Collections\' . $modx->event->name;\\n\\n$modx->loadClass(\'CollectionsPlugin\', $collections->getOption(\'modelPath\') . \'collections\\/events\\/\', true, true);\\n$modx->loadClass($className, $collections->getOption(\'modelPath\') . \'collections\\/events\\/\', true, true);\\n\\nif (class_exists($className)) {\\n    $handler = new $className($modx, $scriptProperties);\\n    $handler->run();\\n}\\n\\nreturn;","locked":0,"properties":"a:0:{}","disabled":0,"moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * Collections\\n *\\n * DESCRIPTION\\n *\\n * This plugin inject JS to handle proper working of close buttons in Resource\'s panel (OnDocFormPrerender)\\n * This plugin handles setting proper show_in_tree parameter (OnBeforeDocFormSave, OnResourceSort)\\n *\\n *\\/\\n$corePath = $modx->getOption(\'collections.core_path\', null, $modx->getOption(\'core_path\', null, MODX_CORE_PATH) . \'components\\/collections\\/\');\\n\\/** @var Collections $collections *\\/\\n$collections = $modx->getService(\\n    \'collections\',\\n    \'Collections\',\\n    $corePath . \'model\\/collections\\/\',\\n    array(\\n        \'core_path\' => $corePath\\n    )\\n);\\n\\n$className = \'Collections\' . $modx->event->name;\\n\\n$modx->loadClass(\'CollectionsPlugin\', $collections->getOption(\'modelPath\') . \'collections\\/events\\/\', true, true);\\n$modx->loadClass($className, $collections->getOption(\'modelPath\') . \'collections\\/events\\/\', true, true);\\n\\nif (class_exists($className)) {\\n    $handler = new $className($modx, $scriptProperties);\\n    $handler->run();\\n}\\n\\nreturn;"}',
+        'guid' => 'e9dfb472f0fa71a893ac5a89da401d4f',
+        'native_key' => NULL,
+        'signature' => 'e5c632f3b641d278ca4ce85590f9dee9',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'collections',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e.resolve.switchback.resolver","type":"php","name":"resolve.switchback"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"collections"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e\\/2\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"collections"}',
+    ),
+    3 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e.gpm.resolve.tables.resolver","type":"php","name":"gpm.resolve.tables"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e.gpm.resolve.extension_package.resolver","type":"php","name":"gpm.resolve.extension_package"}',
+    ),
+    5 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e.resolve.updatefromfirst.resolver","type":"php","name":"resolve.updatefromfirst"}',
+    ),
+    6 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e.resolve.defaulttemplate.resolver","type":"php","name":"resolve.defaulttemplate"}',
+    ),
+    7 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e.resolve.fixselections.resolver","type":"php","name":"resolve.fixselections"}',
+    ),
+    8 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"collections-3.2.1-pl\\/modCategory\\/9e9158f5072cf05677f073a87021169e.resolve.fixsystemsettings.resolver","type":"php","name":"resolve.fixsystemsettings"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2bc4c10c360b80f6d0106fb3ca5e7de6',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '9e9158f5072cf05677f073a87021169e',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"Collections"}',
+);
