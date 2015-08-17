@@ -3,8 +3,13 @@
 .centered-content{max-width: 85%; margin-top: 1rem; margin-bottom: 1rem;}
 .mdl-cell p, .mdl-cell h1, .mdl-cell h2, .mdl-cell h3{padding: 0 1rem;}
 .mdl-cell p:first-of-type{padding-top: 1rem;}
-.content-accent-bar{height:3px; width:100%;}
+.content-accent-bar{width:100%; height: 3px;}
+.page--meta span{display: block; padding: .25rem 1rem;}
 .hero-banner img{max-width: 100%;}
+.mdl-card__media h3 a{text-decoration: none;}
+.sidebar--body{float: left;}  .sidebar--side{}
+.mdl-textfield{display: block;}
+form{margin:1rem;}
 
 /*header*/
 .mdl-layout__header .mdl-layout__drawer-button{color: #[[++mdl_drawer_button_color]];}
@@ -13,4 +18,11 @@
 
 /*drawer & navigation*/
 .mdl-navigation .material-icons{margin-right: 1rem; vertical-align: middle;}
+
+
+/*mobile*/
+@media (max-width: 680px){
+    .centered-content{max-width: 95%;}
+    .sidebar--body{float: none;}
+}
 </style>
