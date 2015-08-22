@@ -297,4 +297,5 @@
   'mgr_tree_icon_selectioncontainer' => 'selectioncontainer',
   'collections.renderer_image_path' => '',
   'extension_packages' => '[{"collections":{"path":"[[++core_path]]components/collections/model/"}}]',
+  'mxt.blog_id' => '3',
 );
