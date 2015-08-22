@@ -6,3 +6,7 @@ MODX 2.4 Install with Material Design Lite (MDL) theme that lets you add a Mater
 ---
 
 [View the Wiki for more documentation](https://github.com/dubrod/MODX-mdl-theme/wiki)
+
+---
+
+![Home](/screenshots/home-screen.jpeg)
