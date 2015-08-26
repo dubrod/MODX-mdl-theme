@@ -46,7 +46,7 @@ Ext.ux.Ace = Ext.extend(Ext.form.TextField,  {
             this.defaultAutoCreate = {
                 tag: "div",
                 cls: "x-form-textarea",
-                style:"width:100px;height:60px"
+                style:"width:100%;height:60px"
             };
         }
         Ext.ux.Ace.superclass.onRender.call(this, ct, position);
@@ -58,6 +58,7 @@ Ext.ux.Ace = Ext.extend(Ext.form.TextField,  {
         }
 
         this.editor = ace.edit(this.el.dom);
+        this.editor.$blockScrolling = Infinity;
 
         this.el.appendChild(this.valueHolder);
         this.el.dom.removeAttribute('name');
@@ -235,6 +236,7 @@ MODx.ux.Ace = Ext.extend(Ext.ux.Ace, {
         MODx.ux.Ace.superclass.initComponent.call(this);
         var config = ace.require("ace/config");
         var acePath = MODx.config['assets_url'] + 'components/ace/ace';
+        config.set('basePath', acePath);
         config.set('modePath', acePath);
         config.set('themePath', acePath);
         config.set('workerPath', acePath);
@@ -296,6 +298,9 @@ MODx.ux.Ace = Ext.extend(Ext.ux.Ace, {
             onChangeMode({}, this.editor);
 
             var Emmet = ace.require("ace/ext/emmet");
+            Emmet.isSupportedMode = function(modeId) {
+                return modeId && /css|less|scss|sass|stylus|html|php|twig|ejs|handlebars|smarty/.test(modeId);
+            };
             var net = ace.require('ace/lib/net');
             net.loadScript(MODx.config['assets_url'] + 'components/ace/emmet/emmet.js', function() {
                 Emmet.setCore(window.emmet);
@@ -704,6 +709,9 @@ MODx.ux.Ace.createModxMixedMode = function(Mode) {
 
         this.HighlightRules = ModxMixedHighlightRules;
 
+        if (typeof this.$behaviour == 'undefined') {
+            var Behaviour = ace.require("ace/mode/behaviour").Behaviour;
+        }
         this.$behaviour = Object.create(this.$behaviour || new Behaviour());
 
         this.$behaviour.add("brackets", "insertion", function (state, action, editor, session, text) {
@@ -818,21 +826,23 @@ MODx.ux.Ace.createModxMixedMode = function(Mode) {
 };
 
 MODx.ux.Ace.mimeTypes = {
-     'text/x-php'            : 'php'
-    ,'application/x-php'     : 'php'
-    ,'text/x-sql'            : 'sql'
-    ,'text/x-scss'           : 'scss'
-    ,'text/x-less'           : 'less'
-    ,'text/xml'              : 'xml'
-    ,'application/xml'       : 'xml'
-    ,'image/svg+xml'         : 'svg'
-    ,'text/html'             : 'html'
-    ,'application/xhtml+xml' : 'html'
-    ,'text/javascript'       : 'javascript'
-    ,'application/javascript': 'javascript'
-    ,'application/json'      : 'json'
-    ,'text/css'              : 'css'
-    ,'text/plain'            : 'text'
+    'text/x-smarty'         : 'smarty',
+    'text/html'             : 'html',
+    'application/xhtml+xml' : 'html',
+    'text/css'              : 'css',
+    'text/x-scss'           : 'scss',
+    'text/x-less'           : 'less',
+    'image/svg+xml'         : 'svg',
+    'application/xml'       : 'xml',
+    'text/xml'              : 'xml',
+    'text/javascript'       : 'javascript',
+    'application/javascript': 'javascript',
+    'application/json'      : 'json',
+    'text/x-php'            : 'php',
+    'application/x-php'     : 'php',
+    'text/x-sql'            : 'sql',
+    'text/x-markdown'       : 'markdown',
+    'text/plain'            : 'text',
 };
 
 MODx.ux.Ace.initialized = false;
@@ -990,7 +1000,7 @@ MODx.ux.Ace.CodeCompleter = function() {
 
             var parsedInfo = parseTag(iterator);
             if (!parsedInfo)
-                return callback(null);
+                return callback(null, {});
 
             var completionType = parsedInfo.completionType;
             var classKey = parsedInfo.classKey;
