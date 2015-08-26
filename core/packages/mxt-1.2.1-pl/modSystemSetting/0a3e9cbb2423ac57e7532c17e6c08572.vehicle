@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a84fe620ad62c38a791163ff418fe3e0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '0a3e9cbb2423ac57e7532c17e6c08572',
+  'native_key' => 'mxt.default_copyright',
+  'object' => '{"key":"mxt.default_copyright","value":"\\u00a92015 MODX","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);

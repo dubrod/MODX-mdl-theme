@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9b8f8ab545eb1f9cee9d2ae65491f64d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '84578f856b0062ba210ef49adafbd821',
+  'native_key' => 'mxt.social_facebook',
+  'object' => '{"key":"mxt.social_facebook","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1c7c8efcb5465899cf1956689a2cdda0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '7d5b6848d9e9db7477811145278dc274',
+  'native_key' => 'mxt.default_slogan',
+  'object' => '{"key":"mxt.default_slogan","value":"This is a MODX Theme website","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'de1164d4a967cb642692c20b18476fd5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '28dde63d7977bd9a4c9248f390d235fe',
+  'native_key' => 'mxt.default_slider',
+  'object' => '{"key":"mxt.default_slider","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);

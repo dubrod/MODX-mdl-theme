@@ -1,0 +1,215 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Templates' => 
+    array (
+      '4a0a47cd7201bcdc3e10ce7e62f74062' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+        'class' => 'modTemplate',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"templatename":"MX Template","description":"","editor_type":0,"category":0,"icon":"","template_type":0,"content":"[[$mxt.[[*content_tpl]]_start_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_header_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_content_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_footer_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_end_[[++mxt.theme]]]]","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+        'guid' => 'd23a2d5740099b791ee406a77d4a2eec',
+        'native_key' => NULL,
+        'signature' => 'd958b700433e5c90be813a3488e2836d',
+      ),
+    ),
+    'TemplateVars' => 
+    array (
+      'cc1b5013b39ec453738f2f2c7f4a4b38' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"option","name":"body_tpl","caption":"Body Layout","description":"Layout for the Main Body Section","editor_type":0,"category":0,"locked":0,"elements":"Blank==blank||Page==page||Sidebar==sidebar","rank":0,"display":"","default_text":"page","properties":"a:0:{}","input_properties":"a:2:{s:10:\\"allowBlank\\";i:0;s:7:\\"columns\\";i:3;}","output_properties":null,"static":0,"static_file":"","content":"page"}',
+        'guid' => '8c744681ec1e1c484d05d380a10f4e40',
+        'native_key' => NULL,
+        'signature' => '93fd8932012b507c7c207ede0c585eab',
+      ),
+      '5ea6253f8ed28934b5be5bb7f053e5f4' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"text","name":"carousel_ids","caption":"Carousel Post IDs","description":"Comma Separated # or \\"default\\" or leave blank for No Carousel","editor_type":0,"category":0,"locked":0,"elements":"","rank":0,"display":"string","default_text":"","properties":"a:0:{}","input_properties":null,"output_properties":"a:1:{s:6:\\"format\\";s:10:\\"Lower Case\\";}","static":0,"static_file":"","content":""}',
+        'guid' => '3a7e343d0244d23dec427216ebf72880',
+        'native_key' => NULL,
+        'signature' => '70092093eecfdf3849756dc4e80e48aa',
+      ),
+      '065b712242de166e4aa45f146ed3b5dd' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"listbox","name":"content_tpl","caption":"Body Type","description":"Is this a Page, Listing, Grid or Gallery","editor_type":0,"category":0,"locked":0,"elements":"Page==page||Listing==listing||Grid==grid||Gallery==gallery","rank":0,"display":"","default_text":"page","properties":"a:0:{}","input_properties":"a:1:{s:10:\\"allowBlank\\";i:0;}","output_properties":null,"static":0,"static_file":"","content":"page"}',
+        'guid' => '5d29eec8d109a87049ad8baa908335a2',
+        'native_key' => NULL,
+        'signature' => 'eb6555d7f0de6e0392ce144aadc7c401',
+      ),
+      'ebf52f198441ae467442cac1bfaf3ff7' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"text","name":"fpost_ids","caption":"Featured Post IDs","description":"Comma Separated # or \\"default\\" or leave blank","editor_type":0,"category":0,"locked":0,"elements":"","rank":0,"display":"string","default_text":"","properties":"a:0:{}","input_properties":null,"output_properties":"a:1:{s:6:\\"format\\";s:10:\\"Lower Case\\";}","static":0,"static_file":"","content":""}',
+        'guid' => '497967ed5019354e337e9799e66e732e',
+        'native_key' => NULL,
+        'signature' => '5243b988b0330bf60cc994cf073ea973',
+      ),
+      '8f20664dbf915f8353a7522d50fa06b9' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"checkbox","name":"hero_banner","caption":"Show Banner Image","description":"","editor_type":0,"category":0,"locked":0,"elements":"Yes==yes","rank":0,"display":"","default_text":"","properties":"a:0:{}","input_properties":"a:2:{s:10:\\"allowBlank\\";i:0;s:7:\\"columns\\";i:1;}","output_properties":null,"static":0,"static_file":"","content":""}',
+        'guid' => 'b9fc00a95c94e9077e9b531365508862',
+        'native_key' => NULL,
+        'signature' => '12c017914de52d58aba50f14980a866c',
+      ),
+      'fc1a2ec0c499ac255f4d12005ef708d6' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"text","name":"listbyparent","caption":"Listing by Parent","description":"List children of ID #","editor_type":0,"category":0,"locked":0,"elements":"","rank":0,"display":"","default_text":"","properties":"a:0:{}","input_properties":null,"output_properties":null,"static":0,"static_file":"","content":""}',
+        'guid' => '2a948b8c108c986f14a7eaff4875ab8d',
+        'native_key' => NULL,
+        'signature' => '1fcca5625329af223b4728ee7773294e',
+      ),
+      '14df3b49bf2f7d0f4b0496410286f82f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"text","name":"listing_ids","caption":"Listing IDs","description":"Comma Separated # or leave blank to show children","editor_type":0,"category":0,"locked":0,"elements":"","rank":0,"display":"string","default_text":"","properties":"a:0:{}","input_properties":null,"output_properties":"a:1:{s:6:\\"format\\";s:10:\\"Lower Case\\";}","static":0,"static_file":"","content":""}',
+        'guid' => '1f2bad02a7321d901f3cf6a377f47b13',
+        'native_key' => NULL,
+        'signature' => '054969c5e6b0cc60b2492801c0725c1c',
+      ),
+      'd273187b1663526a11366bb0f7853cd6' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"option","name":"page_icon","caption":"Page Icon","description":"Some layout features use Font Awesome icons","editor_type":0,"category":0,"locked":0,"elements":"Photo==fa-picture-o||Folder==fa-folder||Search==fa-search||Envelope==fa-envelope||Star==fa-star||Home==fa-home||Gear==fa-gear||List==fa-list-alt||User==fa-user||Tag==fa-tag||Camera==fa-camera","rank":0,"display":"","default_text":"","properties":"a:0:{}","input_properties":"a:2:{s:10:\\"allowBlank\\";i:1;s:7:\\"columns\\";i:4;}","output_properties":null,"static":0,"static_file":"","content":""}',
+        'guid' => '199fa4ff6355b027f6f44368f0b31168',
+        'native_key' => NULL,
+        'signature' => 'a184802c5cd088662c56742e651b2745',
+      ),
+      'e0e7ffc3329c4eb1d6948f35d866517d' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"image","name":"page_img","caption":"Page Image","description":"Default Page Image","editor_type":0,"category":0,"locked":0,"elements":"","rank":0,"display":"","default_text":"","properties":"a:0:{}","input_properties":null,"output_properties":null,"static":0,"static_file":"","content":""}',
+        'guid' => '34824c66f07f0be02428ffb1f75f453b',
+        'native_key' => NULL,
+        'signature' => '2419b0c4ff0562671f91497069addcab',
+      ),
+      '2c08f1e55c547e0b900aaf26d78d812f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modTemplateVar',
+        'object' => '{"id":null,"source":0,"property_preprocess":0,"type":"text","name":"slider_ids","caption":"Slider IDs","description":"Comma Separated # or \\"default\\" or leave blank for No Slider","editor_type":0,"category":0,"locked":0,"elements":"","rank":0,"display":"string","default_text":"","properties":"a:0:{}","input_properties":null,"output_properties":"a:1:{s:6:\\"format\\";s:10:\\"Lower Case\\";}","static":0,"static_file":"","content":""}',
+        'guid' => 'e42c1d7e90fe24515036799fdcd5fdf9',
+        'native_key' => NULL,
+        'signature' => '76e4ca2ae118b931b33f3e1873f8f394',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'mxt',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mxt-1.2.1-pl\\/modCategory\\/aa119d1c08695a49a8592796ec36fc01\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"mxt"}',
+    ),
+    1 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"mxt-1.2.1-pl\\/modCategory\\/aa119d1c08695a49a8592796ec36fc01.gpm.resolve.tv_templates.resolver","type":"php","name":"gpm.resolve.tv_templates"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'db4cebc02c0b0c7462b915245e75301b',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'aa119d1c08695a49a8592796ec36fc01',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"MX Template"}',
+);

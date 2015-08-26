@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'collections',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '622c8dab8216e2d2ad558f39cc5ba4e2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '0e7b7a87593a345e979177682ba21c71',
+  'native_key' => 'mgr_tree_icon_collectioncontainer',
+  'object' => '{"key":"mgr_tree_icon_collectioncontainer","value":"collectioncontainer","xtype":"textfield","namespace":"collections","area":"default","editedon":null}',
+);

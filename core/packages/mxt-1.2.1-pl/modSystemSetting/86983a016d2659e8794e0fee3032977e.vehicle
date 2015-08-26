@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4cfecac8bd625bfc45fab30b893a3d45',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '86983a016d2659e8794e0fee3032977e',
+  'native_key' => 'mxt.default_fposts',
+  'object' => '{"key":"mxt.default_fposts","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);

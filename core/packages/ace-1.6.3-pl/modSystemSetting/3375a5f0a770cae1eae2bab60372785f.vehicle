@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'ace',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8f5be3c0f7b284847f87d351826d72f5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3375a5f0a770cae1eae2bab60372785f',
+  'native_key' => 'ace.snippets',
+  'object' => '{"key":"ace.snippets","value":"","xtype":"textarea","namespace":"ace","area":"general","editedon":null}',
+);

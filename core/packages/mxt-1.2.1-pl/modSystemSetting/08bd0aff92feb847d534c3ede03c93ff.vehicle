@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5d8145a5f75bd7db50b66014df6c9f50',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '08bd0aff92feb847d534c3ede03c93ff',
+  'native_key' => 'mxt.theme',
+  'object' => '{"key":"mxt.theme","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);

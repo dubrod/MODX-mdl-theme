@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'mxt',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd8064b84134c3f66be703f1414faf62c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '372bc9b6044ccf1ec159a7813592f805',
+  'native_key' => 'mxt.social_twitter',
+  'object' => '{"key":"mxt.social_twitter","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":null}',
+);

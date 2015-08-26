@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'collections',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2eb9585d5a65540101bd82faed77809e',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '7c7f1defb5a067793bd9168998441429',
+  'native_key' => 'collections.mgr_date_format',
+  'object' => '{"key":"collections.mgr_date_format","value":"M d","xtype":"textfield","namespace":"collections","area":"default","editedon":null}',
+);
