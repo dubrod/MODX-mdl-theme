@@ -15,3 +15,6 @@ MODX 2.4 Install with Material Design Lite (MDL) theme that lets you add a Mater
 
 ###Listing
 ![Listing](/screenshots/listing-content-type.jpeg)
+
+###Mobile
+![Mobile](/screenshots/mobile-animation.gif)
