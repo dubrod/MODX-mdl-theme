@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8e39491b1fa1ad2ced4f47b25ed31ed7',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => '3e37e623df418289595dd7c0967c3a8c',
+  'native_key' => 8,
+  'object' => '{"id":8,"type":"document","contentType":"text\\/html","pagetitle":"Contact","longtitle":"","description":"","alias":"contact","link_attributes":"email","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"Drop us a line.","content":"[[$mxt.feature_contact_form_[[++mxt.theme]]]]","richtext":1,"template":3,"menuindex":3,"searchable":1,"cacheable":1,"createdby":1,"createdon":1439772413,"editedby":1,"editedon":1440618737,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":1439772360,"publishedby":1,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

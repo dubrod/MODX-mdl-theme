@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '458cb5773eb56736826f804f4e0fd1ce',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'c4c3378d03b6dde90409642f7bc6135d',
+  'native_key' => 29,
+  'object' => '{"id":29,"source":1,"property_preprocess":0,"name":"mxt.feature_gridallbyparent_mdl","description":"","editor_type":0,"category":11,"cache_type":0,"snippet":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/features\\/mxt.feature_gridallbyparent_mdl.html","content":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+);

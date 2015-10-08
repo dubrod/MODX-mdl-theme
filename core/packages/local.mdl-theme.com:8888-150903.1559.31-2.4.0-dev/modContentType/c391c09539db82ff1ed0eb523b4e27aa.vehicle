@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e4ddf5d0ee645975087ec347e67f808c',
+  'package' => 'modx',
+  'class' => 'modContentType',
+  'signature' => 'c391c09539db82ff1ed0eb523b4e27aa',
+  'native_key' => 3,
+  'object' => '{"id":3,"name":"text","description":"plain text content","mime_type":"text\\/plain","file_extensions":".txt","headers":null,"binary":0}',
+);

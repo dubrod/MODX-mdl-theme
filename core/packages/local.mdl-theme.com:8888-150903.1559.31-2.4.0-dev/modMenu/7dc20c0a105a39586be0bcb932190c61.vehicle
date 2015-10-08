@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '87d08e435d61c2b38dece8a6a3baacae',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '7dc20c0a105a39586be0bcb932190c61',
+  'native_key' => 'collections.menu.collection_templates',
+  'object' => '{"text":"collections.menu.collection_templates","parent":"components","action":"3","description":"collections.menu.collection_templates_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

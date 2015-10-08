@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd6ef88cdfc40f8df02da623211c79ec1',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => '32972eddeb0fc9a49dfae5b9fbf1cec3',
+  'native_key' => 19,
+  'object' => '{"id":19,"user":1,"occurred":"2015-08-07 12:56:23","action":"category_create","classKey":"modCategory","item":"7"}',
+);

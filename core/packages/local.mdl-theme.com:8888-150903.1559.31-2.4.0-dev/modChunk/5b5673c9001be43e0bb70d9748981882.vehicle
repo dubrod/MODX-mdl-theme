@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ceceb745cf5eec67cd3e5b31ac292208',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '5b5673c9001be43e0bb70d9748981882',
+  'native_key' => 30,
+  'object' => '{"id":30,"source":1,"property_preprocess":0,"name":"tpl_featured_posts_mdl","description":"","editor_type":0,"category":10,"cache_type":0,"snippet":"<div class=\\"mdl-cell [[*body_tpl:is=`page`:then=`mdl-cell--12-col`:else=`mdl-cell--4-col`]] mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n    <div class=\\"mdl-card__media\\" [[+tv.page_img:notempty=`style=\\"background-image:url([[+tv.page_img]]);min-height:100px;\\"`]]><\\/div>\\n    <div class=\\"mdl-card__supporting-text sidebar--feature\\">\\n        <h3>[[+menutitle:default=`[[+pagetitle]]`]]<\\/h3>\\n        <p>\\n            [[+introtext]]\\n            <br>\\n            <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n        <\\/p>\\n    <\\/div>\\n    <div class=\\"mdl-card__actions mdl-card--border\\">\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"mdl-button mdl-js-button mdl-js-ripple-effect\\">Read More<\\/a>\\n    <\\/div>\\n<\\/div>\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/tpls\\/tpl_featured_posts_mdl.html","content":"<div class=\\"mdl-cell [[*body_tpl:is=`page`:then=`mdl-cell--12-col`:else=`mdl-cell--4-col`]] mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n    <div class=\\"mdl-card__media\\" [[+tv.page_img:notempty=`style=\\"background-image:url([[+tv.page_img]]);min-height:100px;\\"`]]><\\/div>\\n    <div class=\\"mdl-card__supporting-text sidebar--feature\\">\\n        <h3>[[+menutitle:default=`[[+pagetitle]]`]]<\\/h3>\\n        <p>\\n            [[+introtext]]\\n            <br>\\n            <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n        <\\/p>\\n    <\\/div>\\n    <div class=\\"mdl-card__actions mdl-card--border\\">\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"mdl-button mdl-js-button mdl-js-ripple-effect\\">Read More<\\/a>\\n    <\\/div>\\n<\\/div>\\n"}',
+);

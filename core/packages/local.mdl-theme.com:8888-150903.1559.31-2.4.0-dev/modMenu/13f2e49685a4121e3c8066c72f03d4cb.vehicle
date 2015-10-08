@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '159b9d501792f3ed64aac1f54176e5fe',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '13f2e49685a4121e3c8066c72f03d4cb',
+  'native_key' => 'usernav',
+  'object' => '{"text":"usernav","parent":"","action":"","description":"usernav_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

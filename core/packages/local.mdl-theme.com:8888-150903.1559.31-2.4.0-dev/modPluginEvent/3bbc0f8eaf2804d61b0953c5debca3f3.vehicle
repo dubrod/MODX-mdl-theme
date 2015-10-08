@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cdc77e74ed40dc26fc364eeaf7a6f824',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => '3bbc0f8eaf2804d61b0953c5debca3f3',
+  'native_key' => 
+  array (
+    0 => 2,
+    1 => 'OnTempFormSave',
+  ),
+  'object' => '{"pluginid":2,"event":"OnTempFormSave","priority":0,"propertyset":0}',
+);

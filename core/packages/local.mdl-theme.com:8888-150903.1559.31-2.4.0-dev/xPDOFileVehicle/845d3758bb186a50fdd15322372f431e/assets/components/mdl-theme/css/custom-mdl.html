@@ -1,0 +1,32 @@
+<style>
+/*global*/
+.centered-content{max-width: 85%; margin-top: 1rem; margin-bottom: 1rem;}
+.mdl-cell p, .mdl-cell h1, .mdl-cell h2, .mdl-cell h3, .mdl-cell h4
+.centered-content h1,.centered-content h2,.centered-content h3,.centered-content h4{padding: 0 1rem;}
+.mdl-cell p:first-of-type{padding-top: 1rem;}
+.content-accent-bar{width:100%; height: 3px;}
+.page--meta span{display: block; padding: .25rem 1rem;}
+.hero-banner img{max-width: 100%;}
+.mdl-card__media h3 a{text-decoration: none;}
+.sidebar--body{float: left;}  .sidebar--side{}
+.sidebar--feature h3, .sidebar--feature p{margin:0; padding:0;}
+.mdl-textfield{display: block;}
+form{margin:1rem;}
+h3 a{text-decoration: none;}
+.centered-content table{margin: 1rem;}
+
+/*header*/
+.mdl-layout__header .mdl-layout__drawer-button{color: #[[++mdl_drawer_button_color]];}
+/*for some reason header is behind menu button*/
+.mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row{padding-left:60px;}
+
+/*drawer & navigation*/
+.mdl-navigation .material-icons{margin-right: 1rem; vertical-align: middle;}
+
+
+/*mobile*/
+@media (max-width: 680px){
+    .centered-content{max-width: 95%;}
+    .sidebar--body{float: none;}
+}
+</style>

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c12b76fb5facdb4973f5f887401683a7',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '514faf9ddb3716df6845144945dfaa8c',
+  'native_key' => 'phpthumb_nohotlink_enabled',
+  'object' => '{"key":"phpthumb_nohotlink_enabled","value":"1","xtype":"combo-boolean","namespace":"core","area":"phpthumb","editedon":"0000-00-00 00:00:00"}',
+);

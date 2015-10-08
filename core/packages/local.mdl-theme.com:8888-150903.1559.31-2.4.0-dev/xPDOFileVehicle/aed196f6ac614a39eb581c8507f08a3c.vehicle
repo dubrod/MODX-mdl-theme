@@ -1,0 +1,31 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'local.mdl-theme.com:8888-150903.1559.31-2.4.0-dev/xPDOFileVehicle/aed196f6ac614a39eb581c8507f08a3c/',
+    'target' => 'return MODX_CORE_PATH . \'components/vapor/model/\';',
+    'name' => 'vapor',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'validate' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"local.mdl-theme.com:8888-150903.1559.31-2.4.0-dev\\/xPDOFileVehicle\\/aed196f6ac614a39eb581c8507f08a3c.validate.truncate_tables.validator","classes":["modAccessAction","modAccessActionDom","modAccessCategory","modAccessContext","modAccessElement","modAccessMenu","modAccessPermission","modAccessPolicy","modAccessPolicyTemplate","modAccessPolicyTemplateGroup","modAccessResource","modAccessResourceGroup","modAccessTemplateVar","modAction","modActionDom","modActionField","modActiveUser","modCategory","modCategoryClosure","modChunk","modClassMap","modContentType","modContext","modContextResource","modContextSetting","modElementPropertySet","modEvent","modFormCustomizationProfile","modFormCustomizationProfileUserGroup","modFormCustomizationSet","modLexiconEntry","modManagerLog","modMenu","modNamespace","modPlugin","modPluginEvent","modPropertySet","modResource","modResourceGroup","modResourceGroupResource","modSession","modSnippet","modSystemSetting","modTemplate","modTemplateVar","modTemplateVarResource","modTemplateVarResourceGroup","modTemplateVarTemplate","modUser","modUserProfile","modUserGroup","modUserGroupMember","modUserGroupRole","modUserMessage","modUserSetting","modWorkspace","registry.db.modDbRegisterMessage","registry.db.modDbRegisterTopic","registry.db.modDbRegisterQueue","transport.modTransportProvider","transport.modTransportPackage","modDashboard","modDashboardWidget","modDashboardWidgetPlacement","sources.modAccessMediaSource","sources.modMediaSource","sources.modMediaSourceElement","sources.modMediaSourceContext"],"name":"validate.truncate_tables"}',
+    ),
+  ),
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"local.mdl-theme.com:8888-150903.1559.31-2.4.0-dev\\/xPDOFileVehicle\\/aed196f6ac614a39eb581c8507f08a3c.resolve.vapor_model.resolver","name":"resolve.vapor_model"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'guid' => 'f145237ff0c56158ff3d31f2e7f24006',
+  'package' => '',
+  'signature' => 'aed196f6ac614a39eb581c8507f08a3c',
+  'native_key' => 'f145237ff0c56158ff3d31f2e7f24006',
+);

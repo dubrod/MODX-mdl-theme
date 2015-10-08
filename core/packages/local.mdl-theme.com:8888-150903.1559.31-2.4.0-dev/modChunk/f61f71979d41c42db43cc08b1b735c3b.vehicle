@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f6fd99b739c4fc7412928bd09f1d9d8b',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'f61f71979d41c42db43cc08b1b735c3b',
+  'native_key' => 16,
+  'object' => '{"id":16,"source":1,"property_preprocess":0,"name":"mxt.feature_hero_mdl","description":"","editor_type":0,"category":11,"cache_type":0,"snippet":"[[*hero_banner:is=`yes`:then=`\\n  <div class=\\"hero-banner\\">[[*page_img:notempty=`<img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\">`]]<\\/div>\\n`]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/features\\/mxt.feature_hero_mdl.html","content":"[[*hero_banner:is=`yes`:then=`\\n  <div class=\\"hero-banner\\">[[*page_img:notempty=`<img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\">`]]<\\/div>\\n`]]\\n"}',
+);

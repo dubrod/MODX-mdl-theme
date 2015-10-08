@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6dced6ba0c6c3ae14c5fbfe80ae0c8b8',
+  'package' => 'modx',
+  'class' => 'modContextSetting',
+  'signature' => 'b0fcdcadcd2f790d783c3d66c58c5343',
+  'native_key' => 
+  array (
+    0 => 'mgr',
+    1 => 'modRequest.class',
+  ),
+  'object' => '{"context_key":"mgr","key":"modRequest.class","value":"modManagerRequest","xtype":"textfield","namespace":"core","area":"system","editedon":"0000-00-00 00:00:00"}',
+);

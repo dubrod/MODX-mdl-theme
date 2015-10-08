@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b348860ac7daea1100f5f8cf35db2db0',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '96b620b111007417e9b252b32fe806b8',
+  'native_key' => 37,
+  'object' => '{"id":37,"source":1,"property_preprocess":0,"name":"mxt.listing_content_mdl","description":"","editor_type":0,"category":8,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.listing_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.listing_body_page_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/listing\\/mxt.listing_content_mdl.html","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.listing_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.listing_body_page_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ed9e830a0da73432349518c76d32dc3b',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '0100f6d555df662b9656200f377473ad',
+  'native_key' => 202,
+  'object' => '{"id":202,"template":5,"name":"create","description":"perm.create_desc","value":1}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6283a8c6862aba295132de6d7deb0a15',
+  'package' => 'modx',
+  'class' => 'modTemplate',
+  'signature' => 'ae5794d8d05c49b46b521983ed826cf6',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":0,"property_preprocess":0,"templatename":"BaseTemplate","description":"Template","editor_type":0,"category":0,"icon":"","template_type":0,"content":"<html>\\n<head>\\n<title>[[++site_name]] - [[*pagetitle]]<\\/title>\\n<base href=\\"[[++site_url]]\\" \\/>\\n<\\/head>\\n<body>\\n[[*content]]\\n<\\/body>\\n<\\/html>","locked":0,"properties":null,"static":0,"static_file":""}',
+);

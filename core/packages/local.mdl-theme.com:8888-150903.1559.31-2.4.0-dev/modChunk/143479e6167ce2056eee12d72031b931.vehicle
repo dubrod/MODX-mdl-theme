@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '35b4f20beacba07013de336063a04758',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '143479e6167ce2056eee12d72031b931',
+  'native_key' => 15,
+  'object' => '{"id":15,"source":1,"property_preprocess":0,"name":"drawer-nav-link_mdl","description":"","editor_type":0,"category":10,"cache_type":0,"snippet":"<a class=\\"mdl-navigation__link\\" href=\\"[[~[[+id]]]]\\"><i class=\\"material-icons [[++mdl_ovr_drawer_text:notempty=`mdl-color-text--[[++mdl_ovr_drawer_text]]`]]\\" role=\\"presentation\\">[[+link_attributes]]<\\/i>[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/tpls\\/drawer-nav-link_mdl.html","content":"<a class=\\"mdl-navigation__link\\" href=\\"[[~[[+id]]]]\\"><i class=\\"material-icons [[++mdl_ovr_drawer_text:notempty=`mdl-color-text--[[++mdl_ovr_drawer_text]]`]]\\" role=\\"presentation\\">[[+link_attributes]]<\\/i>[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\n"}',
+);

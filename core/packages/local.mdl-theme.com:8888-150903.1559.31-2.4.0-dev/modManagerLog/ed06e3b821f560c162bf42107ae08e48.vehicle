@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c84fbee00530d86debdaf016ff010a9c',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => 'ed06e3b821f560c162bf42107ae08e48',
+  'native_key' => 147,
+  'object' => '{"id":147,"user":1,"occurred":"2015-08-21 20:06:36","action":"login","classKey":"modContext","item":"mgr"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'decb736b1710f1371385dcf7ade0be1f',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'ab581ef214037c5719ea9381e1520532',
+  'native_key' => 60,
+  'object' => '{"id":60,"template":1,"name":"frames","description":"perm.frames_desc","value":1}',
+);

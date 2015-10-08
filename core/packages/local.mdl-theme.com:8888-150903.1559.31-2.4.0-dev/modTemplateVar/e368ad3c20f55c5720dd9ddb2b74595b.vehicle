@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4a3f04ead2a0d7f6867337644026739c',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => 'e368ad3c20f55c5720dd9ddb2b74595b',
+  'native_key' => 19,
+  'object' => '{"id":19,"source":0,"property_preprocess":0,"type":"image","name":"page_img","caption":"Page Image","description":"Default Page Image","editor_type":0,"category":13,"locked":0,"elements":"","rank":2,"display":"default","default_text":"","properties":"a:0:{}","input_properties":null,"output_properties":null,"static":0,"static_file":"","content":""}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '213fef85a701eb615b5b49b208f62769',
+  'package' => 'modx',
+  'class' => 'modAccessPolicyTemplate',
+  'signature' => '60f084e67b79d6c5ec027cdd30e741f6',
+  'native_key' => 3,
+  'object' => '{"id":3,"template_group":2,"name":"ObjectTemplate","description":"Object Policy Template with all attributes.","lexicon":"permissions"}',
+);

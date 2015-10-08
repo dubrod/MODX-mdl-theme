@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7d1ebf011f58d45272283417eb3bd5e8',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '0c6b78404ab01d8c2f545ecd35f45fc4',
+  'native_key' => 21,
+  'object' => '{"id":21,"source":1,"property_preprocess":0,"name":"mxt.page_body_sidebar_mdl","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n\\n        <div class=\\"mdl-cell--8-col sidebar--body\\">\\n            [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n            [[*content]]\\n        <\\/div>\\n\\n        <div class=\\"sidebar--side\\">\\n            [[$mxt.feature_featured_posts_mdl]]\\n            [[$mxt.feature_gridbyparent_mdl]]\\n            [[$mxt.feature_grid_mdl]]\\n        <\\/div>\\n    <\\/div>\\n<\\/div><!-- centered-content -->\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/page\\/mxt.page_body_sidebar_mdl.html","content":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n\\n        <div class=\\"mdl-cell--8-col sidebar--body\\">\\n            [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n            [[*content]]\\n        <\\/div>\\n\\n        <div class=\\"sidebar--side\\">\\n            [[$mxt.feature_featured_posts_mdl]]\\n            [[$mxt.feature_gridbyparent_mdl]]\\n            [[$mxt.feature_grid_mdl]]\\n        <\\/div>\\n    <\\/div>\\n<\\/div><!-- centered-content -->\\n"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '91d8e536dd35a234b2ff731dd4004194',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => 'f35dc301ffefe03eab5d47637274a451',
+  'native_key' => 314,
+  'object' => '{"id":314,"user":1,"occurred":"2015-08-26 15:45:32","action":"setting_update","classKey":"modSystemSetting","item":"mxt.default_theme_img"}',
+);

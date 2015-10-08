@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '31c32f0f8ef91ea5295c0a74f1916d0d',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'f258ec197a5035f3416eb7d617763d96',
+  'native_key' => 'ace.theme',
+  'object' => '{"key":"ace.theme","value":"chrome","xtype":"textfield","namespace":"ace","area":"general","editedon":"0000-00-00 00:00:00"}',
+);

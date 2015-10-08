@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c8498779c74c276b21f8351d0652e2ac',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4c77870757bff93abba013d39c9c9a19',
+  'native_key' => 'collections.renderer_image_path',
+  'object' => '{"key":"collections.renderer_image_path","value":"","xtype":"textfield","namespace":"collections","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

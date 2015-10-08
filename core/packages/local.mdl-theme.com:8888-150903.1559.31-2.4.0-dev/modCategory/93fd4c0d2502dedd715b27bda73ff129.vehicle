@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5b47a69fb97825d976d412b6098f89d1',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '93fd4c0d2502dedd715b27bda73ff129',
+  'native_key' => 13,
+  'object' => '{"id":13,"parent":0,"category":"MX Template","rank":0}',
+);

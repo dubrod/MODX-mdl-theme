@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1686966143bc2e804aabbad020a9a33b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'eafccd55606c58eee707a2c57005bbe5',
+  'native_key' => 'clientconfig.clear_cache',
+  'object' => '{"key":"clientconfig.clear_cache","value":"1","xtype":"combo-boolean","namespace":"clientconfig","area":"Default","editedon":"0000-00-00 00:00:00"}',
+);

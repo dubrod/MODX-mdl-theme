@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cebb6a51016ccb6ce5558e20bd019744',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '68587cb55e7647649fd937645d7434a3',
+  'native_key' => 'refresh_site',
+  'object' => '{"text":"refresh_site","parent":"manage","action":"","description":"refresh_site_desc","icon":"","menuindex":1,"params":"","handler":"MODx.clearCache(); return false;","permissions":"empty_cache","namespace":"core"}',
+);

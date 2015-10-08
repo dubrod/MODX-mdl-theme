@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cb5b541eda3b371471a88f336cc2244b',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '0f6d11096c2440f497e25ce364eaf700',
+  'native_key' => 18,
+  'object' => '{"id":18,"template":1,"name":"delete_chunk","description":"perm.delete_chunk_desc","value":1}',
+);

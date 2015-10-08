@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '257d44adc055c183ddd870b362b82acd',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '7c5ba9e58b93b2c0ba22ad52ac02f328',
+  'native_key' => 'content_types',
+  'object' => '{"text":"content_types","parent":"site","action":"system\\/contenttype","description":"content_types_desc","icon":"","menuindex":8,"params":"","handler":"","permissions":"content_types","namespace":"core"}',
+);

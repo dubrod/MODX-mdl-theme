@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ae1ab4250610c8e870287479cbfb82e4',
+  'package' => 'modx',
+  'class' => 'modTemplateVarResource',
+  'signature' => '650848ac3248b8daa81320257ea720a9',
+  'native_key' => 30,
+  'object' => '{"id":30,"tmplvarid":19,"contentid":6,"value":"assets\\/img\\/skyhigh.jpg"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5414ec5bab19c64704a78d4df34cb3c1',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '95c0de1e80484c52a9620511563acae7',
+  'native_key' => 27,
+  'object' => '{"id":27,"source":1,"property_preprocess":0,"name":"mxt.grid_body_sidebar_mdl","description":"","editor_type":0,"category":14,"cache_type":0,"snippet":"[[$mxt.feature_gridallbyparent_mdl]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/grid\\/mxt.grid_body_sidebar_mdl.html","content":"[[$mxt.feature_gridallbyparent_mdl]]\\n"}',
+);

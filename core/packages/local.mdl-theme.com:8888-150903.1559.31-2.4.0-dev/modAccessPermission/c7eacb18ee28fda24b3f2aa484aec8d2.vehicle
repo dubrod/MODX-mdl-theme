@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2315520fc76bc65434f58c223a930685',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'c7eacb18ee28fda24b3f2aa484aec8d2',
+  'native_key' => 68,
+  'object' => '{"id":68,"template":1,"name":"logout","description":"perm.logout_desc","value":1}',
+);

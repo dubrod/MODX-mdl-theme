@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b5aaaa9a6f23dade04de9f15b56ad9ef',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '1c08f03352cb9763edaab6b587cddddb',
+  'native_key' => 46,
+  'object' => '{"id":46,"template":1,"name":"element_tree","description":"perm.element_tree_desc","value":1}',
+);

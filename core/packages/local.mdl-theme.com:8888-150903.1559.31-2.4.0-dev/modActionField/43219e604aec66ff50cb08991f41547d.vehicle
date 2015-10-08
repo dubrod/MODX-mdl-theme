@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3c4bd0bf8339b7fadc53990f01a47b25',
+  'package' => 'modx',
+  'class' => 'modActionField',
+  'signature' => '43219e604aec66ff50cb08991f41547d',
+  'native_key' => 13,
+  'object' => '{"id":13,"action":"resource\\/update","name":"hidemenu","type":"field","tab":"modx-resource-main-right","form":"modx-panel-resource","other":"","rank":4}',
+);

@@ -1,0 +1,26 @@
+<!--https://github.com/google/material-design-lite/tree/master/src/textfield-->
+<form role="form">
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="user" name="user" pattern="[A-Z,a-z, ]*" />
+      <label class="mdl-textfield__label" for="user">Full name</label>
+      <span class="mdl-textfield__error">Letters and spaces only</span>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="email" name="email" />
+      <label class="mdl-textfield__label" for="email">Email address</label>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="phone" name="phone" pattern="[0-9]*" />
+      <label class="mdl-textfield__label" for="phone">Phone</label>
+      <span class="mdl-textfield__error">Digits only</span>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield">
+      <textarea class="mdl-textfield__input" type="text" name="text" rows="5" id="text"></textarea>
+      <label class="mdl-textfield__label" for="text">Message</label>
+    </div>
+
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white">SEND</button>
+</form>

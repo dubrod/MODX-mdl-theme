@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3c06bc8dbc6bc81299fb4396b7f7748b',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => 'b1ee73ac8c6dc5cc3ef40ab86d2f2dc5',
+  'native_key' => 13,
+  'object' => '{"id":13,"source":0,"property_preprocess":0,"type":"listbox","name":"content_tpl","caption":"Body Type","description":"Is this a Page, Listing, Grid or Gallery","editor_type":0,"category":13,"locked":0,"elements":"Page==page||Listing==listing||Grid==grid||Gallery==gallery","rank":0,"display":"default","default_text":"page","properties":"a:0:{}","input_properties":"a:7:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:9:\\"listWidth\\";s:0:\\"\\";s:5:\\"title\\";s:0:\\"\\";s:9:\\"typeAhead\\";s:5:\\"false\\";s:14:\\"typeAheadDelay\\";s:3:\\"250\\";s:14:\\"forceSelection\\";s:5:\\"false\\";s:13:\\"listEmptyText\\";s:0:\\"\\";}","output_properties":null,"static":0,"static_file":"","content":"page"}',
+);

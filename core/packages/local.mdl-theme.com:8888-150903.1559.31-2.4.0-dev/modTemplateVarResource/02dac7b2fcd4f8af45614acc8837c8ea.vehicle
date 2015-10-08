@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '271394b72b49e1e374eaf28ef438d82c',
+  'package' => 'modx',
+  'class' => 'modTemplateVarResource',
+  'signature' => '02dac7b2fcd4f8af45614acc8837c8ea',
+  'native_key' => 25,
+  'object' => '{"id":25,"tmplvarid":19,"contentid":2,"value":"assets\\/img\\/pineapple.jpg"}',
+);

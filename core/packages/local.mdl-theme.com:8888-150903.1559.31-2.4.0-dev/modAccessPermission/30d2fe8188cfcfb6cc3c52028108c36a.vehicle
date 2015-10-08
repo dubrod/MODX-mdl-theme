@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9a81a59c2dd78c53891dd61bd434c069',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '30d2fe8188cfcfb6cc3c52028108c36a',
+  'native_key' => 114,
+  'object' => '{"id":114,"template":1,"name":"resourcegroup_edit","description":"perm.resourcegroup_edit_desc","value":1}',
+);

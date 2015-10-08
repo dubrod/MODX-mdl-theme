@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '68ffa62008698b75d406be096694838a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '25744813b4dd6ade522892b291a2058e',
+  'native_key' => 'session_cookie_lifetime',
+  'object' => '{"key":"session_cookie_lifetime","value":"604800","xtype":"textfield","namespace":"core","area":"session","editedon":"0000-00-00 00:00:00"}',
+);

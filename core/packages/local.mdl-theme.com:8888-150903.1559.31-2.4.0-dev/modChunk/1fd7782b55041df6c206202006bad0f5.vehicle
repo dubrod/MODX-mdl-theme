@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '20641df91f65e49e22520619994456f6',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '1fd7782b55041df6c206202006bad0f5',
+  'native_key' => 38,
+  'object' => '{"id":38,"source":1,"property_preprocess":0,"name":"mxt.listing_body_blank_mdl","description":"","editor_type":0,"category":8,"cache_type":0,"snippet":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/listing\\/mxt.listing_body_blank_mdl.html","content":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n"}',
+);

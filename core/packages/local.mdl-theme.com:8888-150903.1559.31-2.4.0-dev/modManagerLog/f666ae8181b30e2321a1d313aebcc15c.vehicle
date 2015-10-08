@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd8d32037b9cdce0b2d3a5bf12fa835b9',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => 'f666ae8181b30e2321a1d313aebcc15c',
+  'native_key' => 167,
+  'object' => '{"id":167,"user":1,"occurred":"2015-08-21 20:50:26","action":"setting_create","classKey":"modSystemSetting","item":"mxt.blog_id"}',
+);

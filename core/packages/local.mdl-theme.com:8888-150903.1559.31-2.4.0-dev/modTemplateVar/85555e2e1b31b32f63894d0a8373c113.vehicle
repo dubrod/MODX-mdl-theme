@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a857869b4ab0586e374dc8b364217c2f',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '85555e2e1b31b32f63894d0a8373c113',
+  'native_key' => 17,
+  'object' => '{"id":17,"source":0,"property_preprocess":0,"type":"text","name":"listing_ids","caption":"Listing IDs","description":"Comma Separated # or leave blank to show children","editor_type":0,"category":13,"locked":0,"elements":"","rank":9,"display":"string","default_text":"","properties":"a:0:{}","input_properties":"a:5:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";s:5:\\"regex\\";s:0:\\"\\";s:9:\\"regexText\\";s:0:\\"\\";}","output_properties":"a:1:{s:6:\\"format\\";s:10:\\"Lower Case\\";}","static":0,"static_file":"","content":""}',
+);

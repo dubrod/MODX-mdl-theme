@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0e17757b24cda011021713f6536dc8bc',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'da70a92357207196cb4ea3f846d7bc5e',
+  'native_key' => 31,
+  'object' => '{"id":31,"source":1,"property_preprocess":0,"name":"mxt.feature_featured_posts_mdl","description":"","editor_type":0,"category":11,"cache_type":0,"snippet":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\n    &parents=`-1`\\n    &resources=`[[*fpost_ids:is=`default`:then=`[[++default_fposts]]`:else=`[[*fpost_ids]]`]]`\\n    &sortdir=`ASC`\\n    &tpl=`tpl_featured_posts_mdl`\\n    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\n]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/features\\/mxt.feature_featured_posts_mdl.html","content":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\n    &parents=`-1`\\n    &resources=`[[*fpost_ids:is=`default`:then=`[[++default_fposts]]`:else=`[[*fpost_ids]]`]]`\\n    &sortdir=`ASC`\\n    &tpl=`tpl_featured_posts_mdl`\\n    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\n]]\\n"}',
+);

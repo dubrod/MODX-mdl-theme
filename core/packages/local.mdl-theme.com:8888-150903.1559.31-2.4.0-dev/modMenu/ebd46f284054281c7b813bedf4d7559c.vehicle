@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8ff82b29f2ef335e73906e5b69407856',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'ebd46f284054281c7b813bedf4d7559c',
+  'native_key' => 'system_settings',
+  'object' => '{"text":"system_settings","parent":"admin","action":"system\\/settings","description":"system_settings_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"settings","namespace":"core"}',
+);

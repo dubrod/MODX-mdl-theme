@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c43e44b59fa9df129adfc961b56e9997',
+  'package' => 'modx',
+  'class' => 'modTemplateVarResource',
+  'signature' => 'f4bc9e1c71edb151bb1ffd3f9e04e637',
+  'native_key' => 22,
+  'object' => '{"id":22,"tmplvarid":19,"contentid":4,"value":"assets\\/img\\/liberty.jpg"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '174c492e17820639bf71e36e4e89f3d4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd5bd0d23818a4ca11be414dbdb2b2251',
+  'native_key' => 'mxt.default_theme_img',
+  'object' => '{"key":"mxt.default_theme_img","value":"assets\\/components\\/mdl-theme\\/images\\/modx-revo-2_3-icon.png","xtype":"textfield","namespace":"mxt","area":"default","editedon":"2015-08-26 15:45:32"}',
+);

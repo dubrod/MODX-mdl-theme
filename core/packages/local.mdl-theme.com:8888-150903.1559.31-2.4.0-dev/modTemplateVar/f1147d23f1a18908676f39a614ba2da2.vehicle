@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7015de5f654ab8411f34cf4bef193c5d',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => 'f1147d23f1a18908676f39a614ba2da2',
+  'native_key' => 15,
+  'object' => '{"id":15,"source":0,"property_preprocess":0,"type":"checkbox","name":"hero_banner","caption":"Show Banner Image","description":"","editor_type":0,"category":13,"locked":0,"elements":"Yes==yes","rank":4,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:2:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:7:\\"columns\\";s:1:\\"1\\";}","output_properties":null,"static":0,"static_file":"","content":""}',
+);

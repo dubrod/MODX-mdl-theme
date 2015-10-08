@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c447792e618daa734442bdff6daa7be5',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'd983802a34c3ef8e8f31659097a4ba6f',
+  'native_key' => 22,
+  'object' => '{"id":22,"source":1,"property_preprocess":0,"name":"mxt.feature_grid_mdl","description":"","editor_type":0,"category":11,"cache_type":0,"snippet":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/features\\/mxt.feature_grid_mdl.html","content":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+);

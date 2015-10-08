@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b1793969a77b6eb858c163bf2f3b9ef7',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '3f0f9ba7d4d5915f0663411775b74a4b',
+  'native_key' => 24,
+  'object' => '{"id":24,"source":1,"property_preprocess":0,"name":"mxt.grid_content_mdl","description":"","editor_type":0,"category":14,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.grid_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.grid_body_page_mdl]]`]]\\n            [[*body_tpl:is=`sidebar`:then=`[[$mxt.grid_body_sidebar_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/grid\\/mxt.grid_content_mdl.html","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.grid_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.grid_body_page_mdl]]`]]\\n            [[*body_tpl:is=`sidebar`:then=`[[$mxt.grid_body_sidebar_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n"}',
+);

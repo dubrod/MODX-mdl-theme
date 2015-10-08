@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '12f079fb5658bb7af0c6514b21231731',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => '2d87981796a095ed84a983e4fdc48b55',
+  'native_key' => 59,
+  'object' => '{"id":59,"user":1,"occurred":"2015-08-07 14:51:21","action":"object_update","classKey":"cgSetting","item":"11"}',
+);

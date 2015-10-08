@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '655992dea2ce5c2b531805787a4e0282',
+  'package' => 'modx',
+  'class' => 'modSnippet',
+  'signature' => '1277ca150c8756cbb6fb9718a94d491b',
+  'native_key' => 2,
+  'object' => '{"id":2,"source":0,"property_preprocess":0,"name":"switch","description":"Simple switch snippet","editor_type":0,"category":4,"cache_type":0,"snippet":"\\/**\\n * Switch\\n *\\n * Created by Uro\\\\\\\\u0161 Likar\\n * uros.likar@gmail.com\\n * http:\\/\\/uros.likar.si\\n *\\n * Update to 1.1.0 by\\n * Thomas Jakobi\\n * thomas.jakobi@partout.info\\n *\\/\\n\\n$default = $modx->getOption(\'default\', $scriptProperties, \'\');\\n$get = trim($modx->getOption(\'get\', $scriptProperties, false));\\n\\n$output = $default;\\nif ($get !== false) {\\n    foreach ($scriptProperties as $key => $value) {\\n        if (substr($key, 0, 1) == \'c\' && strlen($key) > 1 && isset($scriptProperties[\'do\' . substr($key, 1)])) {\\n            if ($value == $get) {\\n                $output = $scriptProperties[\'do\' . substr($key, 1)];\\n                break;\\n            }\\n        }\\n    }\\n}\\nreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * Switch\\n *\\n * Created by Uro\\\\\\\\u0161 Likar\\n * uros.likar@gmail.com\\n * http:\\/\\/uros.likar.si\\n *\\n * Update to 1.1.0 by\\n * Thomas Jakobi\\n * thomas.jakobi@partout.info\\n *\\/\\n\\n$default = $modx->getOption(\'default\', $scriptProperties, \'\');\\n$get = trim($modx->getOption(\'get\', $scriptProperties, false));\\n\\n$output = $default;\\nif ($get !== false) {\\n    foreach ($scriptProperties as $key => $value) {\\n        if (substr($key, 0, 1) == \'c\' && strlen($key) > 1 && isset($scriptProperties[\'do\' . substr($key, 1)])) {\\n            if ($value == $get) {\\n                $output = $scriptProperties[\'do\' . substr($key, 1)];\\n                break;\\n            }\\n        }\\n    }\\n}\\nreturn $output;"}',
+);

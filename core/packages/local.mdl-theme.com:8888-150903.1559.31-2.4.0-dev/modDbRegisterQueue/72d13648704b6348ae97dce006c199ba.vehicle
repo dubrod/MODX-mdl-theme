@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2b52c4bd1a09b55311f183e669362962',
+  'package' => 'modx.registry.db',
+  'class' => 'modDbRegisterQueue',
+  'signature' => '72d13648704b6348ae97dce006c199ba',
+  'native_key' => 1,
+  'object' => '{"id":1,"name":"locks","options":"a:1:{s:9:\\"directory\\";s:5:\\"locks\\";}"}',
+);

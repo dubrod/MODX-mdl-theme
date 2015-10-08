@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd59548ec28d9e74c98f53be63c62e3ca',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '8c9ee308dcabcb61758e3773efbccb78',
+  'native_key' => 78,
+  'object' => '{"id":78,"template":1,"name":"messages","description":"perm.messages_desc","value":1}',
+);

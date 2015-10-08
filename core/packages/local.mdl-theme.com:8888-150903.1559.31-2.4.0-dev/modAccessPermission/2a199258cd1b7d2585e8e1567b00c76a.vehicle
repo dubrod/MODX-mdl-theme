@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3a26bc843c1e9eff6cdf0e2917dd7934',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '2a199258cd1b7d2585e8e1567b00c76a',
+  'native_key' => 38,
+  'object' => '{"id":38,"template":1,"name":"edit_locked","description":"perm.edit_locked_desc","value":1}',
+);

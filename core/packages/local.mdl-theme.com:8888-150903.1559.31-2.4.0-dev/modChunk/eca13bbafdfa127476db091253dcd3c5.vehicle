@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '17bc443c33806026f266845432a8e4ed',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'eca13bbafdfa127476db091253dcd3c5',
+  'native_key' => 40,
+  'object' => '{"id":40,"source":1,"property_preprocess":0,"name":"mxt.feature_listbyid_mdl","description":"","editor_type":0,"category":11,"cache_type":0,"snippet":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &parents=`-1`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &sortdir=`ASC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/features\\/mxt.feature_listbyid_mdl.html","content":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &parents=`-1`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &sortdir=`ASC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+);

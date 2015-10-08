@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3aa01f0997598d652807ed6bbe13ac2c',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'f55e9bf2e2269fcec06345d476cc04fe',
+  'native_key' => 'contexts',
+  'object' => '{"text":"contexts","parent":"admin","action":"context","description":"contexts_desc","icon":"","menuindex":3,"params":"","handler":"","permissions":"view_context","namespace":"core"}',
+);

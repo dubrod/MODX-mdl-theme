@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '20df68bab0ef74f3b66d3493b011d058',
+  'package' => 'modx',
+  'class' => 'modTemplate',
+  'signature' => 'dc1cb2ec98a5b27ddb3383130c3ad11d',
+  'native_key' => 3,
+  'object' => '{"id":3,"source":0,"property_preprocess":0,"templatename":"MX Template","description":"","editor_type":0,"category":13,"icon":"","template_type":0,"content":"[[$mxt.[[*content_tpl]]_start_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_header_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_content_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_footer_[[++mxt.theme]]]]\\n[[$mxt.[[*content_tpl]]_end_[[++mxt.theme]]]]","locked":0,"properties":"a:0:{}","static":0,"static_file":""}',
+);

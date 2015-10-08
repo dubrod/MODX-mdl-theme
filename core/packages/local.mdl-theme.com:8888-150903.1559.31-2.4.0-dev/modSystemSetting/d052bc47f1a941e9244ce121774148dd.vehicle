@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f0973b1584a612f6fc4ebeb904b5f8bd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd052bc47f1a941e9244ce121774148dd',
+  'native_key' => 'site_name',
+  'object' => '{"key":"site_name","value":"MODX Revolution Material Design Theme","xtype":"textfield","namespace":"core","area":"site","editedon":"2015-08-07 12:55:00"}',
+);

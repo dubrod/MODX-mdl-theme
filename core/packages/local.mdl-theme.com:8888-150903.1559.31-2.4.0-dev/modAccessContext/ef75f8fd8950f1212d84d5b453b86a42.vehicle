@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e0bee52297068ca18e6b37ebb541ccb7',
+  'package' => 'modx',
+  'class' => 'modAccessContext',
+  'signature' => 'ef75f8fd8950f1212d84d5b453b86a42',
+  'native_key' => 1,
+  'object' => '{"id":1,"target":"web","principal_class":"modUserGroup","principal":0,"authority":9999,"policy":3}',
+);

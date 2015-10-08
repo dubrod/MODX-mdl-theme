@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ded3f49ac89140e90f3e3229933883fb',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '639d841312cddb8ad446df43fc088dc3',
+  'native_key' => 10,
+  'object' => '{"id":10,"parent":5,"category":"TPLs","rank":0}',
+);

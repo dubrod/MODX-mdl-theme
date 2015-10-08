@@ -1,0 +1,20 @@
+<div class="mdl-grid centered-content">
+    <div class="mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+        <div class="mdl-color--accent content-accent-bar"></div>
+        [[$mxt.feature_hero_mdl]]
+        <div class="page--meta mdl-color--blue-grey-200">
+            <span class="mdl-color-text--blue-grey-700">[[*publishedon:strtotime:date=`%B %e, %Y`]]</span>
+        </div>
+
+        <div class="mdl-cell--8-col sidebar--body">
+            [[*introtext:notempty=`<p class="introtext mdl-color-text--grey-500"><em>[[*introtext]]</em></p>`]]
+            [[*content]]
+        </div>
+
+        <div class="sidebar--side">
+            [[$mxt.feature_featured_posts_mdl]]
+            [[$mxt.feature_gridbyparent_mdl]]
+            [[$mxt.feature_grid_mdl]]
+        </div>
+    </div>
+</div><!-- centered-content -->

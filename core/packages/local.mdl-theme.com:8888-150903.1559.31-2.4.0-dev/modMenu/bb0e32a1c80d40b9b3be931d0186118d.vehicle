@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '408323cc725781193ce4b7f96936b34e',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'bb0e32a1c80d40b9b3be931d0186118d',
+  'native_key' => 'remove_locks',
+  'object' => '{"text":"remove_locks","parent":"manage","action":"","description":"remove_locks_desc","icon":"","menuindex":2,"params":"","handler":"\\nMODx.msg.confirm({\\n    title: _(\'remove_locks\')\\n    ,text: _(\'confirm_remove_locks\')\\n    ,url: MODx.config.connectors_url\\n    ,params: {\\n        action: \'system\\/remove_locks\'\\n    }\\n    ,listeners: {\\n        \'success\': {fn:function() {\\n            var tree = Ext.getCmp(\\"modx-resource-tree\\");\\n            if (tree && tree.rendered) {\\n                tree.refresh();\\n            }\\n         },scope:this}\\n    }\\n});","permissions":"remove_locks","namespace":"core"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a29646fdaec343300c658bc2dbdee735',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c9886264ca05b93b671f3e43fe54d6b2',
+  'native_key' => 'auto_check_pkg_updates',
+  'object' => '{"key":"auto_check_pkg_updates","value":"1","xtype":"combo-boolean","namespace":"core","area":"system","editedon":"0000-00-00 00:00:00"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8c98aecc657cf7a35bac8d4695015ec6',
+  'package' => 'modx',
+  'class' => 'modAccessPolicy',
+  'signature' => 'a6c29c2aba6a66fa29d42498ced8361b',
+  'native_key' => 7,
+  'object' => '{"id":7,"name":"Content Editor","description":"Context administration policy with limited, content-editing related Permissions, but no publishing.","parent":0,"template":1,"class":"","data":"{\\"change_profile\\":true,\\"class_map\\":true,\\"countries\\":true,\\"edit_document\\":true,\\"frames\\":true,\\"help\\":true,\\"home\\":true,\\"load\\":true,\\"list\\":true,\\"logout\\":true,\\"menu_reports\\":true,\\"menu_site\\":true,\\"menu_support\\":true,\\"menu_tools\\":true,\\"menu_user\\":true,\\"resource_duplicate\\":true,\\"resource_tree\\":true,\\"save_document\\":true,\\"source_view\\":true,\\"tree_show_resource_ids\\":true,\\"view\\":true,\\"view_document\\":true,\\"new_document\\":true,\\"delete_document\\":true}","lexicon":"permissions"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8a0a65296d1cad98aee8903eb7fc6d42',
+  'package' => 'modx',
+  'class' => 'modContext',
+  'signature' => 'c1b9c285c96d3be74079a47da0398466',
+  'native_key' => 'web',
+  'object' => '{"key":"web","name":"Website","description":"The default front-end context for your web site.","rank":0}',
+);

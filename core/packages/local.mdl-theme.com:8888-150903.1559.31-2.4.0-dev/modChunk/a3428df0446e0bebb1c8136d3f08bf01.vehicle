@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '84ce803d53bda5e7f930665d36b45941',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'a3428df0446e0bebb1c8136d3f08bf01',
+  'native_key' => 32,
+  'object' => '{"id":32,"source":1,"property_preprocess":0,"name":"tpl_gridbyparent_mdl","description":"","editor_type":0,"category":10,"cache_type":0,"snippet":"<div class=\\"mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media\\" style=\\"background-image:url([[+tv.page_img]]);\\">\\n      <h3><a class=\\"mdl-color-text--white\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n    <\\/div>\\n    <div class=\\"mdl-card__supporting-text\\">\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/tpls\\/tpl_gridbyparent_mdl.html","content":"<div class=\\"mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media\\" style=\\"background-image:url([[+tv.page_img]]);\\">\\n      <h3><a class=\\"mdl-color-text--white\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n    <\\/div>\\n    <div class=\\"mdl-card__supporting-text\\">\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n"}',
+);

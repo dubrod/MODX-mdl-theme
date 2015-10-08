@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '98828bc43648889c96a684378150a920',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e6699499c4f9230fd6f1c93abfd3be99',
+  'native_key' => 'global_duplicate_uri_check',
+  'object' => '{"key":"global_duplicate_uri_check","value":"0","xtype":"combo-boolean","namespace":"core","area":"furls","editedon":"0000-00-00 00:00:00"}',
+);

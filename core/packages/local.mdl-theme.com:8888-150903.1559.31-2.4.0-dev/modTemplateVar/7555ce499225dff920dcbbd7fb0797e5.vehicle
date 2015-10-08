@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c1a4ad4d554ca553dbd90f0c59c34d5e',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '7555ce499225dff920dcbbd7fb0797e5',
+  'native_key' => 11,
+  'object' => '{"id":11,"source":0,"property_preprocess":0,"type":"option","name":"body_tpl","caption":"Body Layout","description":"Layout for the Main Body Section","editor_type":0,"category":13,"locked":0,"elements":"Blank==blank||Page==page||Sidebar==sidebar","rank":1,"display":"default","default_text":"page","properties":"a:0:{}","input_properties":"a:2:{s:10:\\"allowBlank\\";s:5:\\"false\\";s:7:\\"columns\\";s:1:\\"3\\";}","output_properties":null,"static":0,"static_file":"","content":"page"}',
+);

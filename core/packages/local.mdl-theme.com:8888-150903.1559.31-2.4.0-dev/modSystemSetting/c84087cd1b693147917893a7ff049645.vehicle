@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ffc0462e1a9f3697d02e76eb01426262',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c84087cd1b693147917893a7ff049645',
+  'native_key' => 'collections.mgr_date_format',
+  'object' => '{"key":"collections.mgr_date_format","value":"M d","xtype":"textfield","namespace":"collections","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

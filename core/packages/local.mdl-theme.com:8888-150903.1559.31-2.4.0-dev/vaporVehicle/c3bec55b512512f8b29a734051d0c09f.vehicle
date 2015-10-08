@@ -1,0 +1,43 @@
+<?php return array (
+  'class' => 'vaporVehicle',
+  'object' => 
+  array (
+    'tableName' => 'clientconfig_setting',
+    'drop' => 'DROP TABLE IF EXISTS `[[++table_prefix]]clientconfig_setting`',
+    'table' => 'CREATE TABLE `[[++table_prefix]]clientconfig_setting` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `key` varchar(75) NOT NULL DEFAULT \'\',
+  `label` varchar(75) NOT NULL DEFAULT \'\',
+  `xtype` varchar(75) NOT NULL DEFAULT \'\',
+  `description` text NOT NULL,
+  `is_required` tinyint(1) NOT NULL DEFAULT \'0\',
+  `sortorder` int(10) NOT NULL DEFAULT \'0\',
+  `value` mediumtext NOT NULL,
+  `default` mediumtext NOT NULL,
+  `group` int(11) DEFAULT \'0\',
+  `options` mediumtext,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1',
+    'data' => 
+    array (
+      0 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'1\', \'mdl_primary_color\', \'Primary Color\', \'modx-combo\', \'Preview colors: http://www.getmdl.io/customize/index.html\', \'0\', \'0\', \'blue_grey\', \'\', \'1\', \'indigo||light_blue||blue||purple||deep_purple||cyan||teal||green||light_green||lime||yellow||amber||orange||deep_orange||blue_grey||red||pink\')',
+      1 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'2\', \'mdl_accent_color\', \'Accent Color\', \'modx-combo\', \'Preview colors: http://www.getmdl.io/customize/index.html\', \'0\', \'1\', \'deep_orange\', \'\', \'1\', \'indigo||light_blue||blue||purple||deep_purple||cyan||teal||green||light_green||lime||yellow||amber||orange||deep_orange||blue_grey||red||pink\')',
+      2 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'3\', \'mdl_font_link\', \'Font Link\', \'textfield\', \'\', \'0\', \'3\', \'//fonts.googleapis.com/icon?family=Material+Icons\', \'\', \'1\', \'\')',
+      3 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'4\', \'mdl_js_link\', \'JS Link\', \'textfield\', \'appears in footer\', \'0\', \'4\', \'//storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js\', \'\', \'1\', \'\')',
+      4 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'5\', \'mdl_ovr_header_bg\', \'Header BG Color\', \'textfield\', \'override default theme. leave blank to cancel\', \'0\', \'0\', \'white\', \'\', \'2\', \'\')',
+      5 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'6\', \'mdl_ovr_header_text\', \'Header Text Color\', \'textfield\', \'override default theme. leave blank to cancel\', \'0\', \'1\', \'grey-600\', \'\', \'2\', \'\')',
+      6 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'8\', \'mdl_ovr_logo_text\', \'Logo Text Color\', \'textfield\', \'override default theme. leave blank to cancel\', \'0\', \'3\', \'grey-50\', \'\', \'2\', \'\')',
+      7 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'9\', \'mdl_ovr_logo_bg\', \'Logo BG Color\', \'textfield\', \'override default theme. leave blank to cancel\', \'0\', \'2\', \'blue-grey-900\', \'\', \'2\', \'\')',
+      8 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'10\', \'mdl_drawer_button_color\', \'Mobile Icon Color\', \'colorpickerfield\', \'\', \'0\', \'99\', \'E29407\', \'\', \'2\', \'\')',
+      9 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'11\', \'mdl_body_color\', \'Body BG Color\', \'textfield\', \'\', \'0\', \'0\', \'grey-100\', \'\', \'2\', \'\')',
+      10 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'12\', \'mdl_ovr_drawer_bg\', \'Drawer BG Color\', \'textfield\', \'override default theme. leave blank to cancel\', \'0\', \'4\', \'blue-grey-800\', \'\', \'2\', \'\')',
+      11 => 'INSERT INTO `[[++table_prefix]]clientconfig_setting` (`id`, `key`, `label`, `xtype`, `description`, `is_required`, `sortorder`, `value`, `default`, `group`, `options`) VALUES (\'13\', \'mdl_ovr_drawer_text\', \'Drawer Link Icon Color\', \'textfield\', \'override default theme. leave blank to cancel\', \'0\', \'6\', \'blue-grey-400\', \'\', \'2\', \'\')',
+    ),
+  ),
+  'vehicle_package' => 'vapor',
+  'vehicle_class' => 'vaporVehicle',
+  'guid' => '987be47c71d5ee3644717c41f7668771',
+  'package' => '',
+  'signature' => 'c3bec55b512512f8b29a734051d0c09f',
+  'native_key' => '987be47c71d5ee3644717c41f7668771',
+);

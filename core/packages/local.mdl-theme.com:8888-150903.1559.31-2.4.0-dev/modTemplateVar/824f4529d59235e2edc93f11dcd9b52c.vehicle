@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'dc3ecee9a40be3cbe207cd0cef027eef',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '824f4529d59235e2edc93f11dcd9b52c',
+  'native_key' => 16,
+  'object' => '{"id":16,"source":0,"property_preprocess":0,"type":"text","name":"listbyparent","caption":"Listing by Parent","description":"List children of ID #","editor_type":0,"category":13,"locked":0,"elements":"","rank":8,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:5:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";s:5:\\"regex\\";s:0:\\"\\";s:9:\\"regexText\\";s:0:\\"\\";}","output_properties":null,"static":0,"static_file":"","content":""}',
+);

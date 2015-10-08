@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cc7e8b2a52a3fdbfa3988b59c9e6d1db',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '09e7c32e54943f46568202fc1edd8b4b',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":1,"property_preprocess":0,"name":"mxt.global_start_mdl","description":"","editor_type":0,"category":6,"cache_type":0,"snippet":"<!DOCTYPE html>\\n<html lang=\\"en\\">\\n<head>\\n    <!-- You have loaded Theme [[++mxt.theme]] -->\\n    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\n    <meta charset=\\"UTF-8\\">\\n    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\n    <meta name=\\"description\\" content=\\"[[*description]]\\">\\n\\n    <title>[[*pagetitle]] - [[++site_name]]<\\/title>\\n\\n    <link rel=\\"stylesheet\\" href=\\"\\/\\/storage.googleapis.com\\/code.getmdl.io\\/1.0.2\\/material.[[++mdl_primary_color]]-[[++mdl_accent_color]].min.css\\">\\n    <link rel=\\"stylesheet\\" href=\\"[[++mdl_font_link]]\\">\\n    [[$custom_mdl]]\\n<\\/head>\\n<body>\\n<div class=\\"mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header\\">\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/global\\/mxt.global_start_mdl.html","content":"<!DOCTYPE html>\\n<html lang=\\"en\\">\\n<head>\\n    <!-- You have loaded Theme [[++mxt.theme]] -->\\n    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\n    <meta charset=\\"UTF-8\\">\\n    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\n    <meta name=\\"description\\" content=\\"[[*description]]\\">\\n\\n    <title>[[*pagetitle]] - [[++site_name]]<\\/title>\\n\\n    <link rel=\\"stylesheet\\" href=\\"\\/\\/storage.googleapis.com\\/code.getmdl.io\\/1.0.2\\/material.[[++mdl_primary_color]]-[[++mdl_accent_color]].min.css\\">\\n    <link rel=\\"stylesheet\\" href=\\"[[++mdl_font_link]]\\">\\n    [[$custom_mdl]]\\n<\\/head>\\n<body>\\n<div class=\\"mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header\\">\\n"}',
+);

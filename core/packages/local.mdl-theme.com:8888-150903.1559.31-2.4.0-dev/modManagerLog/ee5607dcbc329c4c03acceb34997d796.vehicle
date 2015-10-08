@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ea5838fe751058a21a78714fcc0a28db',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => 'ee5607dcbc329c4c03acceb34997d796',
+  'native_key' => 15,
+  'object' => '{"id":15,"user":1,"occurred":"2015-08-07 12:55:00","action":"setting_update","classKey":"modSystemSetting","item":"site_name"}',
+);

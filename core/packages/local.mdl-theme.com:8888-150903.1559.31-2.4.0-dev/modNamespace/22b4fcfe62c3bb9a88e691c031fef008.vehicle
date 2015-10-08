@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a5a0438645fbad17d4cad819b0ff9f69',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '22b4fcfe62c3bb9a88e691c031fef008',
+  'native_key' => 'core',
+  'object' => '{"name":"core","path":"{core_path}","assets_path":"{assets_path}"}',
+);

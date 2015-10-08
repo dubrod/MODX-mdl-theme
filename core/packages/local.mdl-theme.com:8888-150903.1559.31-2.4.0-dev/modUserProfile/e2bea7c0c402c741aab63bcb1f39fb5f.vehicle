@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '34f69b53ba8ae91fc53970cab444ded4',
+  'package' => 'modx',
+  'class' => 'modUserProfile',
+  'signature' => 'e2bea7c0c402c741aab63bcb1f39fb5f',
+  'native_key' => 1,
+  'object' => '{"id":1,"internalKey":1,"fullname":"Default Admin User","email":"wayne@modx.com","phone":"","mobilephone":"","blocked":0,"blockeduntil":0,"blockedafter":0,"logincount":3,"lastlogin":1440201995,"thislogin":1440614711,"failedlogincount":0,"sessionid":"8c2bee2f6496948860c56b427fdd9159","dob":0,"gender":0,"address":"","country":"","city":"","state":"","zip":"","fax":"","photo":"","comment":"","website":"","extended":null}',
+);

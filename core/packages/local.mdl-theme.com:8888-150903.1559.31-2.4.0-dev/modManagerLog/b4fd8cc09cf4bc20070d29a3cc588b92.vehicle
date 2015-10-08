@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '87f2ce073e3acc1af7b69227f96ee611',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => 'b4fd8cc09cf4bc20070d29a3cc588b92',
+  'native_key' => 213,
+  'object' => '{"id":213,"user":1,"occurred":"2015-08-26 14:57:52","action":"tv_update","classKey":"modTemplateVar","item":"14"}',
+);

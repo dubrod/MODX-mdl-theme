@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '988c2eb60dd41b65d9133e39bda7339e',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => '63d0fe70e4f4cbb257725bb1cf3a3e91',
+  'native_key' => 71,
+  'object' => '{"id":71,"user":1,"occurred":"2015-08-11 14:31:07","action":"duplicate_resource","classKey":"modDocument","item":"2"}',
+);

@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cea98701bf1689e0400d5d0bf995c324',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'e06f219bf3504ce59e4765a499e84fcf',
+  'native_key' => 4,
+  'object' => '{"id":4,"parent":0,"category":"Switch","rank":0}',
+);

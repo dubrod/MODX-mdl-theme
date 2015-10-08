@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8b2409bad306a3a3195e8b9ac529d783',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'd05caf39cddf5f346cf9a9fbc3603e31',
+  'native_key' => 12,
+  'object' => '{"id":12,"source":1,"property_preprocess":0,"name":"mxt.grid_header_mdl","description":"","editor_type":0,"category":14,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/grid\\/mxt.grid_header_mdl.html","content":"[[$mxt.global_header_mdl]]\\n"}',
+);

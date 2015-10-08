@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1a47958f9b42fc905e141a2b3df2a713',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => 'df33e0a28b7c5349c2aead9f9a5eeab8',
+  'native_key' => 5,
+  'object' => '{"id":5,"parent":0,"category":"MDL Theme","rank":0}',
+);

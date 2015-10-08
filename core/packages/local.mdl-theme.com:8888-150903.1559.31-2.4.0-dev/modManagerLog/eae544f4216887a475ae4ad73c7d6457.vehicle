@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aa87634bba1323a18e1a2aa7f6c9a887',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => 'eae544f4216887a475ae4ad73c7d6457',
+  'native_key' => 409,
+  'object' => '{"id":409,"user":1,"occurred":"2015-08-26 19:28:44","action":"chunk_update","classKey":"modChunk","item":"40"}',
+);

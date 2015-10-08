@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f68adce65b0d4c0097afc1566a571834',
+  'package' => 'modx',
+  'class' => 'modPluginEvent',
+  'signature' => '291ab8ceaa556fd3039440355b33e8f2',
+  'native_key' => 
+  array (
+    0 => 4,
+    1 => 'OnBeforeEmptyTrash',
+  ),
+  'object' => '{"pluginid":4,"event":"OnBeforeEmptyTrash","priority":0,"propertyset":0}',
+);

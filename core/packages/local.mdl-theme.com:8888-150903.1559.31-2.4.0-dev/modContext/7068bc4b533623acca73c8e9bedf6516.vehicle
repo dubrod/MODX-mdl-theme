@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0bc1ac92cf6ac0bff2da712d38839042',
+  'package' => 'modx',
+  'class' => 'modContext',
+  'signature' => '7068bc4b533623acca73c8e9bedf6516',
+  'native_key' => 'mgr',
+  'object' => '{"key":"mgr","name":"Manager","description":"The default manager or administration context for content management activity.","rank":0}',
+);

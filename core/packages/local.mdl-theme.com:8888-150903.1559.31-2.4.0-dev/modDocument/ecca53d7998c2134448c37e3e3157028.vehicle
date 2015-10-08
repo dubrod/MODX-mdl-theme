@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '34d27a6e703ab9bf756312d346fd8743',
+  'package' => 'modx',
+  'class' => 'modDocument',
+  'signature' => 'ecca53d7998c2134448c37e3e3157028',
+  'native_key' => 1,
+  'object' => '{"id":1,"type":"document","contentType":"text\\/html","pagetitle":"Home","longtitle":"","description":"","alias":"index","link_attributes":"home","published":1,"pub_date":0,"unpub_date":0,"parent":0,"isfolder":0,"introtext":"MODX Revolution is the web content management platform for those that truly care about no-compromise design and exceptional user experience.","content":"","richtext":0,"template":3,"menuindex":0,"searchable":1,"cacheable":1,"createdby":1,"createdon":1438964401,"editedby":1,"editedon":1440618841,"deleted":0,"deletedon":0,"deletedby":0,"publishedon":0,"publishedby":0,"menutitle":"","donthit":0,"privateweb":0,"privatemgr":0,"content_dispo":0,"hidemenu":0,"class_key":"modDocument","context_key":"web","content_type":1,"uri":"","uri_override":0,"hide_children_in_tree":0,"show_in_tree":1,"properties":null}',
+);

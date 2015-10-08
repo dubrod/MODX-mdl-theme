@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b8651979e67250ea139c8b0f571d7ae9',
+  'package' => 'modx',
+  'class' => 'modAccessPolicy',
+  'signature' => '87fe1f15482f058147e28986dc44edda',
+  'native_key' => 11,
+  'object' => '{"id":11,"name":"Context","description":"A standard Context policy that you can apply when creating Context ACLs for basic read\\/write and view_unpublished access within a Context.","parent":0,"template":6,"class":"","data":"{\\"load\\":true,\\"list\\":true,\\"view\\":true,\\"save\\":true,\\"remove\\":true,\\"copy\\":true,\\"view_unpublished\\":true}","lexicon":"permissions"}',
+);

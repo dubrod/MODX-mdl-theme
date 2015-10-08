@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '109a886899209202c68795f9fed04612',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => '3b5a5105879b47bde90e0b2b331a51cc',
+  'native_key' => 18,
+  'object' => '{"id":18,"source":0,"property_preprocess":0,"type":"option","name":"page_icon","caption":"Page Icon","description":"Some layout features use Font Awesome icons","editor_type":0,"category":13,"locked":0,"elements":"Photo==fa-picture-o||Folder==fa-folder||Search==fa-search||Envelope==fa-envelope||Star==fa-star||Home==fa-home||Gear==fa-gear||List==fa-list-alt||User==fa-user||Tag==fa-tag||Camera==fa-camera","rank":3,"display":"default","default_text":"","properties":"a:0:{}","input_properties":"a:2:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:7:\\"columns\\";s:1:\\"4\\";}","output_properties":null,"static":0,"static_file":"","content":""}',
+);

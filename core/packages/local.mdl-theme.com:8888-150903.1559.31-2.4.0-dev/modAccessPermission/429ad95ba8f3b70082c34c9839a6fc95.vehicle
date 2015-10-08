@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3bea212115a92474ab0acce60016de29',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '429ad95ba8f3b70082c34c9839a6fc95',
+  'native_key' => 56,
+  'object' => '{"id":56,"template":1,"name":"file_update","description":"perm.file_update_desc","value":1}',
+);

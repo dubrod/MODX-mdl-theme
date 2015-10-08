@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ccead879ab72746cd0a1c377753eb154',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'acd1472de2a6f908dc42b7d0bcdd2303',
+  'native_key' => 6,
+  'object' => '{"id":6,"template":1,"name":"charsets","description":"perm.charsets_desc","value":1}',
+);

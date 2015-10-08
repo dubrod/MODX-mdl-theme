@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1fc3abaf1c00d7cd22334e6e5462b190',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '127c1a17cc6ef451128dd886ad987676',
+  'native_key' => 'acls',
+  'object' => '{"text":"acls","parent":"admin","action":"security\\/permission","description":"acls_desc","icon":"","menuindex":5,"params":"","handler":"","permissions":"access_permissions","namespace":"core"}',
+);

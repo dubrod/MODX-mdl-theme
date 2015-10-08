@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8ae9f00d282b0fe55ee4f04a8f974664',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => 'e477d11afec9bd8e5e002a38edb60774',
+  'native_key' => 196,
+  'object' => '{"id":196,"user":1,"occurred":"2015-08-26 14:51:33","action":"package_uninstall","classKey":"transport.modTransportPackage","item":"unknown"}',
+);

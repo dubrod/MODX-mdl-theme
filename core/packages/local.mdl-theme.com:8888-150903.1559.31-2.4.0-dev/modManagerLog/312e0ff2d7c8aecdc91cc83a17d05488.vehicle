@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1bab98bc3babb3da31f690b998df1a91',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => '312e0ff2d7c8aecdc91cc83a17d05488',
+  'native_key' => 349,
+  'object' => '{"id":349,"user":1,"occurred":"2015-08-26 18:53:00","action":"propertyset_update_from_element","classKey":"modPropertySet","item":"modChunk 32 Default"}',
+);

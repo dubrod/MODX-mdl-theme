@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '210df730558e3caf1cb2a6214ef8b385',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '77318f7b73962d681fe697aa103b48d8',
+  'native_key' => 'manager_html5_cache',
+  'object' => '{"key":"manager_html5_cache","value":"0","xtype":"combo-boolean","namespace":"core","area":"manager","editedon":"0000-00-00 00:00:00"}',
+);

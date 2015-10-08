@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6580e66420ab0843b22442d89e5c32b6',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '53824321d59b91d499b766909cd4a19b',
+  'native_key' => 77,
+  'object' => '{"id":77,"template":1,"name":"menus","description":"perm.menus_desc","value":1}',
+);

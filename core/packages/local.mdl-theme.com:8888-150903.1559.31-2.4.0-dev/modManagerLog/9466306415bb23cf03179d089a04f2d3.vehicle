@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0b9ab79ddcc5aaef6640f69b1295d129',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => '9466306415bb23cf03179d089a04f2d3',
+  'native_key' => 412,
+  'object' => '{"id":412,"user":1,"occurred":"2015-08-26 19:32:24","action":"resource_update","classKey":"modResource","item":"3"}',
+);

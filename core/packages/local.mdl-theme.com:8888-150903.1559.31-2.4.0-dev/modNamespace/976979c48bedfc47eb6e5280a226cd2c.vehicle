@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '99732d6801b048159211cb4457638880',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '976979c48bedfc47eb6e5280a226cd2c',
+  'native_key' => 'mxt',
+  'object' => '{"name":"mxt","path":"{core_path}components\\/mxt\\/","assets_path":"{assets_path}components\\/mxt\\/"}',
+);

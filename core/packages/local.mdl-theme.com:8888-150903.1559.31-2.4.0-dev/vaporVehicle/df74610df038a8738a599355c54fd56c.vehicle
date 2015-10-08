@@ -1,0 +1,37 @@
+<?php return array (
+  'class' => 'vaporVehicle',
+  'object' => 
+  array (
+    'tableName' => 'collection_template_columns',
+    'drop' => 'DROP TABLE IF EXISTS `[[++table_prefix]]collection_template_columns`',
+    'table' => 'CREATE TABLE `[[++table_prefix]]collection_template_columns` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `template` int(10) unsigned NOT NULL,
+  `label` varchar(50) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `hidden` tinyint(1) unsigned NOT NULL DEFAULT \'0\',
+  `sortable` tinyint(1) unsigned NOT NULL DEFAULT \'0\',
+  `width` int(10) unsigned NOT NULL DEFAULT \'100\',
+  `editor` varchar(255) NOT NULL DEFAULT \'\',
+  `renderer` varchar(255) NOT NULL DEFAULT \'\',
+  `php_renderer` varchar(255) NOT NULL DEFAULT \'\',
+  `position` int(10) unsigned NOT NULL DEFAULT \'0\',
+  `sort_type` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1',
+    'data' => 
+    array (
+      0 => 'INSERT INTO `[[++table_prefix]]collection_template_columns` (`id`, `template`, `label`, `name`, `hidden`, `sortable`, `width`, `editor`, `renderer`, `php_renderer`, `position`, `sort_type`) VALUES (\'1\', \'1\', \'id\', \'id\', \'1\', \'1\', \'40\', \'\', \'\', \'\', \'0\', NULL)',
+      1 => 'INSERT INTO `[[++table_prefix]]collection_template_columns` (`id`, `template`, `label`, `name`, `hidden`, `sortable`, `width`, `editor`, `renderer`, `php_renderer`, `position`, `sort_type`) VALUES (\'2\', \'1\', \'publishedon\', \'publishedon\', \'0\', \'1\', \'40\', \'\', \'Collections.renderer.datetimeTwoLines\', \'\', \'1\', NULL)',
+      2 => 'INSERT INTO `[[++table_prefix]]collection_template_columns` (`id`, `template`, `label`, `name`, `hidden`, `sortable`, `width`, `editor`, `renderer`, `php_renderer`, `position`, `sort_type`) VALUES (\'3\', \'1\', \'pagetitle\', \'pagetitle\', \'0\', \'1\', \'170\', \'\', \'Collections.renderer.pagetitleWithButtons\', \'\', \'2\', NULL)',
+      3 => 'INSERT INTO `[[++table_prefix]]collection_template_columns` (`id`, `template`, `label`, `name`, `hidden`, `sortable`, `width`, `editor`, `renderer`, `php_renderer`, `position`, `sort_type`) VALUES (\'4\', \'1\', \'alias\', \'alias\', \'0\', \'1\', \'100\', \'\', \'\', \'\', \'3\', NULL)',
+      4 => 'INSERT INTO `[[++table_prefix]]collection_template_columns` (`id`, `template`, `label`, `name`, `hidden`, `sortable`, `width`, `editor`, `renderer`, `php_renderer`, `position`, `sort_type`) VALUES (\'5\', \'1\', \'resource_menuindex\', \'menuindex\', \'0\', \'1\', \'50\', \'{\\"xtype\\":\\"numberfield\\",\\"allowNegative\\":false,\\"allowDecimal\\":false}\', \'\', \'\', \'4\', NULL)',
+    ),
+  ),
+  'vehicle_package' => 'vapor',
+  'vehicle_class' => 'vaporVehicle',
+  'guid' => '6b22c98e68a1e0e367aba485c37db914',
+  'package' => '',
+  'signature' => 'df74610df038a8738a599355c54fd56c',
+  'native_key' => '6b22c98e68a1e0e367aba485c37db914',
+);

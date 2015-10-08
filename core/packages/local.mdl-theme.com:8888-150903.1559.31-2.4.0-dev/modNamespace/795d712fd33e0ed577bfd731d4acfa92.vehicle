@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '03440ac344c0f69440f95abd720356c9',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '795d712fd33e0ed577bfd731d4acfa92',
+  'native_key' => 'switch',
+  'object' => '{"name":"switch","path":"{core_path}components\\/switch\\/","assets_path":"{assets_path}components\\/switch\\/"}',
+);

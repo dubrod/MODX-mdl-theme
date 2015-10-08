@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9473735e94097371dbc44f2308d91a44',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => 'f412d8c8fabb50e95d77aea6546983e5',
+  'native_key' => 20,
+  'object' => '{"id":20,"source":0,"property_preprocess":0,"type":"text","name":"slider_ids","caption":"Slider IDs","description":"Comma Separated # or \\"default\\" or leave blank for No Slider","editor_type":0,"category":13,"locked":0,"elements":"","rank":5,"display":"string","default_text":"","properties":"a:0:{}","input_properties":"a:5:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";s:5:\\"regex\\";s:0:\\"\\";s:9:\\"regexText\\";s:0:\\"\\";}","output_properties":"a:1:{s:6:\\"format\\";s:10:\\"Lower Case\\";}","static":0,"static_file":"","content":""}',
+);

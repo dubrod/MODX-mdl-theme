@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4a62246451ecd4b9b978bd2ed80a8226',
+  'package' => 'modx',
+  'class' => 'modTemplateVar',
+  'signature' => 'd9946b840f6ee4697c5f5abeaad55368',
+  'native_key' => 12,
+  'object' => '{"id":12,"source":0,"property_preprocess":0,"type":"text","name":"carousel_ids","caption":"Carousel Post IDs","description":"Comma Separated # or \\"default\\" or leave blank for No Carousel","editor_type":0,"category":13,"locked":0,"elements":"","rank":6,"display":"string","default_text":"","properties":"a:0:{}","input_properties":"a:5:{s:10:\\"allowBlank\\";s:4:\\"true\\";s:9:\\"maxLength\\";s:0:\\"\\";s:9:\\"minLength\\";s:0:\\"\\";s:5:\\"regex\\";s:0:\\"\\";s:9:\\"regexText\\";s:0:\\"\\";}","output_properties":"a:1:{s:6:\\"format\\";s:10:\\"Lower Case\\";}","static":0,"static_file":"","content":""}',
+);

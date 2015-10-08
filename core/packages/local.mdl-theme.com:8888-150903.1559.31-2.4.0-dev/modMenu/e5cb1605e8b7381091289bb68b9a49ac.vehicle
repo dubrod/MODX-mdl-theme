@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '29d0c85e0456897e1ecf9a1b4c5d24f4',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'e5cb1605e8b7381091289bb68b9a49ac',
+  'native_key' => 'flush_sessions',
+  'object' => '{"text":"flush_sessions","parent":"manage","action":"","description":"flush_sessions_desc","icon":"","menuindex":4,"params":"","handler":"MODx.msg.confirm({\\n    title: _(\'flush_sessions\')\\n    ,text: _(\'flush_sessions_confirm\')\\n    ,url: MODx.config.connector_url\\n    ,params: {\\n        action: \'security\\/flush\'\\n    }\\n    ,listeners: {\\n        \'success\': {fn:function() { location.href = \'.\\/\'; },scope:this}\\n    }\\n});","permissions":"flush_sessions","namespace":"core"}',
+);

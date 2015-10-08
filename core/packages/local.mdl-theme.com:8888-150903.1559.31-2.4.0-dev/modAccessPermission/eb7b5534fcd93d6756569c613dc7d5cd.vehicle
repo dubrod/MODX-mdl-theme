@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'aeef389340c816c1933ac9a528841a54',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => 'eb7b5534fcd93d6756569c613dc7d5cd',
+  'native_key' => 32,
+  'object' => '{"id":32,"template":1,"name":"directory_remove","description":"perm.directory_remove_desc","value":1}',
+);

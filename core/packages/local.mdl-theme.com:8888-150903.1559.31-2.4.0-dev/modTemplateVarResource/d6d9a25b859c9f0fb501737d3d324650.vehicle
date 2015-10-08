@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a8e9c251b7a39c00a7c64f21d211e17f',
+  'package' => 'modx',
+  'class' => 'modTemplateVarResource',
+  'signature' => 'd6d9a25b859c9f0fb501737d3d324650',
+  'native_key' => 29,
+  'object' => '{"id":29,"tmplvarid":11,"contentid":6,"value":"sidebar"}',
+);

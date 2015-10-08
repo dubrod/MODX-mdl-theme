@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3fe26c1fb3de4045bdab73ed51a92206',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => 'a7e9d790fd45a2c089478319fab3ba1a',
+  'native_key' => 17,
+  'object' => '{"id":17,"source":1,"property_preprocess":0,"name":"mxt.page_body_page_mdl","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n        [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n        [[*content]]\\n    <\\/div>\\n\\n    [[$mxt.feature_featured_posts_mdl]]\\n    [[$mxt.feature_gridbyparent_mdl]]\\n    [[$mxt.feature_grid_mdl]]\\n\\n<\\/div><!-- centered-content -->\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/page\\/mxt.page_body_page_mdl.html","content":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n        [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n        [[*content]]\\n    <\\/div>\\n\\n    [[$mxt.feature_featured_posts_mdl]]\\n    [[$mxt.feature_gridbyparent_mdl]]\\n    [[$mxt.feature_grid_mdl]]\\n\\n<\\/div><!-- centered-content -->\\n"}',
+);

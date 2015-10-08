@@ -1,0 +1,15 @@
+<div class="mdl-cell [[*body_tpl:is=`page`:then=`mdl-cell--12-col`:else=`mdl-cell--4-col`]] mdl-card mdl-shadow--2dp">
+    <div class="mdl-color--accent content-accent-bar"></div>
+    <div class="mdl-card__media" [[+tv.page_img:notempty=`style="background-image:url([[+tv.page_img]]);min-height:100px;"`]]></div>
+    <div class="mdl-card__supporting-text sidebar--feature">
+        <h3>[[+menutitle:default=`[[+pagetitle]]`]]</h3>
+        <p>
+            [[+introtext]]
+            <br>
+            <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]</em></span>
+        </p>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <a href="[[~[[+id]]]]" class="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
+    </div>
+</div>

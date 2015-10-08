@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '070202d75c79f0b9fe1c5070a4a23fc3',
+  'package' => 'modx',
+  'class' => 'modNamespace',
+  'signature' => '57e3caaf6f5584d8cc21187752883149',
+  'native_key' => 'clientconfig',
+  'object' => '{"name":"clientconfig","path":"{core_path}components\\/clientconfig\\/","assets_path":""}',
+);

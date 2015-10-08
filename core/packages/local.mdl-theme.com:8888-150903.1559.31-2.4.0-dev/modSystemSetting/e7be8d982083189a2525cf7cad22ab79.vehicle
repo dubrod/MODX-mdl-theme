@@ -1,0 +1,20 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"local.mdl-theme.com:8888-150903.1559.31-2.4.0-dev\\/modSystemSetting\\/e7be8d982083189a2525cf7cad22ab79.resolve.extension_packages.resolver","name":"resolve.extension_packages"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'fa53118c43dfdb89d1a326527fa6011c',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e7be8d982083189a2525cf7cad22ab79',
+  'native_key' => 'extension_packages',
+  'object' => '{"key":"extension_packages","value":"[{\\"collections\\":{\\"path\\":\\"[[++core_path]]components\\\\\\/collections\\\\\\/model\\\\\\/\\"}}]","xtype":"textfield","namespace":"core","area":"system","editedon":"0000-00-00 00:00:00"}',
+);

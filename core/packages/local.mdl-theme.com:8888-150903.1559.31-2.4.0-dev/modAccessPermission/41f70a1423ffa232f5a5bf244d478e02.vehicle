@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8e46832dc8ad90ed4e7777d87a4d7bf2',
+  'package' => 'modx',
+  'class' => 'modAccessPermission',
+  'signature' => '41f70a1423ffa232f5a5bf244d478e02',
+  'native_key' => 187,
+  'object' => '{"id":187,"template":2,"name":"view","description":"perm.view_desc","value":1}',
+);

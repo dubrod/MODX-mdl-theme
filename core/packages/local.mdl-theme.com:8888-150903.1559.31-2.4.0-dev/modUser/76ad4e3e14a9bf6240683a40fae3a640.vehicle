@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a6768fa57c684ae4407e0065bd054a92',
+  'package' => 'modx',
+  'class' => 'modUser',
+  'signature' => '76ad4e3e14a9bf6240683a40fae3a640',
+  'native_key' => 1,
+  'object' => '{"id":1,"username":"dubrod","password":"mCVpa3mEtXfGUCSTSyFgS1UYHg3k8gKEalOOmYhcUao=","cachepwd":"","class_key":"modUser","active":1,"remote_key":null,"remote_data":null,"hash_class":"hashing.modPBKDF2","salt":"91f92d5d8aaa96e73dc159e766285769","primary_group":1,"session_stale":null,"sudo":1}',
+);

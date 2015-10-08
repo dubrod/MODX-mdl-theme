@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3476735c20661c95081fa60f57d3c7df',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e742bdc7fc1c977030471c0a77fed533',
+  'native_key' => 'mxt.social_facebook',
+  'object' => '{"key":"mxt.social_facebook","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

@@ -1,0 +1,15 @@
+<?php return array (
+  'class' => 'xPDOFileVehicle',
+  'object' => 
+  array (
+    'source' => 'local.mdl-theme.com:8888-150903.1559.31-2.4.0-dev/xPDOFileVehicle/63faab716c9a7bcc8193421ab934224a/',
+    'target' => 'return MODX_BASE_PATH;',
+    'name' => 'README.md',
+  ),
+  'vehicle_class' => 'xPDOFileVehicle',
+  'vehicle_package' => 'transport',
+  'guid' => '34de3cec6df3eb274339a84144dadd8a',
+  'package' => '',
+  'signature' => '63faab716c9a7bcc8193421ab934224a',
+  'native_key' => '34de3cec6df3eb274339a84144dadd8a',
+);

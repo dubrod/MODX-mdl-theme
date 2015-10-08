@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '9eb9d048d0f38f65a4729636f2cea376',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '07aef70b3d98a1c16f1312f5ba6b7f41',
+  'native_key' => 'mxt.theme',
+  'object' => '{"key":"mxt.theme","value":"mdl","xtype":"textfield","namespace":"mxt","area":"default","editedon":"2015-08-26 14:53:39"}',
+);

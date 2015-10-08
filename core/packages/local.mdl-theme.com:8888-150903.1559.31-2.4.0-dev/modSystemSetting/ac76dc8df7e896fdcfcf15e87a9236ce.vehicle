@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e4292e75d4391561de536333cc502bcb',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'ac76dc8df7e896fdcfcf15e87a9236ce',
+  'native_key' => 'mxt.default_fposts',
+  'object' => '{"key":"mxt.default_fposts","value":"","xtype":"textfield","namespace":"mxt","area":"default","editedon":"0000-00-00 00:00:00"}',
+);

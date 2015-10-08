@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b296258d984e70a6abf4232d01ae6f81',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '70f562fbe9827752dacde7c540fbf6af',
+  'native_key' => 7,
+  'object' => '{"id":7,"parent":5,"category":"Page","rank":0}',
+);

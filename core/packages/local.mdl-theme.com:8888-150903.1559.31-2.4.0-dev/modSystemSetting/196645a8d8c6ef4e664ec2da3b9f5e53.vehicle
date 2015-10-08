@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '54e84e63941f3f51d30db8424a2d634a',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '196645a8d8c6ef4e664ec2da3b9f5e53',
+  'native_key' => 'mxt.default_slogan',
+  'object' => '{"key":"mxt.default_slogan","value":"Material Design","xtype":"textfield","namespace":"mxt","area":"default","editedon":"2015-08-26 15:46:53"}',
+);

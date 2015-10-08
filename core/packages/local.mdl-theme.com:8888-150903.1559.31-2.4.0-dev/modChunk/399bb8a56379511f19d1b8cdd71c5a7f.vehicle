@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5e378d60effcd9a1a46b755a28b837c6',
+  'package' => 'modx',
+  'class' => 'modChunk',
+  'signature' => '399bb8a56379511f19d1b8cdd71c5a7f',
+  'native_key' => 5,
+  'object' => '{"id":5,"source":1,"property_preprocess":0,"name":"mxt.page_end_mdl","description":"","editor_type":0,"category":7,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":1,"properties":"a:0:{}","static":1,"static_file":"core\\/components\\/mdl-theme\\/elements\\/chunks\\/page\\/mxt.page_end_mdl.html","content":"[[$mxt.global_end_mdl]]\\n"}',
+);

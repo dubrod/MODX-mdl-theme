@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5614f13a916b9e069a5722dbf0b29a29',
+  'package' => 'modx',
+  'class' => 'modManagerLog',
+  'signature' => '23c5d9435328fb9a7b6c99227e0a9af6',
+  'native_key' => 79,
+  'object' => '{"id":79,"user":1,"occurred":"2015-08-12 10:10:59","action":"file_upload","classKey":"","item":"\\/Users\\/wayneroddy\\/Sites\\/modx-themes\\/MODX-mdl-theme\\/assets\\/img\\/"}',
+);
