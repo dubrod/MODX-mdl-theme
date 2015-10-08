@@ -1,26 +1,41 @@
 <!--https://github.com/google/material-design-lite/tree/master/src/textfield-->
-<form role="form">
+[[!FormIt?
+   &hooks=`email`
+   &emailTpl=`tpl_contactemail_[[++mxt.theme]]`
+   &emailTo=`[[++emailsender]]`
+   &emailSubject=`Website Contact Form`
+   &validate=`name:required,email:email:required,phone:required,text:required:stripTags`
+   &successMessage=`Email sent successfully.`
+ ]]
+ 
+<form role="form" id="contactForm" action="[[~[[*id]]]]#contactForm" method="post">
+
     <div class="mdl-textfield mdl-js-textfield">
-      <input class="mdl-textfield__input" type="text" id="user" name="user" pattern="[A-Z,a-z, ]*" />
-      <label class="mdl-textfield__label" for="user">Full name</label>
-      <span class="mdl-textfield__error">Letters and spaces only</span>
+      <input class="mdl-textfield__input" type="text" id="name" name="name" pattern="[A-Z,a-z, ]*"  value="[[!+fi.name]]" />
+      <label class="mdl-textfield__label" for="name">Full name</label>
+      [[!+fi.error.name:notempty=`<span class="mdl-textfield__error">Letters and spaces only. [[!+fi.error.name]]</span>`]]
     </div>
 
     <div class="mdl-textfield mdl-js-textfield">
-      <input class="mdl-textfield__input" type="text" id="email" name="email" />
+      <input class="mdl-textfield__input" type="text" id="email" name="email" value="[[!+fi.email]]" />
       <label class="mdl-textfield__label" for="email">Email address</label>
+      [[!+fi.error.email:notempty=`<span class="mdl-textfield__error">[[!+fi.error.email]]</span>`]]
     </div>
 
     <div class="mdl-textfield mdl-js-textfield">
-      <input class="mdl-textfield__input" type="text" id="phone" name="phone" pattern="[0-9]*" />
+      <input class="mdl-textfield__input" type="text" id="phone" name="phone" pattern="[0-9]*" value="[[!+fi.phone]]" />
       <label class="mdl-textfield__label" for="phone">Phone</label>
-      <span class="mdl-textfield__error">Digits only</span>
+      [[!+fi.error.phone:notempty=`<span class="mdl-textfield__error">Digits Only. [[!+fi.error.phone]]</span>`]]
     </div>
 
     <div class="mdl-textfield mdl-js-textfield">
-      <textarea class="mdl-textfield__input" type="text" name="text" rows="5" id="text"></textarea>
+      <textarea class="mdl-textfield__input" type="text" name="text" rows="5" id="text" value="[[!+fi.text]]">[[!+fi.text]]</textarea>
       <label class="mdl-textfield__label" for="text">Message</label>
+      [[!+fi.error.text:notempty=`<span class="mdl-textfield__error">[[!+fi.error.text]]</span>`]]
     </div>
 
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white">SEND</button>
+    <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white">SEND</button>
+    <br><br>
+    [[!+fi.successMessage:notempty=`<div class="mdl-color--primary mdl-color-text--white">[[!+fi.successMessage]]</div>`]]
+
 </form>

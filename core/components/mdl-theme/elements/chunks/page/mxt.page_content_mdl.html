@@ -1,5 +1,7 @@
 <main class="mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]">
-    [[*body_tpl:is=`blank`:then=`[[$mxt.page_body_blank_mdl]]`]]
-    [[*body_tpl:is=`page`:then=`[[$mxt.page_body_page_mdl]]`]]
-    [[*body_tpl:is=`sidebar`:then=`[[$mxt.page_body_sidebar_mdl]]`]]
+
+     [[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.page_body_blank_mdl]]
+     [[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.page_body_page_mdl]]
+     [[[[*body_tpl:is=`sidebar`:then=``:else=`-`]]$mxt.page_body_sidebar_mdl]]
+
 </main>
