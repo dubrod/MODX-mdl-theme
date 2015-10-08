@@ -1,0 +1,6 @@
+<form class="sisea-search-form" action="[[~[[+landing:default=`[[*id]]`]]]]" method="[[+method:default=`get`]]">
+    <input class="mdl-textfield__input" type="text" name="[[+searchIndex]]" id="[[+searchIndex]]" value="[[+searchValue]]" />
+    <label class="mdl-textfield__label" for="search">Enter your query...</label>
+    <input type="hidden" name="id" value="[[+landing:default=[[*id]]]]" />
+    <input type="hidden" value="[[%sisea.search? &namespace=`sisea` &topic=`default`]]" />
+</form>
