@@ -1,0 +1,164 @@
+<h1>Heading 1</h1>
+<p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+<p><small>This line of text is meant to be &lt;small&gt; print.</small></p>
+<h2>Heading 2</h2>
+<p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+<p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+
+<h3>Heading 3</h3>
+
+<blockquote>Blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nteger posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</blockquote>
+
+<ul>
+<li>Standard UL</li>
+<li>Standard UL</li>
+<li>Standard UL</li>
+</ul>
+
+<ul>
+<li>Standard UL</li>
+<li>Standard UL
+    <ul>
+<li>Nested UL</li>
+<li>Nested UL</li>
+<li>Nested UL</li>
+</ul>
+</li>
+<li>Standard UL</li>
+</ul>
+
+<ol>
+<li>OL with numbers</li>
+<li>OL with numbers</li>
+<li>OL with numbers</li>
+</ol>
+
+<hr>
+<h4>Table</h4>
+
+<!-- Responsive table starts here -->
+  <!-- For correct display on small screens you must add 'data-title' to each 'td' in your table -->
+  <!-- Table starts here -->
+  <table  class="mdl-data-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Link</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-title="ID">1</td>
+          <td data-title="Name">Material Design Color Palette</td>
+          <td data-title="Link">
+            <a href="https://github.com/zavoloklom/material-design-color-palette" target="_blank">GitHub</a>
+          </td>
+          <td data-title="Status">Completed</td>
+        </tr>
+        <tr>
+          <td data-title="ID">2</td>
+          <td data-title="Name">Material Design Iconic Font</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/uqCsB" target="_blank">Codepen</a>
+            <a href="https://github.com/zavoloklom/material-design-iconic-font" target="_blank">GitHub</a>
+          </td>
+          <td data-title="Status">Completed</td>
+        </tr>
+        <tr>
+          <td data-title="ID">3</td>
+          <td data-title="Name">Material Design Hierarchical Display</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/eNaEBM" target="_blank">Codepen</a>
+            <a href="https://github.com/zavoloklom/material-design-hierarchical-display" target="_blank">GitHub</a>
+          </td>
+          <td data-title="Status">Completed</td>
+        </tr>
+        <tr>
+          <td data-title="ID">4</td>
+          <td data-title="Name">Material Design Sidebar</td>
+          <td data-title="Link"><a href="http://codepen.io/zavoloklom/pen/dIgco" target="_blank">Codepen</a></td>
+          <td data-title="Status">Completed</td>
+        </tr>
+        <tr>
+          <td data-title="ID">5</td>
+          <td data-title="Name">Material Design Tiles</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/wtApI" target="_blank">Codepen</a>
+          </td>
+          <td data-title="Status">Completed</td>
+        </tr>
+        <tr>
+          <td data-title="ID">6</td>
+          <td data-title="Name">Material Design Typography</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/IkaFL" target="_blank">Codepen</a>
+            <a href="https://github.com/zavoloklom/material-design-typography" target="_blank">GitHub</a>
+          </td>
+          <td data-title="Status">Completed</td>
+        </tr>
+        <tr>
+          <td data-title="ID">7</td>
+          <td data-title="Name">Material Design Buttons</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/Gubja" target="_blank">Codepen</a>
+          </td>
+          <td data-title="Status">In progress</td>
+        </tr>
+        <tr>
+          <td data-title="ID">8</td>
+          <td data-title="Name">Material Design Form Elements</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/yaozl" target="_blank">Codepen</a>
+          </td>
+          <td data-title="Status">In progress</td>
+        </tr>
+        <tr>
+          <td data-title="ID">9</td>
+          <td data-title="Name">Material Design Email Template</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/qEVqzx" target="_blank">Codepen</a>
+          </td>
+          <td data-title="Status">Completed</td>
+        </tr>
+        <tr>
+          <td data-title="ID">10</td>
+          <td data-title="Name">Material Design Animation Timing (old one)</td>
+          <td data-title="Link">
+            <a href="http://codepen.io/zavoloklom/pen/Jbrho" target="_blank">Codepen</a>
+          </td>
+          <td data-title="Status">Completed</td>
+        </tr>
+      </tbody>
+    </table>
+
+<hr>
+
+<h4>Form</h4>
+<!--https://github.com/google/material-design-lite/tree/master/src/textfield-->
+<form role="form">
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="user" name="user" pattern="[A-Z,a-z, ]*" />
+      <label class="mdl-textfield__label" for="user">Full name</label>
+      <span class="mdl-textfield__error">Letters and spaces only</span>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="email" name="email" />
+      <label class="mdl-textfield__label" for="email">Email address</label>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="phone" name="phone" pattern="[0-9]*" />
+      <label class="mdl-textfield__label" for="phone">Phone</label>
+      <span class="mdl-textfield__error">Digits only</span>
+    </div>
+
+    <div class="mdl-textfield mdl-js-textfield">
+      <textarea class="mdl-textfield__input" type="text" name="text" rows="5" id="text"></textarea>
+      <label class="mdl-textfield__label" for="text">Message</label>
+    </div>
+
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white">SEND</button>
+</form>
