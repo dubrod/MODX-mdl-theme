@@ -7,7 +7,7 @@ if (!function_exists('getResourceMap')) {
     function getResourceMap() {
         global $modx;
 
-        $assetsPath = rtrim($modx->getOption('mdltheme.assets_path',null,$modx->getOption('assets_path').'components/mdl-theme/'), '/') . '/';
+        $assetsPath = rtrim($modx->getOption('mdl-theme.assets_path',null,$modx->getOption('assets_path').'components/mdl-theme/'), '/') . '/';
         $rmf = $assetsPath . 'resourcemap.php';
 
         if (is_readable($rmf)) {

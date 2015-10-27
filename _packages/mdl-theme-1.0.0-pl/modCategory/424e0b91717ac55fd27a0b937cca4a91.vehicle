@@ -1,0 +1,746 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      '856a2d32969d6a3d0b97ae6b6ff8ab7f' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'parent',
+          1 => 'category',
+        ),
+        'class' => 'modCategory',
+        'object' => '{"id":null,"parent":0,"category":"MDL Theme","rank":0}',
+        'guid' => '088f9e93e900231681610e143eb2e3b8',
+        'native_key' => NULL,
+        'signature' => '7b9f4423657e9dce48932834adf72a14',
+        'related_objects' => 
+        array (
+          'Chunks' => 
+          array (
+            '3af4b8e29762881eb52363d8e8a0a1c3' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"custom_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<style>\\n\\/*global*\\/\\n.centered-content{max-width: 85%; margin-top: 1rem; margin-bottom: 1rem;}\\n.mdl-cell p, .mdl-cell h1, .mdl-cell h2, .mdl-cell h3, .mdl-cell h4\\n.centered-content h1,.centered-content h2,.centered-content h3,.centered-content h4{padding: 0 1rem;}\\n.mdl-cell p:first-of-type{padding-top: 1rem;}\\n.content-accent-bar{width:100%; height: 3px;}\\n.page--meta span{display: block; padding: .25rem 1rem;}\\n.hero-banner img{max-width: 100%;}\\n.mdl-card__media h3 a{text-decoration: none;}\\n.sidebar--body{float: left;}  .sidebar--side{}\\n.sidebar--feature h3, .sidebar--feature p{margin:0; padding:0;}\\n.mdl-textfield{display: block;}\\nform{margin:1rem;}\\nh3 a{text-decoration: none;}\\n.centered-content table{margin: 1rem;}\\n.mdl-textfield__error{visibility: visible;}\\n.sisea-search-form{margin:0;}\\n\\n\\/*header*\\/\\n.mdl-layout__header .mdl-layout__drawer-button{color: #[[++mdl_drawer_button_color]];}\\n\\/*for some reason header is behind menu button*\\/\\n.mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row{padding-left:60px;}\\n\\n\\/*drawer & navigation*\\/\\n.mdl-navigation .material-icons{margin-right: 1rem; vertical-align: middle;}\\n\\n\\n\\/*mobile*\\/\\n@media (max-width: 680px){\\n    .centered-content{max-width: 95%;}\\n    .sidebar--body{float: none;}\\n}\\n<\\/style>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<style>\\n\\/*global*\\/\\n.centered-content{max-width: 85%; margin-top: 1rem; margin-bottom: 1rem;}\\n.mdl-cell p, .mdl-cell h1, .mdl-cell h2, .mdl-cell h3, .mdl-cell h4\\n.centered-content h1,.centered-content h2,.centered-content h3,.centered-content h4{padding: 0 1rem;}\\n.mdl-cell p:first-of-type{padding-top: 1rem;}\\n.content-accent-bar{width:100%; height: 3px;}\\n.page--meta span{display: block; padding: .25rem 1rem;}\\n.hero-banner img{max-width: 100%;}\\n.mdl-card__media h3 a{text-decoration: none;}\\n.sidebar--body{float: left;}  .sidebar--side{}\\n.sidebar--feature h3, .sidebar--feature p{margin:0; padding:0;}\\n.mdl-textfield{display: block;}\\nform{margin:1rem;}\\nh3 a{text-decoration: none;}\\n.centered-content table{margin: 1rem;}\\n.mdl-textfield__error{visibility: visible;}\\n.sisea-search-form{margin:0;}\\n\\n\\/*header*\\/\\n.mdl-layout__header .mdl-layout__drawer-button{color: #[[++mdl_drawer_button_color]];}\\n\\/*for some reason header is behind menu button*\\/\\n.mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row{padding-left:60px;}\\n\\n\\/*drawer & navigation*\\/\\n.mdl-navigation .material-icons{margin-right: 1rem; vertical-align: middle;}\\n\\n\\n\\/*mobile*\\/\\n@media (max-width: 680px){\\n    .centered-content{max-width: 95%;}\\n    .sidebar--body{float: none;}\\n}\\n<\\/style>\\n"}',
+              'guid' => '194073e03ca55cb37d8e4e581129fcb0',
+              'native_key' => NULL,
+              'signature' => 'b589027bc2fef43445d2826584643d50',
+            ),
+            'c254988617e9fde9d00479c6f836904c' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 'name',
+              'class' => 'modChunk',
+              'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"style-guide-mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<h1>Heading 1<\\/h1>\\n<p>Nullam quis risus eget <a href=\\"#\\">urna mollis ornare<\\/a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.<\\/p>\\n<p><small>This line of text is meant to be &lt;small&gt; print.<\\/small><\\/p>\\n<h2>Heading 2<\\/h2>\\n<p>The following snippet of text is <strong>rendered as bold text<\\/strong>.<\\/p>\\n<p>The following snippet of text is <em>rendered as italicized text<\\/em>.<\\/p>\\n\\n<h3>Heading 3<\\/h3>\\n\\n<blockquote>Blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nteger posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<\\/blockquote>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL\\n    <ul>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<\\/ul>\\n<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ol>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<\\/ol>\\n\\n<hr>\\n<h4>Table<\\/h4>\\n\\n<!-- Responsive table starts here -->\\n  <!-- For correct display on small screens you must add \'data-title\' to each \'td\' in your table -->\\n  <!-- Table starts here -->\\n  <table  class=\\"mdl-data-table\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Name<\\/th>\\n          <th>Link<\\/th>\\n          <th>Status<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        <tr>\\n          <td data-title=\\"ID\\">1<\\/td>\\n          <td data-title=\\"Name\\">Material Design Color Palette<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-color-palette\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">2<\\/td>\\n          <td data-title=\\"Name\\">Material Design Iconic Font<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/uqCsB\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-iconic-font\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">3<\\/td>\\n          <td data-title=\\"Name\\">Material Design Hierarchical Display<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/eNaEBM\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-hierarchical-display\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">4<\\/td>\\n          <td data-title=\\"Name\\">Material Design Sidebar<\\/td>\\n          <td data-title=\\"Link\\"><a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/dIgco\\" target=\\"_blank\\">Codepen<\\/a><\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">5<\\/td>\\n          <td data-title=\\"Name\\">Material Design Tiles<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/wtApI\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">6<\\/td>\\n          <td data-title=\\"Name\\">Material Design Typography<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/IkaFL\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-typography\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">7<\\/td>\\n          <td data-title=\\"Name\\">Material Design Buttons<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Gubja\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">8<\\/td>\\n          <td data-title=\\"Name\\">Material Design Form Elements<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/yaozl\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">9<\\/td>\\n          <td data-title=\\"Name\\">Material Design Email Template<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/qEVqzx\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">10<\\/td>\\n          <td data-title=\\"Name\\">Material Design Animation Timing (old one)<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Jbrho\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n      <\\/tbody>\\n    <\\/table>\\n\\n<hr>\\n\\n<h4>Form<\\/h4>\\n<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n<form role=\\"form\\">\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"user\\" name=\\"user\\" pattern=\\"[A-Z,a-z, ]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"user\\">Full name<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Letters and spaces only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Digits only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\"><\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n    <\\/div>\\n\\n    <button class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n<\\/form>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<h1>Heading 1<\\/h1>\\n<p>Nullam quis risus eget <a href=\\"#\\">urna mollis ornare<\\/a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.<\\/p>\\n<p><small>This line of text is meant to be &lt;small&gt; print.<\\/small><\\/p>\\n<h2>Heading 2<\\/h2>\\n<p>The following snippet of text is <strong>rendered as bold text<\\/strong>.<\\/p>\\n<p>The following snippet of text is <em>rendered as italicized text<\\/em>.<\\/p>\\n\\n<h3>Heading 3<\\/h3>\\n\\n<blockquote>Blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nteger posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<\\/blockquote>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL\\n    <ul>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<\\/ul>\\n<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ol>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<\\/ol>\\n\\n<hr>\\n<h4>Table<\\/h4>\\n\\n<!-- Responsive table starts here -->\\n  <!-- For correct display on small screens you must add \'data-title\' to each \'td\' in your table -->\\n  <!-- Table starts here -->\\n  <table  class=\\"mdl-data-table\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Name<\\/th>\\n          <th>Link<\\/th>\\n          <th>Status<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        <tr>\\n          <td data-title=\\"ID\\">1<\\/td>\\n          <td data-title=\\"Name\\">Material Design Color Palette<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-color-palette\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">2<\\/td>\\n          <td data-title=\\"Name\\">Material Design Iconic Font<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/uqCsB\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-iconic-font\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">3<\\/td>\\n          <td data-title=\\"Name\\">Material Design Hierarchical Display<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/eNaEBM\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-hierarchical-display\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">4<\\/td>\\n          <td data-title=\\"Name\\">Material Design Sidebar<\\/td>\\n          <td data-title=\\"Link\\"><a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/dIgco\\" target=\\"_blank\\">Codepen<\\/a><\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">5<\\/td>\\n          <td data-title=\\"Name\\">Material Design Tiles<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/wtApI\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">6<\\/td>\\n          <td data-title=\\"Name\\">Material Design Typography<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/IkaFL\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-typography\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">7<\\/td>\\n          <td data-title=\\"Name\\">Material Design Buttons<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Gubja\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">8<\\/td>\\n          <td data-title=\\"Name\\">Material Design Form Elements<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/yaozl\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">9<\\/td>\\n          <td data-title=\\"Name\\">Material Design Email Template<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/qEVqzx\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">10<\\/td>\\n          <td data-title=\\"Name\\">Material Design Animation Timing (old one)<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Jbrho\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n      <\\/tbody>\\n    <\\/table>\\n\\n<hr>\\n\\n<h4>Form<\\/h4>\\n<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n<form role=\\"form\\">\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"user\\" name=\\"user\\" pattern=\\"[A-Z,a-z, ]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"user\\">Full name<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Letters and spaces only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Digits only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\"><\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n    <\\/div>\\n\\n    <button class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n<\\/form>\\n"}',
+              'guid' => 'e6a1b07cc681e62c82b7b3bf5c56c75c',
+              'native_key' => NULL,
+              'signature' => '3ed75084b218ebfe53f3eaa07601dbe9',
+            ),
+          ),
+          'Children' => 
+          array (
+            '0953b529956e0e0623828616723a2392' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'parent',
+                1 => 'category',
+              ),
+              'class' => 'modCategory',
+              'object' => '{"id":null,"parent":0,"category":"MDL Theme \\u2014 Features","rank":0}',
+              'guid' => 'e6a56e13e76a208eccfe877df132da5d',
+              'native_key' => NULL,
+              'signature' => 'fb8ee89df4c4edfc74361a614aa24b6f',
+              'related_objects' => 
+              array (
+                'Chunks' => 
+                array (
+                  '9835d321bc2e69c2b3d4b52869e7aa68' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_contact_form_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n[[!FormIt?\\n   &hooks=`email`\\n   &emailTpl=`tpl_contactemail_[[++mxt.theme]]`\\n   &emailTo=`[[++emailsender]]`\\n   &emailSubject=`Website Contact Form`\\n   &validate=`name:required,email:email:required,phone:required,text:required:stripTags`\\n   &successMessage=`Email sent successfully.`\\n ]]\\n \\n<form role=\\"form\\" id=\\"contactForm\\" action=\\"[[~[[*id]]]]#contactForm\\" method=\\"post\\">\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"name\\" name=\\"name\\" pattern=\\"[A-Z,a-z, ]*\\"  value=\\"[[!+fi.name]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"name\\">Full name<\\/label>\\n      [[!+fi.error.name:notempty=`<span class=\\"mdl-textfield__error\\">Letters and spaces only. [[!+fi.error.name]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" value=\\"[[!+fi.email]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n      [[!+fi.error.email:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.email]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" value=\\"[[!+fi.phone]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      [[!+fi.error.phone:notempty=`<span class=\\"mdl-textfield__error\\">Digits Only. [[!+fi.error.phone]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n      [[!+fi.error.text:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.text]]<\\/span>`]]\\n    <\\/div>\\n\\n    <button type=\\"submit\\" class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n    <br><br>\\n    [[!+fi.successMessage:notempty=`<div class=\\"mdl-color--primary mdl-color-text--white\\">[[!+fi.successMessage]]<\\/div>`]]\\n\\n<\\/form>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n[[!FormIt?\\n   &hooks=`email`\\n   &emailTpl=`tpl_contactemail_[[++mxt.theme]]`\\n   &emailTo=`[[++emailsender]]`\\n   &emailSubject=`Website Contact Form`\\n   &validate=`name:required,email:email:required,phone:required,text:required:stripTags`\\n   &successMessage=`Email sent successfully.`\\n ]]\\n \\n<form role=\\"form\\" id=\\"contactForm\\" action=\\"[[~[[*id]]]]#contactForm\\" method=\\"post\\">\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"name\\" name=\\"name\\" pattern=\\"[A-Z,a-z, ]*\\"  value=\\"[[!+fi.name]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"name\\">Full name<\\/label>\\n      [[!+fi.error.name:notempty=`<span class=\\"mdl-textfield__error\\">Letters and spaces only. [[!+fi.error.name]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" value=\\"[[!+fi.email]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n      [[!+fi.error.email:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.email]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" value=\\"[[!+fi.phone]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      [[!+fi.error.phone:notempty=`<span class=\\"mdl-textfield__error\\">Digits Only. [[!+fi.error.phone]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n      [[!+fi.error.text:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.text]]<\\/span>`]]\\n    <\\/div>\\n\\n    <button type=\\"submit\\" class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n    <br><br>\\n    [[!+fi.successMessage:notempty=`<div class=\\"mdl-color--primary mdl-color-text--white\\">[[!+fi.successMessage]]<\\/div>`]]\\n\\n<\\/form>\\n"}',
+                    'guid' => '6c1f187f256d23c18c4cdf1a27d3b595',
+                    'native_key' => NULL,
+                    'signature' => 'a77fd1eef330b46a26a6ab56928209d4',
+                  ),
+                  '411f9e59593f686c216a12fde3537392' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_featured_posts_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\n    &parents=`-1`\\n    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\n    &sortdir=`ASC`\\n    &tpl=`tpl_featured_posts_mdl`\\n    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\n    &parents=`-1`\\n    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\n    &sortdir=`ASC`\\n    &tpl=`tpl_featured_posts_mdl`\\n    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\n]]\\n"}',
+                    'guid' => 'ac17f98a6810dc3f1ee1830190519c1e',
+                    'native_key' => NULL,
+                    'signature' => '744a23c5223e36ac549212b3eeaf0c6a',
+                  ),
+                  '5258fb827cd275a3af610fcb36d74b05' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_grid_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+                    'guid' => 'f945118a63d1a62ae54d3f808709a438',
+                    'native_key' => NULL,
+                    'signature' => '8512e4cb0803fcf4dc655a72ece37733',
+                  ),
+                  '82724639aa8f4e3532f8231424e1dbe6' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_gridallbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+                    'guid' => 'f10cf74dbfeec922b0dae567581c1694',
+                    'native_key' => NULL,
+                    'signature' => 'bcfcfe94d2d2e2b667b76ce792212514',
+                  ),
+                  'f4aba13cdfe169e910eaf71b69364282' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_gridbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &sortby=`RAND()`\\n    &limit=`3`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &sortby=`RAND()`\\n    &limit=`3`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+                    'guid' => '7f76bed70230feb696e0b921beabcacc',
+                    'native_key' => NULL,
+                    'signature' => 'eeb6b623f76cfd14bb44bd25cbdef6d2',
+                  ),
+                  'f59b580f802275a215cf4697157ebf5f' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_hero_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*hero_banner:is=`yes`:then=`\\n  <div class=\\"hero-banner\\">[[*page_img:notempty=`<img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\">`]]<\\/div>\\n`]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*hero_banner:is=`yes`:then=`\\n  <div class=\\"hero-banner\\">[[*page_img:notempty=`<img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\">`]]<\\/div>\\n`]]\\n"}',
+                    'guid' => 'fcbbe02ace8982cb69977d6bdfe592a9',
+                    'native_key' => NULL,
+                    'signature' => 'a9a70ffddacfc29a4df3dc45e4e16834',
+                  ),
+                  'a97e4efe5751336ebb9be3f2182fb94c' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listallbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+                    'guid' => '9313fe7ac771028419e2410155111c57',
+                    'native_key' => NULL,
+                    'signature' => '9642f4a950d203d57a3d6cd35e08aded',
+                  ),
+                  '1630423b10849236443df07be1ccaacf' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listbyid_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &parents=`-1`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &sortdir=`ASC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &parents=`-1`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &sortdir=`ASC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
+                    'guid' => 'b22fddf2fe874ccf21d6a429d24a053a',
+                    'native_key' => NULL,
+                    'signature' => '71f4a7782853cea01a6de140a61c43ed',
+                  ),
+                ),
+              ),
+            ),
+            '98f718e3964773382e441861b3f31660' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'parent',
+                1 => 'category',
+              ),
+              'class' => 'modCategory',
+              'object' => '{"id":null,"parent":0,"category":"MDL Theme \\u2014 Gallery","rank":0}',
+              'guid' => '79a324d31324b14c870248a529738370',
+              'native_key' => NULL,
+              'signature' => '9719a936f9b4da156f50f3f1d1ee860f',
+              'related_objects' => 
+              array (
+                'Chunks' => 
+                array (
+                  '16920245bea5e1236b3e1c709cded461' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
+                    'guid' => '5ff39b663dfe50e878e9856c2c3d1c33',
+                    'native_key' => NULL,
+                    'signature' => '1eaa733d1c7523e062102e95edf5020e',
+                  ),
+                  '8f132e76c0f7fd9868db024b30adc14c' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
+                    'guid' => '5c0346c8800d9e72af033dc93bde87b7',
+                    'native_key' => NULL,
+                    'signature' => '524b5954fcb9366c33c578ecadacb980',
+                  ),
+                  'e9a6a884e036eca1b883f69bbd6a907e' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
+                    'guid' => '47ea9a450178bd0623c726f8996f4ab6',
+                    'native_key' => NULL,
+                    'signature' => 'e264ae95702bdd8b4aec21bf6d15ffcb',
+                  ),
+                ),
+              ),
+            ),
+            '770403920d921e5123bdcf9221ecc771' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'parent',
+                1 => 'category',
+              ),
+              'class' => 'modCategory',
+              'object' => '{"id":null,"parent":0,"category":"MDL Theme \\u2014 Global","rank":0}',
+              'guid' => '96da1ba79b49cf480b66805ddb6fd9a3',
+              'native_key' => NULL,
+              'signature' => '1b36907ba1834bb8ae493171241acd6c',
+              'related_objects' => 
+              array (
+                'Chunks' => 
+                array (
+                  '41fd3ff7740ff01a4b5e75ee87c2d5e5' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<\\/div> <!-- mdl-layout -->\\n<script src=\\"[[++mdl_js_link]]\\"><\\/script>\\n<\\/body>\\n<\\/html>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<\\/div> <!-- mdl-layout -->\\n<script src=\\"[[++mdl_js_link]]\\"><\\/script>\\n<\\/body>\\n<\\/html>\\n"}',
+                    'guid' => '84d19218c1b5b849a8417842d760a4c4',
+                    'native_key' => NULL,
+                    'signature' => '536356b4b5410e2cb72b0e682d085f31',
+                  ),
+                  '247284e1b8f5812944339bddd14aa18f' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!-- mdl header -->\\n<header class=\\"mdl-layout__header [[++mdl_ovr_header_bg:notempty=`mdl-color--[[++mdl_ovr_header_bg]]`]] [[++mdl_ovr_header_text:notempty=`mdl-color-text--[[++mdl_ovr_header_text]]`]]\\">\\n  <div class=\\"mdl-layout__header-row\\">\\n    <span class=\\"mdl-layout-title mdl-color-text--accent\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/span>\\n    <div class=\\"mdl-layout-spacer\\"><\\/div>\\n    <div class=\\"mdl-textfield mdl-js-textfield mdl-textfield--expandable\\">\\n      <label class=\\"mdl-button mdl-js-button mdl-button--icon\\" for=\\"search\\">\\n        <i class=\\"material-icons\\">search<\\/i>\\n      <\\/label>\\n      <div class=\\"mdl-textfield__expandable-holder\\">\\n        [[!SimpleSearchForm? &landing=`10` &tpl=`tpl_search_mdl`]]\\n      <\\/div>\\n    <\\/div>\\n  <\\/div>\\n<\\/header>\\n\\n<!-- mdl drawer -->\\n<div class=\\"mdl-layout__drawer [[++mdl_ovr_drawer_bg:notempty=`mdl-color--[[++mdl_ovr_drawer_bg]]`]]\\">\\n  <header style=\\"padding: .60rem 1rem;\\" class=\\"[[++mdl_ovr_logo_bg:notempty=`mdl-color--[[++mdl_ovr_logo_bg]]`]] [[++mdl_ovr_logo_text:notempty=`mdl-color-text--[[++mdl_ovr_logo_text]]`]]\\">\\n    <img src=\\"[[++mxt.default_theme_img]]\\"> <h6 style=\\"display:inline;\\">[[++mxt.default_slogan]]<\\/h6>\\n  <\\/header>\\n  <nav class=\\"mdl-navigation\\">\\n    [[getResources? &parents=`0` &depth=`0` &limit=`0` &sortby=`{\\"menuindex\\":\\"ASC\\"}` &tpl=`drawer-nav-link_mdl`]]\\n  <\\/nav>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!-- mdl header -->\\n<header class=\\"mdl-layout__header [[++mdl_ovr_header_bg:notempty=`mdl-color--[[++mdl_ovr_header_bg]]`]] [[++mdl_ovr_header_text:notempty=`mdl-color-text--[[++mdl_ovr_header_text]]`]]\\">\\n  <div class=\\"mdl-layout__header-row\\">\\n    <span class=\\"mdl-layout-title mdl-color-text--accent\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/span>\\n    <div class=\\"mdl-layout-spacer\\"><\\/div>\\n    <div class=\\"mdl-textfield mdl-js-textfield mdl-textfield--expandable\\">\\n      <label class=\\"mdl-button mdl-js-button mdl-button--icon\\" for=\\"search\\">\\n        <i class=\\"material-icons\\">search<\\/i>\\n      <\\/label>\\n      <div class=\\"mdl-textfield__expandable-holder\\">\\n        [[!SimpleSearchForm? &landing=`10` &tpl=`tpl_search_mdl`]]\\n      <\\/div>\\n    <\\/div>\\n  <\\/div>\\n<\\/header>\\n\\n<!-- mdl drawer -->\\n<div class=\\"mdl-layout__drawer [[++mdl_ovr_drawer_bg:notempty=`mdl-color--[[++mdl_ovr_drawer_bg]]`]]\\">\\n  <header style=\\"padding: .60rem 1rem;\\" class=\\"[[++mdl_ovr_logo_bg:notempty=`mdl-color--[[++mdl_ovr_logo_bg]]`]] [[++mdl_ovr_logo_text:notempty=`mdl-color-text--[[++mdl_ovr_logo_text]]`]]\\">\\n    <img src=\\"[[++mxt.default_theme_img]]\\"> <h6 style=\\"display:inline;\\">[[++mxt.default_slogan]]<\\/h6>\\n  <\\/header>\\n  <nav class=\\"mdl-navigation\\">\\n    [[getResources? &parents=`0` &depth=`0` &limit=`0` &sortby=`{\\"menuindex\\":\\"ASC\\"}` &tpl=`drawer-nav-link_mdl`]]\\n  <\\/nav>\\n<\\/div>\\n"}',
+                    'guid' => '4b9e258ac006000f456c8c127fcd31e9',
+                    'native_key' => NULL,
+                    'signature' => '1fe5654075e68fd483366c8cb9f132ba',
+                  ),
+                  '1006aed1aa58854b4eba9dad5f76aa02' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!DOCTYPE html>\\n<html lang=\\"en\\">\\n<head>\\n    <!-- You have loaded Theme [[++mxt.theme]] -->\\n    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\n    <meta charset=\\"UTF-8\\">\\n    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\n    <meta name=\\"description\\" content=\\"[[*description]]\\">\\n\\n    <title>[[*pagetitle]] - [[++site_name]]<\\/title>\\n\\n    <link rel=\\"stylesheet\\" href=\\"\\/\\/storage.googleapis.com\\/code.getmdl.io\\/1.0.2\\/material.[[++mdl_primary_color]]-[[++mdl_accent_color]].min.css\\">\\n    <link rel=\\"stylesheet\\" href=\\"[[++mdl_font_link]]\\">\\n    [[$custom_mdl]]\\n<\\/head>\\n<body>\\n<div class=\\"mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header\\">\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!DOCTYPE html>\\n<html lang=\\"en\\">\\n<head>\\n    <!-- You have loaded Theme [[++mxt.theme]] -->\\n    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\n    <meta charset=\\"UTF-8\\">\\n    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\n    <meta name=\\"description\\" content=\\"[[*description]]\\">\\n\\n    <title>[[*pagetitle]] - [[++site_name]]<\\/title>\\n\\n    <link rel=\\"stylesheet\\" href=\\"\\/\\/storage.googleapis.com\\/code.getmdl.io\\/1.0.2\\/material.[[++mdl_primary_color]]-[[++mdl_accent_color]].min.css\\">\\n    <link rel=\\"stylesheet\\" href=\\"[[++mdl_font_link]]\\">\\n    [[$custom_mdl]]\\n<\\/head>\\n<body>\\n<div class=\\"mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header\\">\\n"}',
+                    'guid' => 'c4452d83cca24a2456fba80ee78bb422',
+                    'native_key' => NULL,
+                    'signature' => 'd5c84c8d3895d81961ae17581cd30e85',
+                  ),
+                ),
+              ),
+            ),
+            'fb489152a6158e9c72e0434bbd2f9472' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'parent',
+                1 => 'category',
+              ),
+              'class' => 'modCategory',
+              'object' => '{"id":null,"parent":0,"category":"MDL Theme \\u2014 Grid","rank":0}',
+              'guid' => 'b83fec90da74a9c1712730307e19a2b3',
+              'native_key' => NULL,
+              'signature' => '1d6564b2842436646fb301785d81d980',
+              'related_objects' => 
+              array (
+                'Chunks' => 
+                array (
+                  '1170ed5fd97d76bb0dd11a077954f596' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_body_blank_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n[[$mxt.feature_gridallbyparent_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n[[$mxt.feature_gridallbyparent_mdl]]\\n"}',
+                    'guid' => '3a0734964dada98058ea57503188e880',
+                    'native_key' => NULL,
+                    'signature' => '7774303385b4c1aa5072defe8264895e',
+                  ),
+                  'a3ee71946862c85b3b9bc86ebd0a6f76' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_body_page_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_gridallbyparent_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_gridallbyparent_mdl]]\\n"}',
+                    'guid' => '2a0198b215f10895bf813f8fb635ea51',
+                    'native_key' => NULL,
+                    'signature' => 'd5c9fa848fda968ec041301925abcf08',
+                  ),
+                  '23c8e56d46b1b90cfea5c1ec53131420' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_body_sidebar_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_gridallbyparent_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_gridallbyparent_mdl]]\\n"}',
+                    'guid' => '3d3e18a8c973d219a34776269df4b005',
+                    'native_key' => NULL,
+                    'signature' => '5b6bc149b615d853137aa3c486b54795',
+                  ),
+                  'f07b53087e9c6ba43bc3698a6429ca78' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_content_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.grid_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.grid_body_page_mdl]]`]]\\n            [[*body_tpl:is=`sidebar`:then=`[[$mxt.grid_body_sidebar_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.grid_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.grid_body_page_mdl]]`]]\\n            [[*body_tpl:is=`sidebar`:then=`[[$mxt.grid_body_sidebar_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n"}',
+                    'guid' => 'a3772455ca778d1670834406a331f085',
+                    'native_key' => NULL,
+                    'signature' => 'd8ebd8b8080f9217e0d0406504251157',
+                  ),
+                  '901e9d09f0c8945373cb29f947ea9e10' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
+                    'guid' => 'c9ef36f359a27bff6d8757d9657eea79',
+                    'native_key' => NULL,
+                    'signature' => 'da4893ab65b082c090d1a60eeb752d87',
+                  ),
+                  'a972c34fda2d092c5ddf7b51f67d9352' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
+                    'guid' => '4f23e98584665392945836b4577333e1',
+                    'native_key' => NULL,
+                    'signature' => '2710f50665d2ec8b7dbeb205acf8dfec',
+                  ),
+                  '08cd36b5a050b0caf96e797eb746c059' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
+                    'guid' => '7a2c6fa356fae9be04210e568ad35681',
+                    'native_key' => NULL,
+                    'signature' => 'cd980a16a61f666b92aa9141f03093bf',
+                  ),
+                ),
+              ),
+            ),
+            'b11e0db82d954c3ff7aa0582d3486f80' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'parent',
+                1 => 'category',
+              ),
+              'class' => 'modCategory',
+              'object' => '{"id":null,"parent":0,"category":"MDL Theme \\u2014 Listing","rank":0}',
+              'guid' => '1e6620789f1be9a3fac93b79b712a1f5',
+              'native_key' => NULL,
+              'signature' => '677b9bf0d4b73b6fe0a278c14e0213d0',
+              'related_objects' => 
+              array (
+                'Chunks' => 
+                array (
+                  'e3d059b0e1213502e67fa21938519d34' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_body_blank_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n"}',
+                    'guid' => 'db611246bbdff6c7e54a068a02fedffa',
+                    'native_key' => NULL,
+                    'signature' => '9fee775716acc74d63a67d5e174f0eda',
+                  ),
+                  '3de15dce041f907e1f9974d457b38def' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_body_page_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n"}',
+                    'guid' => 'dc1c3fa3a049b5371ff450eb2479056c',
+                    'native_key' => NULL,
+                    'signature' => 'f37042c1b060cb15efe23f7b4793a29e',
+                  ),
+                  'd8ee32120191ef3d770c829c3bc879a1' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_content_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.listing_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.listing_body_page_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.listing_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.listing_body_page_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n"}',
+                    'guid' => '3d7b47076736de781efd21b62a135c52',
+                    'native_key' => NULL,
+                    'signature' => '2d0a26a3c5edaea055a950b532476aaf',
+                  ),
+                  '0ce4cef6f761273e666ef52534922fee' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
+                    'guid' => '2840bfd362ec49d71f25fa5b53e23635',
+                    'native_key' => NULL,
+                    'signature' => '486cd6c08c497bcaa16f560a53781bf6',
+                  ),
+                  '243325e7eed4373e611edede04ecc059' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
+                    'guid' => 'f40f77a3e1ac7605a2021a71afbc5bbf',
+                    'native_key' => NULL,
+                    'signature' => '4679bffe68952846c22b419605230010',
+                  ),
+                  'f2b234a0bb51d42283795ec5d339deed' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
+                    'guid' => '054fd074b15195f29688686d6e0c1eaf',
+                    'native_key' => NULL,
+                    'signature' => '9a2ad621936d85ac702a6e17c3736064',
+                  ),
+                ),
+              ),
+            ),
+            '9b3279e509e8061e2bca7f6d01ba813c' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'parent',
+                1 => 'category',
+              ),
+              'class' => 'modCategory',
+              'object' => '{"id":null,"parent":0,"category":"MDL Theme \\u2014 Page","rank":0}',
+              'guid' => 'fd46c2620b23d8b0910fb5ee2fde5bbe',
+              'native_key' => NULL,
+              'signature' => '780cd15c2b9a1c741c5341925c9bb968',
+              'related_objects' => 
+              array (
+                'Chunks' => 
+                array (
+                  '30f7b8b0fb5cd09a1a6860fdcf82f9d5' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_blank_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n"}',
+                    'guid' => '7551735386b105ec7202c0c9631bd79e',
+                    'native_key' => NULL,
+                    'signature' => 'd123a35aac0a44e0c04ca4cedcc6bac6',
+                  ),
+                  'ed5f9d0dd3923f51f1aa1dcf07427e2a' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_page_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n        [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n        [[*content]]\\n    <\\/div>\\n\\n    [[$mxt.feature_featured_posts_mdl]]\\n    [[$mxt.feature_gridbyparent_mdl]]\\n    [[$mxt.feature_grid_mdl]]\\n\\n<\\/div><!-- centered-content -->\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n        [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n        [[*content]]\\n    <\\/div>\\n\\n    [[$mxt.feature_featured_posts_mdl]]\\n    [[$mxt.feature_gridbyparent_mdl]]\\n    [[$mxt.feature_grid_mdl]]\\n\\n<\\/div><!-- centered-content -->\\n"}',
+                    'guid' => 'd375865e13ad887ed404a7fc4914e1aa',
+                    'native_key' => NULL,
+                    'signature' => '8339685cd83e89908fe7cc03f1b9bfeb',
+                  ),
+                  '06659fd4aeb09f3059fe03922d86de0a' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_sidebar_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n\\n        <div class=\\"mdl-cell--8-col sidebar--body\\">\\n            [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n            [[*content]]\\n        <\\/div>\\n\\n        <div class=\\"sidebar--side\\">\\n            [[$mxt.feature_featured_posts_mdl]]\\n            [[$mxt.feature_gridbyparent_mdl]]\\n            [[$mxt.feature_grid_mdl]]\\n        <\\/div>\\n    <\\/div>\\n<\\/div><!-- centered-content -->\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n\\n        <div class=\\"mdl-cell--8-col sidebar--body\\">\\n            [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n            [[*content]]\\n        <\\/div>\\n\\n        <div class=\\"sidebar--side\\">\\n            [[$mxt.feature_featured_posts_mdl]]\\n            [[$mxt.feature_gridbyparent_mdl]]\\n            [[$mxt.feature_grid_mdl]]\\n        <\\/div>\\n    <\\/div>\\n<\\/div><!-- centered-content -->\\n"}',
+                    'guid' => 'f37f5638112f40fcbe237289557c9ddc',
+                    'native_key' => NULL,
+                    'signature' => '7368461964912aeef3b241bf85da3069',
+                  ),
+                  'da291ac1dae66d2ff031aa5caec7b1ed' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_content_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n\\n     [[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.page_body_blank_mdl]]\\n     [[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.page_body_page_mdl]]\\n     [[[[*body_tpl:is=`sidebar`:then=``:else=`-`]]$mxt.page_body_sidebar_mdl]]\\n\\n<\\/main>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n\\n     [[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.page_body_blank_mdl]]\\n     [[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.page_body_page_mdl]]\\n     [[[[*body_tpl:is=`sidebar`:then=``:else=`-`]]$mxt.page_body_sidebar_mdl]]\\n\\n<\\/main>\\n"}',
+                    'guid' => 'c820a1ef113791885774326e76da4f7c',
+                    'native_key' => NULL,
+                    'signature' => '3cb73c50898fced2e763f7114d8e220f',
+                  ),
+                  'ac2dd5a7f1379ef8edcb9989943c88e1' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
+                    'guid' => '9f935e6694690ccb84f8ee7c63c4861f',
+                    'native_key' => NULL,
+                    'signature' => '8e7e1258742d25c3ffa3c2a6151043ca',
+                  ),
+                  'f1d561b141b7843faa192e81595b3d1b' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
+                    'guid' => '383498349b558e41558bfae72848d2c3',
+                    'native_key' => NULL,
+                    'signature' => '202f976bc72c9eed7da4c32e2e504797',
+                  ),
+                  'caa0832d8eafce44b0106d0ead082ba6' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
+                    'guid' => '9d1e0174b451d894307ed44aa715a2c5',
+                    'native_key' => NULL,
+                    'signature' => '1fbb478c016bf63e9e490050c8437e09',
+                  ),
+                ),
+              ),
+            ),
+            'f1865c76c321aaa13d725cb5198f3f44' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'parent',
+                1 => 'category',
+              ),
+              'class' => 'modCategory',
+              'object' => '{"id":null,"parent":0,"category":"MDL Theme \\u2014 TPLs","rank":0}',
+              'guid' => '2c554a754148b0bdcd4d878a80610d8f',
+              'native_key' => NULL,
+              'signature' => 'ca93b104935a687c92997dd3c2c0915c',
+              'related_objects' => 
+              array (
+                'Chunks' => 
+                array (
+                  '7a09ea6528b674955fe9785de2cef0ec' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"drawer-nav-link_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<a class=\\"mdl-navigation__link\\" href=\\"[[~[[+id]]]]\\"><i class=\\"material-icons [[++mdl_ovr_drawer_text:notempty=`mdl-color-text--[[++mdl_ovr_drawer_text]]`]]\\" role=\\"presentation\\">[[+link_attributes]]<\\/i>[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<a class=\\"mdl-navigation__link\\" href=\\"[[~[[+id]]]]\\"><i class=\\"material-icons [[++mdl_ovr_drawer_text:notempty=`mdl-color-text--[[++mdl_ovr_drawer_text]]`]]\\" role=\\"presentation\\">[[+link_attributes]]<\\/i>[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\n"}',
+                    'guid' => '8a5dd7c938887373cc05186c4caad5e5',
+                    'native_key' => NULL,
+                    'signature' => 'acfe29922ecd830281d5ecbd8f07d2da',
+                  ),
+                  '290830c57b3b01ecb5d3815c8decef2a' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_contactemail_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"Contact: [[+name]]<br>\\nPhone: [[+phone]]<br>\\nEmail: [[+email]]<br>\\n<br>\\nMessage:\\n[[+text]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"Contact: [[+name]]<br>\\nPhone: [[+phone]]<br>\\nEmail: [[+email]]<br>\\n<br>\\nMessage:\\n[[+text]]\\n"}',
+                    'guid' => 'fa533545d29a1bb1b262845170d06c48',
+                    'native_key' => NULL,
+                    'signature' => '3acbfce6b3a138a5250708dc31897cda',
+                  ),
+                  '279962c073ec5ad2898c6237a0969ad5' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_featured_posts_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-cell [[*body_tpl:is=`page`:then=`mdl-cell--12-col`:else=`mdl-cell--4-col`]] mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n    <div class=\\"mdl-card__media\\" [[+tv.page_img:notempty=`style=\\"background-image:url([[+tv.page_img]]);min-height:100px;\\"`]]><\\/div>\\n    <div class=\\"mdl-card__supporting-text sidebar--feature\\">\\n        <h3>[[+menutitle:default=`[[+pagetitle]]`]]<\\/h3>\\n        <p>\\n            [[+introtext]]\\n            <br>\\n            <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n        <\\/p>\\n    <\\/div>\\n    <div class=\\"mdl-card__actions mdl-card--border\\">\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"mdl-button mdl-js-button mdl-js-ripple-effect\\">Read More<\\/a>\\n    <\\/div>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-cell [[*body_tpl:is=`page`:then=`mdl-cell--12-col`:else=`mdl-cell--4-col`]] mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n    <div class=\\"mdl-card__media\\" [[+tv.page_img:notempty=`style=\\"background-image:url([[+tv.page_img]]);min-height:100px;\\"`]]><\\/div>\\n    <div class=\\"mdl-card__supporting-text sidebar--feature\\">\\n        <h3>[[+menutitle:default=`[[+pagetitle]]`]]<\\/h3>\\n        <p>\\n            [[+introtext]]\\n            <br>\\n            <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n        <\\/p>\\n    <\\/div>\\n    <div class=\\"mdl-card__actions mdl-card--border\\">\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"mdl-button mdl-js-button mdl-js-ripple-effect\\">Read More<\\/a>\\n    <\\/div>\\n<\\/div>\\n"}',
+                    'guid' => '542b25c57215a49bf04bdf6d183d192e',
+                    'native_key' => NULL,
+                    'signature' => 'bec9b466299ff8d3735539b714412b82',
+                  ),
+                  '7342c805fd37d35da17d7aa55efc6399' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_gridbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media\\" style=\\"background-image:url([[+tv.page_img]]);\\">\\n      <h3><a class=\\"mdl-color-text--white\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n    <\\/div>\\n    <div class=\\"mdl-card__supporting-text\\">\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media\\" style=\\"background-image:url([[+tv.page_img]]);\\">\\n      <h3><a class=\\"mdl-color-text--white\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n    <\\/div>\\n    <div class=\\"mdl-card__supporting-text\\">\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n"}',
+                    'guid' => 'fc8e64608193e4fa2baff44c56f4019f',
+                    'native_key' => NULL,
+                    'signature' => '0312193c163c305875e280308c4002e8',
+                  ),
+                  '8d0377c7600cc0a590cf0ccc9d066bcd' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_listbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-grid mdl-cell--12-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media mdl-cell--4-col\\" style=\\"background-image:url([[+tv.page_img]]);\\"><\\/div>\\n    <div class=\\"mdl-card__supporting-text mdl-cell--8-col\\">\\n        <h3><a class=\\"mdl-color-text--primary\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-grid mdl-cell--12-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media mdl-cell--4-col\\" style=\\"background-image:url([[+tv.page_img]]);\\"><\\/div>\\n    <div class=\\"mdl-card__supporting-text mdl-cell--8-col\\">\\n        <h3><a class=\\"mdl-color-text--primary\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n"}',
+                    'guid' => '5360df146a1e923d16f505367ca61654',
+                    'native_key' => NULL,
+                    'signature' => '152fdb63cf2eb2899cf1bda19e83b05d',
+                  ),
+                  '9c8cdafde44885b33577915d489d84a1' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_search_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<form class=\\"sisea-search-form\\" action=\\"[[~[[+landing:default=`[[*id]]`]]]]\\" method=\\"[[+method:default=`get`]]\\">\\n    <input class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"[[+searchIndex]]\\" id=\\"[[+searchIndex]]\\" value=\\"[[+searchValue]]\\" \\/>\\n    <label class=\\"mdl-textfield__label\\" for=\\"search\\">Enter your query...<\\/label>\\n    <input type=\\"hidden\\" name=\\"id\\" value=\\"[[+landing:default=[[*id]]]]\\" \\/>\\n    <input type=\\"hidden\\" value=\\"[[%sisea.search? &namespace=`sisea` &topic=`default`]]\\" \\/>\\n<\\/form>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<form class=\\"sisea-search-form\\" action=\\"[[~[[+landing:default=`[[*id]]`]]]]\\" method=\\"[[+method:default=`get`]]\\">\\n    <input class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"[[+searchIndex]]\\" id=\\"[[+searchIndex]]\\" value=\\"[[+searchValue]]\\" \\/>\\n    <label class=\\"mdl-textfield__label\\" for=\\"search\\">Enter your query...<\\/label>\\n    <input type=\\"hidden\\" name=\\"id\\" value=\\"[[+landing:default=[[*id]]]]\\" \\/>\\n    <input type=\\"hidden\\" value=\\"[[%sisea.search? &namespace=`sisea` &topic=`default`]]\\" \\/>\\n<\\/form>\\n"}',
+                    'guid' => 'dc1021200620b87d40c9779e83c92e1b',
+                    'native_key' => NULL,
+                    'signature' => '49f8beea507b5e54c4b8b43b03fa98bd',
+                  ),
+                  'bddd3ee9920599872f202c8b81e2def9' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_searchresult_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<tr>\\n  <td data-title=\\"ID\\">[[+idx]]<\\/td>\\n  <td data-title=\\"Title\\"><a href=\\"[[+link:is=``:then=`[[~[[+id]]]]`:else=`[[+link]]`]]\\" title=\\"[[+longtitle]]\\">[[+pagetitle]]<\\/a><\\/td>\\n  <td data-title=\\"Content\\">[[+extract]]<\\/td>\\n<\\/tr>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<tr>\\n  <td data-title=\\"ID\\">[[+idx]]<\\/td>\\n  <td data-title=\\"Title\\"><a href=\\"[[+link:is=``:then=`[[~[[+id]]]]`:else=`[[+link]]`]]\\" title=\\"[[+longtitle]]\\">[[+pagetitle]]<\\/a><\\/td>\\n  <td data-title=\\"Content\\">[[+extract]]<\\/td>\\n<\\/tr>\\n"}',
+                    'guid' => '70eac55f0dc2a6abdcd028ea9123d924',
+                    'native_key' => NULL,
+                    'signature' => '3c29ae3e7cff0ac70a677fa941ec704a',
+                  ),
+                  '93204e77227c85d6e7b719064bc19adc' => 
+                  array (
+                    'preserve_keys' => false,
+                    'update_object' => true,
+                    'unique_key' => 'name',
+                    'class' => 'modChunk',
+                    'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_searchresultwrapper_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<p class=\\"sisea-results\\"><strong>[[+resultInfo]]<\\/strong><\\/p>\\n\\n<table class=\\"mdl-data-table\\" style=\\"white-space: normal;\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Title<\\/th>\\n          <th>Content<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        [[+results]]\\n    <\\/tbody>\\n<\\/table>\\n\\n<div class=\\"page--meta sisea-paging mdl-color--primary\\"><span class=\\"sisea-result-pages mdl-color-text--white\\">[[%sisea.result_pages? &namespace=`sisea` &topic=`default`]]<\\/span>[[+paging]]<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<p class=\\"sisea-results\\"><strong>[[+resultInfo]]<\\/strong><\\/p>\\n\\n<table class=\\"mdl-data-table\\" style=\\"white-space: normal;\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Title<\\/th>\\n          <th>Content<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        [[+results]]\\n    <\\/tbody>\\n<\\/table>\\n\\n<div class=\\"page--meta sisea-paging mdl-color--primary\\"><span class=\\"sisea-result-pages mdl-color-text--white\\">[[%sisea.result_pages? &namespace=`sisea` &topic=`default`]]<\\/span>[[+paging]]<\\/div>\\n"}',
+                    'guid' => '8eb3ec608300eac6d9a096362ced6a07',
+                    'native_key' => NULL,
+                    'signature' => '86e3dcbd334deaff21693e8d065f28dd',
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Children' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'parent',
+        1 => 'category',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'unique_key' => 'name',
+      'preserve_keys' => false,
+      'update_object' => true,
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'mdl-theme',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/424e0b91717ac55fd27a0b937cca4a91\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"mdl-theme"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/424e0b91717ac55fd27a0b937cca4a91\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"mdl-theme"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'b11bd5d2570eb8e7de4dad3b8b4a459e',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '424e0b91717ac55fd27a0b937cca4a91',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"MDL Theme","rank":0}',
+);

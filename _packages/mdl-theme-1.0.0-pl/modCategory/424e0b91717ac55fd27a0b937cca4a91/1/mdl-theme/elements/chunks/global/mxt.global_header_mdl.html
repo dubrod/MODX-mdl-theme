@@ -1,0 +1,25 @@
+<!-- mdl header -->
+<header class="mdl-layout__header [[++mdl_ovr_header_bg:notempty=`mdl-color--[[++mdl_ovr_header_bg]]`]] [[++mdl_ovr_header_text:notempty=`mdl-color-text--[[++mdl_ovr_header_text]]`]]">
+  <div class="mdl-layout__header-row">
+    <span class="mdl-layout-title mdl-color-text--accent">[[*longtitle:default=`[[*pagetitle]]`]]</span>
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+      <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        [[!SimpleSearchForm? &landing=`10` &tpl=`tpl_search_mdl`]]
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- mdl drawer -->
+<div class="mdl-layout__drawer [[++mdl_ovr_drawer_bg:notempty=`mdl-color--[[++mdl_ovr_drawer_bg]]`]]">
+  <header style="padding: .60rem 1rem;" class="[[++mdl_ovr_logo_bg:notempty=`mdl-color--[[++mdl_ovr_logo_bg]]`]] [[++mdl_ovr_logo_text:notempty=`mdl-color-text--[[++mdl_ovr_logo_text]]`]]">
+    <img src="[[++mxt.default_theme_img]]"> <h6 style="display:inline;">[[++mxt.default_slogan]]</h6>
+  </header>
+  <nav class="mdl-navigation">
+    [[getResources? &parents=`0` &depth=`0` &limit=`0` &sortby=`{"menuindex":"ASC"}` &tpl=`drawer-nav-link_mdl`]]
+  </nav>
+</div>
