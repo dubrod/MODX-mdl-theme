@@ -10,783 +10,769 @@
             {
               "name": "mxt.feature_contact_form_mdl",
               "file": "features/mxt.feature_contact_form_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.feature_featured_posts_mdl",
               "file": "features/mxt.feature_featured_posts_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.feature_grid_mdl",
               "file": "features/mxt.feature_grid_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.feature_gridallbyparent_mdl",
               "file": "features/mxt.feature_gridallbyparent_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.feature_gridbyparent_mdl",
               "file": "features/mxt.feature_gridbyparent_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.feature_hero_mdl",
               "file": "features/mxt.feature_hero_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.feature_listallbyparent_mdl",
               "file": "features/mxt.feature_listallbyparent_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.feature_listbyid_mdl",
               "file": "features/mxt.feature_listbyid_mdl.html",
-              "category": "MDL Theme — Features"
+              "category": "Features"
             },
             {
               "name": "mxt.gallery_end_mdl",
               "file": "gallery/mxt.gallery_end_mdl.html",
-              "category": "MDL Theme — Gallery"
+              "category": "Gallery"
             },
             {
               "name": "mxt.gallery_header_mdl",
               "file": "gallery/mxt.gallery_header_mdl.html",
-              "category": "MDL Theme — Gallery"
+              "category": "Gallery"
             },
             {
               "name": "mxt.gallery_start_mdl",
               "file": "gallery/mxt.gallery_start_mdl.html",
-              "category": "MDL Theme — Gallery"
+              "category": "Gallery"
             },
             {
               "name": "mxt.global_end_mdl",
               "file": "global/mxt.global_end_mdl.html",
-              "category": "MDL Theme — Global"
+              "category": "Global"
             },
             {
               "name": "mxt.global_header_mdl",
               "file": "global/mxt.global_header_mdl.html",
-              "category": "MDL Theme — Global"
+              "category": "Global"
             },
             {
               "name": "mxt.global_start_mdl",
               "file": "global/mxt.global_start_mdl.html",
-              "category": "MDL Theme — Global"
+              "category": "Global"
             },
             {
               "name": "mxt.grid_body_blank_mdl",
               "file": "grid/mxt.grid_body_blank_mdl.html",
-              "category": "MDL Theme — Grid"
+              "category": "Grid"
             },
             {
               "name": "mxt.grid_body_page_mdl",
               "file": "grid/mxt.grid_body_page_mdl.html",
-              "category": "MDL Theme — Grid"
+              "category": "Grid"
             },
             {
               "name": "mxt.grid_body_sidebar_mdl",
               "file": "grid/mxt.grid_body_sidebar_mdl.html",
-              "category": "MDL Theme — Grid"
+              "category": "Grid"
             },
             {
               "name": "mxt.grid_content_mdl",
               "file": "grid/mxt.grid_content_mdl.html",
-              "category": "MDL Theme — Grid"
+              "category": "Grid"
             },
             {
               "name": "mxt.grid_end_mdl",
               "file": "grid/mxt.grid_end_mdl.html",
-              "category": "MDL Theme — Grid"
+              "category": "Grid"
             },
             {
               "name": "mxt.grid_header_mdl",
               "file": "grid/mxt.grid_header_mdl.html",
-              "category": "MDL Theme — Grid"
+              "category": "Grid"
             },
             {
               "name": "mxt.grid_start_mdl",
               "file": "grid/mxt.grid_start_mdl.html",
-              "category": "MDL Theme — Grid"
+              "category": "Grid"
             },
             {
               "name": "mxt.listing_body_blank_mdl",
               "file": "listing/mxt.listing_body_blank_mdl.html",
-              "category": "MDL Theme — Listing"
+              "category": "Listing"
             },
             {
               "name": "mxt.listing_body_page_mdl",
               "file": "listing/mxt.listing_body_page_mdl.html",
-              "category": "MDL Theme — Listing"
+              "category": "Listing"
             },
             {
               "name": "mxt.listing_content_mdl",
               "file": "listing/mxt.listing_content_mdl.html",
-              "category": "MDL Theme — Listing"
+              "category": "Listing"
             },
             {
               "name": "mxt.listing_end_mdl",
               "file": "listing/mxt.listing_end_mdl.html",
-              "category": "MDL Theme — Listing"
+              "category": "Listing"
             },
             {
               "name": "mxt.listing_header_mdl",
               "file": "listing/mxt.listing_header_mdl.html",
-              "category": "MDL Theme — Listing"
+              "category": "Listing"
             },
             {
               "name": "mxt.listing_start_mdl",
               "file": "listing/mxt.listing_start_mdl.html",
-              "category": "MDL Theme — Listing"
+              "category": "Listing"
             },
             {
               "name": "mxt.page_body_blank_mdl",
               "file": "page/mxt.page_body_blank_mdl.html",
-              "category": "MDL Theme — Page"
+              "category": "Page"
             },
             {
               "name": "mxt.page_body_page_mdl",
               "file": "page/mxt.page_body_page_mdl.html",
-              "category": "MDL Theme — Page"
+              "category": "Page"
             },
             {
               "name": "mxt.page_body_sidebar_mdl",
               "file": "page/mxt.page_body_sidebar_mdl.html",
-              "category": "MDL Theme — Page"
+              "category": "Page"
             },
             {
               "name": "mxt.page_content_mdl",
               "file": "page/mxt.page_content_mdl.html",
-              "category": "MDL Theme — Page"
+              "category": "Page"
             },
             {
               "name": "mxt.page_end_mdl",
               "file": "page/mxt.page_end_mdl.html",
-              "category": "MDL Theme — Page"
+              "category": "Page"
             },
             {
               "name": "mxt.page_header_mdl",
               "file": "page/mxt.page_header_mdl.html",
-              "category": "MDL Theme — Page"
+              "category": "Page"
             },
             {
               "name": "mxt.page_start_mdl",
               "file": "page/mxt.page_start_mdl.html",
-              "category": "MDL Theme — Page"
+              "category": "Page"
             },
             {
               "name": "drawer-nav-link_mdl",
               "file": "tpls/drawer-nav-link_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "tpl_contactemail_mdl",
               "file": "tpls/tpl_contactemail_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "tpl_featured_posts_mdl",
               "file": "tpls/tpl_featured_posts_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "tpl_gridbyparent_mdl",
               "file": "tpls/tpl_gridbyparent_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "tpl_listbyparent_mdl",
               "file": "tpls/tpl_listbyparent_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "tpl_search_mdl",
               "file": "tpls/tpl_search_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "tpl_searchresult_mdl",
               "file": "tpls/tpl_searchresult_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "tpl_searchresultwrapper_mdl",
               "file": "tpls/tpl_searchresultwrapper_mdl.html",
-              "category": "MDL Theme — TPLs"
+              "category": "TPLs"
             },
             {
               "name": "custom_mdl",
-              "file": "css/custom-mdl.html",
-              "category": "MDL Theme"
+              "file": "css/custom-mdl.html"
             },
             {
               "name": "style-guide-mdl",
-              "file": "style-guide-mdl.html",
-              "category": "MDL Theme"
+              "file": "style-guide-mdl.html"
             }
         ],
           "categories": [
             {
-                "name": "MDL Theme"
+              "name": "Features"
             },
             {
-              "name": "MDL Theme — Features",
-              "parent": "MDL Theme"
+              "name": "Gallery"
             },
             {
-              "name": "MDL Theme — Gallery",
-              "parent": "MDL Theme"
+              "name": "Global"
             },
             {
-              "name": "MDL Theme — Global",
-              "parent": "MDL Theme"
+              "name": "Grid"
             },
             {
-              "name": "MDL Theme — Grid",
-              "parent": "MDL Theme"
+              "name": "Listing"
             },
             {
-              "name": "MDL Theme — Listing",
-              "parent": "MDL Theme"
+              "name": "Page"
             },
             {
-              "name": "MDL Theme — Page",
-              "parent": "MDL Theme"
-            },
-            {
-              "name": "MDL Theme — TPLs",
-              "parent": "MDL Theme"
+              "name": "TPLs"
             }
           ]
-      }
-  },
+      },
 
-  "resources": [
-    {
-        "pagetitle": "Home",
-        "alias": "index",
-        "template": "MX Template",
-        "isfolder": 0,
-        "published": 1,
-        "setAsHome": 1,
-        "tvs": [
-          {
-            "name": "content_tpl",
-            "value": "grid"
-          },
-          {
-            "name": "body_tpl",
-            "value": "page"
-          },
-          {
-            "name": "page_icon",
-            "value": ""
-          },
-          {
-            "name": "page_img",
-            "value": ""
-          },
-          {
-            "name": "fpost_ids",
-            "value": ""
-          },
-          {
-            "name": "hero_banner",
-            "value": ""
-          },
-          {
-            "name": "carousel_ids",
-            "value": ""
-          },
-          {
-            "name": "slider_ids",
-            "value": ""
-          },
-          {
-            "name": "listing_ids",
-            "value": ""
-          },
-          {
-            "name": "listbyparent",
-            "value": "3"
-          }
-        ]
-    },
-    {
-      "pagetitle": "Style Guide",
-      "longtitle": "Style Guide",
-      "alias": "style-guide",
-      "introtext": "MODX Revolution is the web content management platform for those that truly care about no-compromise design and exceptional user experience.",
-      "template": "MX Template",
-      "published": 1,
-      "content": "[[$style-guide-mdl]]",
-      "tvs": [
+      "resources": [
         {
-          "name": "content_tpl",
-          "value": "page"
+            "pagetitle": "Home",
+            "alias": "index",
+            "template": "MX Template",
+            "isfolder": 0,
+            "published": 1,
+            "setAsHome": 1,
+            "tvs": [
+              {
+                "name": "content_tpl",
+                "value": "grid"
+              },
+              {
+                "name": "body_tpl",
+                "value": "page"
+              },
+              {
+                "name": "page_icon",
+                "value": ""
+              },
+              {
+                "name": "page_img",
+                "value": ""
+              },
+              {
+                "name": "fpost_ids",
+                "value": ""
+              },
+              {
+                "name": "hero_banner",
+                "value": ""
+              },
+              {
+                "name": "carousel_ids",
+                "value": ""
+              },
+              {
+                "name": "slider_ids",
+                "value": ""
+              },
+              {
+                "name": "listing_ids",
+                "value": ""
+              },
+              {
+                "name": "listbyparent",
+                "value": "3"
+              }
+            ]
         },
         {
-          "name": "body_tpl",
-          "value": "page"
+          "pagetitle": "Style Guide",
+          "longtitle": "Style Guide",
+          "alias": "style-guide",
+          "introtext": "MODX Revolution is the web content management platform for those that truly care about no-compromise design and exceptional user experience.",
+          "template": "MX Template",
+          "published": 1,
+          "content": "[[$style-guide-mdl]]",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": "assets/img/pineapple.jpg"
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": "yes"
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": ""
+            }
+          ]
         },
         {
-          "name": "page_icon",
-          "value": ""
+          "pagetitle": "Articles",
+          "longtitle": "",
+          "class_key": "CollectionContainer",
+          "alias": "articles",
+          "content": "<p>Look you can put text here. Just make sure it's something short and to the point because you probably have a big listing section right below this.</p>",
+          "template": "MX Template",
+          "published": 1,
+          "isfolder": 1,
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "listing"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": ""
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": ""
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": "3"
+            }
+          ]
         },
         {
-          "name": "page_img",
-          "value": "assets/img/pineapple.jpg"
+          "pagetitle": "Keeping MODX Relevant — Part One",
+          "longtitle": "Keeping MODX Relevant — Part One",
+          "description": "It’s been over 10 years since Ryan, Raymond, and myself founded the MODX CMS project and a lot has changed in the world of both content management and web development in that time.",
+          "introtext": "It’s been over 10 years since Ryan, Raymond, and myself founded the MODX CMS project and a lot has changed in the world of both content management and web development in that time. ",
+          "published": 1,
+          "alias": "keeping-modx-relevant-part-one",
+          "template": "MX Template",
+          "content": "<p>Deciding when to let go of the past and try new adventures is always stressful, and leading an Open-Source Software project like MODX affords me ample opportunity to experience this nexus of freewill. Unfortunately, it does not always provide the same abundance of time and resources needed to focus on making the hard choices.</p>",
+          "parent": "Articles",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": ""
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": ""
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": ""
+            }
+          ]
         },
         {
-          "name": "fpost_ids",
-          "value": ""
+          "pagetitle": "Accessibility Campaign Update #1",
+          "longtitle": "Accessibility Campaign Update #1",
+          "description": "We launched our fundraising campaign to make the MODX Revolution Manager accessible just over a week ago.",
+          "introtext": "We launched our fundraising campaign to make the MODX Revolution Manager accessible just over a week ago.",
+          "published": 1,
+          "alias": "accessibility-campaign-update-1",
+          "template": "MX Template",
+          "content": "<p>Since then, we’ve had a wonderful response, with generous donors from around the world. To date we’ve raised a $29,648 including the $25,000 from The Ohio State University—just shy of 60% of our goal! The other comes from:</p><ul><li>76 awesome MODX Community members</li><li>Each contributing an average of $57</li><li>Three individuals generously gave $500</li><li>Eight others showed a big thumbs-up with $100</li><li>43% of supporters have made contributions of $25</li></ul>",
+          "parent": "Articles",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": ""
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": ""
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": "3"
+            }
+          ]
         },
         {
-          "name": "hero_banner",
-          "value": "yes"
+          "pagetitle": "MODXpo 2015",
+          "longtitle": "MODXpo 2015",
+          "description": "Announcing MODXpo 2015 November 21-22 in Munich, Germany",
+          "introtext": "Announcing MODXpo 2015 November 21-22 in Munich, Germany",
+          "published": 1,
+          "alias": "modxpo-2015",
+          "template": "MX Template",
+          "content": "<p>We’re proud to announce that the fourth, official MODXpo will take place on November 21 and 22 in Munich, Germany.</p><p>The previous official MODXpo was hosted in <a href=\"http://2013.modxpo.eu/\" title=\"MODXpo 2013 in Cologne, Germany - MODXpo Europe 2013\">November 2013 in Cologne, Germany</a>. After a year hiatus (though not without an <a href=\"https://conference.modmore.com/\" title=\"Reimagined MODX Conference  &amp;bull; modmore.com\">awesome MODX conference</a> in between), web designer and MODX Ambassador, <a href=\"http://www.bdcreative-design.com/\" title=\"Home - BD Website Architecture and Web Design\">Benjamin Davis</a>, has taken the reins as chief organizer for the next official MODXpo with major help from the <a href=\"http://www.meetup.com/MODX-Muenchen/\" title=\"MODX Meetup München (Munich)\">MODX Munich Meetup Group</a> and other <a href=\"http://modx.com/ambassadors\" title=\"MODX Ambassadors\">MODX Ambassadors</a>.</p>",
+          "parent": "Articles",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "sidebar"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": "assets/img/skyhigh.jpg"
+            },
+            {
+              "name": "fpost_ids",
+              "value": "7"
+            },
+            {
+              "name": "hero_banner",
+              "value": "yes"
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": ""
+            }
+          ]
         },
         {
-          "name": "carousel_ids",
-          "value": ""
+          "pagetitle": "MODX Cloud Update June 25",
+          "longtitle": "MODX Cloud Update June 25",
+          "description": "We’ve continued improving the underlying technology in Cloud ahead of some exciting new capabilities coming later this Summer.",
+          "introtext": "We’ve continued improving the underlying technology in Cloud ahead of some exciting new capabilities coming later this Summer.",
+          "published": 1,
+          "alias": "modx-cloud-update-june-25",
+          "template": "MX Template",
+          "content": "<p>We’ve improved the documentation, made the Dashboard faster to work with, updated to the latest MODX releases including 2.3.5, updated the web server stacks and more. You can also now enable Two-factor Authentication (2fA) for MODX Cloud Dashboard logins, improving security and keeping your data safe.</p><h3>Prepare for PHP 5.6</h3><p>Speaking of PHP, but we wanted to let you know that in the coming weeks, MODX Cloud will upgrade PHP to 5.6.x and nginx to 1.8.x, corresponding with PHP 5.4.x coming to its end of support. Cloud account holders will receive a notice via email as well. We will make a test server available for users that wish to test the build in Cloud.</p>",
+          "parent": "Articles",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": ""
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": ""
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": ""
+            }
+          ]
         },
         {
-          "name": "slider_ids",
-          "value": ""
+          "pagetitle": "MODX Cloud Update July 23",
+          "longtitle": "MODX Cloud Update July 23",
+          "description": "We’ve continued improving workflows and fixing minor bugs to make for a more pleasant user experience, and to future-proof MODX Cloud.",
+          "introtext": "We’ve continued improving workflows and fixing minor bugs to make for a more pleasant user experience, and to future-proof MODX Cloud.",
+          "published": 1,
+          "alias": "modx-cloud-update-july-23",
+          "template": "MX Template",
+          "content": "<p>The biggest change in this update is that MODX Cloud now serves your sites via PHP 5.6.x and nginx 1.8.x. Most sites should perform faster thanks to improved opcache and code efficiency, and we’ve ensured your sites will be on a stable, supported server stack. Other highlights include:</p><ul><li>Improved documentation for SSL, nginx rewrites and overall organization.</li><li>Improved reliability and behavior of robots.txt when the same domain was accidentally added to multiple times or to multiple Clouds.</li><li>Fixed a bug with next invoice display for some users.</li><li>Solved a bug where some users had blank pages requiring a refresh when Two-Factor Authentication (2FA) was enabled.</li><li>Updated the billing system to accommodate the upcoming launch of Private Servers.</li><li>And finally, don’t forget anyone can test sites running under SSL for free when building new projects on the internal <em>c000X.paas…</em> MODX Cloud URLs.</li></ul><h3>Ihr habt entschieden!</h3>",
+          "parent": "Articles",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": "assets/img/liberty.jpg"
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": ""
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": ""
+            }
+          ]
         },
         {
-          "name": "listing_ids",
-          "value": ""
+          "pagetitle": "Contact",
+          "published": 1,
+          "richtext": 0,
+          "alias": "contact",
+          "template": "MX Template",
+          "content": "[[!$mxt.feature_contact_form_[[++mxt.theme]]]]",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": ""
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": ""
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": ""
+            }
+          ]
         },
         {
-          "name": "listbyparent",
-          "value": ""
+          "pagetitle": "Search Results",
+          "published": 1,
+          "hidemenu": 1,
+          "richtext": 0,
+          "alias": "search-results",
+          "template": "MX Template",
+          "content": "[[!SimpleSearch? &containerTpl=`tpl_searchresultwrapper_mdl` &tpl=`tpl_searchresult_mdl`]]",
+          "tvs": [
+            {
+              "name": "content_tpl",
+              "value": "page"
+            },
+            {
+              "name": "body_tpl",
+              "value": "page"
+            },
+            {
+              "name": "page_icon",
+              "value": ""
+            },
+            {
+              "name": "page_img",
+              "value": ""
+            },
+            {
+              "name": "fpost_ids",
+              "value": ""
+            },
+            {
+              "name": "hero_banner",
+              "value": ""
+            },
+            {
+              "name": "carousel_ids",
+              "value": ""
+            },
+            {
+              "name": "slider_ids",
+              "value": ""
+            },
+            {
+              "name": "listing_ids",
+              "value": ""
+            },
+            {
+              "name": "listbyparent",
+              "value": ""
+            }
+          ]
         }
       ]
-    },
-    {
-      "pagetitle": "Articles",
-      "longtitle": "",
-      "class_key": "CollectionContainer",
-      "alias": "articles",
-      "content": "<p>Look you can put text here. Just make sure it's something short and to the point because you probably have a big listing section right below this.</p>",
-      "template": "MX Template",
-      "published": 1,
-      "isfolder": 1,
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "listing"
-        },
-        {
-          "name": "body_tpl",
-          "value": "page"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": ""
-        },
-        {
-          "name": "fpost_ids",
-          "value": ""
-        },
-        {
-          "name": "hero_banner",
-          "value": ""
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": "3"
-        }
-      ]
-    },
-    {
-      "pagetitle": "Keeping MODX Relevant — Part One",
-      "longtitle": "Keeping MODX Relevant — Part One",
-      "description": "It’s been over 10 years since Ryan, Raymond, and myself founded the MODX CMS project and a lot has changed in the world of both content management and web development in that time.",
-      "introtext": "It’s been over 10 years since Ryan, Raymond, and myself founded the MODX CMS project and a lot has changed in the world of both content management and web development in that time. ",
-      "published": 1,
-      "alias": "keeping-modx-relevant-part-one",
-      "template": "MX Template",
-      "content": "<p>Deciding when to let go of the past and try new adventures is always stressful, and leading an Open-Source Software project like MODX affords me ample opportunity to experience this nexus of freewill. Unfortunately, it does not always provide the same abundance of time and resources needed to focus on making the hard choices.</p>",
-      "parent": "Articles",
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "page"
-        },
-        {
-          "name": "body_tpl",
-          "value": "page"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": ""
-        },
-        {
-          "name": "fpost_ids",
-          "value": ""
-        },
-        {
-          "name": "hero_banner",
-          "value": ""
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": ""
-        }
-      ]
-    },
-    {
-      "pagetitle": "Accessibility Campaign Update #1",
-      "longtitle": "Accessibility Campaign Update #1",
-      "description": "We launched our fundraising campaign to make the MODX Revolution Manager accessible just over a week ago.",
-      "introtext": "We launched our fundraising campaign to make the MODX Revolution Manager accessible just over a week ago.",
-      "published": 1,
-      "alias": "accessibility-campaign-update-1",
-      "template": "MX Template",
-      "content": "<p>Since then, we’ve had a wonderful response, with generous donors from around the world. To date we’ve raised a $29,648 including the $25,000 from The Ohio State University—just shy of 60% of our goal! The other comes from:</p><ul><li>76 awesome MODX Community members</li><li>Each contributing an average of $57</li><li>Three individuals generously gave $500</li><li>Eight others showed a big thumbs-up with $100</li><li>43% of supporters have made contributions of $25</li></ul>",
-      "parent": "Articles",
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "page"
-        },
-        {
-          "name": "body_tpl",
-          "value": "page"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": ""
-        },
-        {
-          "name": "fpost_ids",
-          "value": ""
-        },
-        {
-          "name": "hero_banner",
-          "value": ""
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": "3"
-        }
-      ]
-    },
-    {
-      "pagetitle": "MODXpo 2015",
-      "longtitle": "MODXpo 2015",
-      "description": "Announcing MODXpo 2015 November 21-22 in Munich, Germany",
-      "introtext": "Announcing MODXpo 2015 November 21-22 in Munich, Germany",
-      "published": 1,
-      "alias": "modxpo-2015",
-      "template": "MX Template",
-      "content": "<p>We’re proud to announce that the fourth, official MODXpo will take place on November 21 and 22 in Munich, Germany.</p><p>The previous official MODXpo was hosted in <a href=\"http://2013.modxpo.eu/\" title=\"MODXpo 2013 in Cologne, Germany - MODXpo Europe 2013\">November 2013 in Cologne, Germany</a>. After a year hiatus (though not without an <a href=\"https://conference.modmore.com/\" title=\"Reimagined MODX Conference  &amp;bull; modmore.com\">awesome MODX conference</a> in between), web designer and MODX Ambassador, <a href=\"http://www.bdcreative-design.com/\" title=\"Home - BD Website Architecture and Web Design\">Benjamin Davis</a>, has taken the reins as chief organizer for the next official MODXpo with major help from the <a href=\"http://www.meetup.com/MODX-Muenchen/\" title=\"MODX Meetup München (Munich)\">MODX Munich Meetup Group</a> and other <a href=\"http://modx.com/ambassadors\" title=\"MODX Ambassadors\">MODX Ambassadors</a>.</p>",
-      "parent": "Articles",
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "page"
-        },
-        {
-          "name": "body_tpl",
-          "value": "sidebar"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": "assets/img/skyhigh.jpg"
-        },
-        {
-          "name": "fpost_ids",
-          "value": "7"
-        },
-        {
-          "name": "hero_banner",
-          "value": "yes"
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": ""
-        }
-      ]
-    },
-    {
-      "pagetitle": "MODX Cloud Update June 25",
-      "longtitle": "MODX Cloud Update June 25",
-      "description": "We’ve continued improving the underlying technology in Cloud ahead of some exciting new capabilities coming later this Summer.",
-      "introtext": "We’ve continued improving the underlying technology in Cloud ahead of some exciting new capabilities coming later this Summer.",
-      "published": 1,
-      "alias": "modx-cloud-update-june-25",
-      "template": "MX Template",
-      "content": "<p>We’ve improved the documentation, made the Dashboard faster to work with, updated to the latest MODX releases including 2.3.5, updated the web server stacks and more. You can also now enable Two-factor Authentication (2fA) for MODX Cloud Dashboard logins, improving security and keeping your data safe.</p><h3>Prepare for PHP 5.6</h3><p>Speaking of PHP, but we wanted to let you know that in the coming weeks, MODX Cloud will upgrade PHP to 5.6.x and nginx to 1.8.x, corresponding with PHP 5.4.x coming to its end of support. Cloud account holders will receive a notice via email as well. We will make a test server available for users that wish to test the build in Cloud.</p>",
-      "parent": "Articles",
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "page"
-        },
-        {
-          "name": "body_tpl",
-          "value": "page"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": ""
-        },
-        {
-          "name": "fpost_ids",
-          "value": ""
-        },
-        {
-          "name": "hero_banner",
-          "value": ""
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": ""
-        }
-      ]
-    },
-    {
-      "pagetitle": "MODX Cloud Update July 23",
-      "longtitle": "MODX Cloud Update July 23",
-      "description": "We’ve continued improving workflows and fixing minor bugs to make for a more pleasant user experience, and to future-proof MODX Cloud.",
-      "introtext": "We’ve continued improving workflows and fixing minor bugs to make for a more pleasant user experience, and to future-proof MODX Cloud.",
-      "published": 1,
-      "alias": "modx-cloud-update-july-23",
-      "template": "MX Template",
-      "content": "<p>The biggest change in this update is that MODX Cloud now serves your sites via PHP 5.6.x and nginx 1.8.x. Most sites should perform faster thanks to improved opcache and code efficiency, and we’ve ensured your sites will be on a stable, supported server stack. Other highlights include:</p><ul><li>Improved documentation for SSL, nginx rewrites and overall organization.</li><li>Improved reliability and behavior of robots.txt when the same domain was accidentally added to multiple times or to multiple Clouds.</li><li>Fixed a bug with next invoice display for some users.</li><li>Solved a bug where some users had blank pages requiring a refresh when Two-Factor Authentication (2FA) was enabled.</li><li>Updated the billing system to accommodate the upcoming launch of Private Servers.</li><li>And finally, don’t forget anyone can test sites running under SSL for free when building new projects on the internal <em>c000X.paas…</em> MODX Cloud URLs.</li></ul><h3>Ihr habt entschieden!</h3>",
-      "parent": "Articles",
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "page"
-        },
-        {
-          "name": "body_tpl",
-          "value": "page"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": "assets/img/liberty.jpg"
-        },
-        {
-          "name": "fpost_ids",
-          "value": ""
-        },
-        {
-          "name": "hero_banner",
-          "value": ""
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": ""
-        }
-      ]
-    },
-    {
-      "pagetitle": "Contact",
-      "published": 1,
-      "richtext": 0,
-      "alias": "contact",
-      "template": "MX Template",
-      "content": "[[!$mxt.feature_contact_form_[[++mxt.theme]]]]",
-      "parent": "Articles",
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "page"
-        },
-        {
-          "name": "body_tpl",
-          "value": "page"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": ""
-        },
-        {
-          "name": "fpost_ids",
-          "value": ""
-        },
-        {
-          "name": "hero_banner",
-          "value": ""
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": ""
-        }
-      ]
-    },
-    {
-      "pagetitle": "Search Results",
-      "published": 1,
-      "hidemenu": 1,
-      "richtext": 0,
-      "alias": "search-results",
-      "template": "MX Template",
-      "content": "[[!SimpleSearch? &containerTpl=`tpl_searchresultwrapper_mdl` &tpl=`tpl_searchresult_mdl`]]",
-      "parent": "Articles",
-      "tvs": [
-        {
-          "name": "content_tpl",
-          "value": "page"
-        },
-        {
-          "name": "body_tpl",
-          "value": "page"
-        },
-        {
-          "name": "page_icon",
-          "value": ""
-        },
-        {
-          "name": "page_img",
-          "value": ""
-        },
-        {
-          "name": "fpost_ids",
-          "value": ""
-        },
-        {
-          "name": "hero_banner",
-          "value": ""
-        },
-        {
-          "name": "carousel_ids",
-          "value": ""
-        },
-        {
-          "name": "slider_ids",
-          "value": ""
-        },
-        {
-          "name": "listing_ids",
-          "value": ""
-        },
-        {
-          "name": "listbyparent",
-          "value": ""
-        }
-      ]
-    }
-  ],
+  },
 
   "dependencies": [
       {

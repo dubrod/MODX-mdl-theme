@@ -9,10 +9,10 @@
   'validate' => NULL,
   'vehicle_package' => 'transport',
   'vehicle_class' => 'xPDOObjectVehicle',
-  'guid' => '6ee7097c44b6cb73c71fc4bbdf7aec50',
+  'guid' => '1720b3db6c1d067912621d5de04965f5',
   'package' => 'modx',
   'class' => 'modNamespace',
-  'signature' => '41df8b283f7ac4b150ca867d7707d3b3',
+  'signature' => 'f5558ae28ce50dddbfb679c2d651bc96',
   'native_key' => 'mdl-theme',
   'object' => '{"name":"mdl-theme","path":"{core_path}components\\/mdl-theme\\/","assets_path":"{assets_path}components\\/mdl-theme\\/"}',
 );

@@ -227,6 +227,15 @@ if (!function_exists('createClientConfigSettings')) {
 switch ($options[xPDOTransport::PACKAGE_ACTION]) {
     case xPDOTransport::ACTION_INSTALL:
 
+        if (isset($options['install_resources']) && empty($options['install_resources'])) {
+            $rssResource = '';
+        } else {
+            $resourceMap = getResourceMap();
+            $rssResource = '';
+        }
+
+        createClientConfigSettings($rssResource);
+
         $themeSetting = $modx->getObject('modSystemSetting', array('key' => 'mxt.theme'));
         if ($themeSetting) {
             $themeSetting->set('value','mdl');
@@ -261,6 +270,16 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
 
         break;
     case xPDOTransport::ACTION_UPGRADE:
+
+        $resourceMap = getResourceMap();
+        $rssResource = '';
+
+        if (!empty($resourceMap)) {
+            $rssResource = '';
+        }
+
+        createClientConfigSettings($rssResource);
+
         break;
     case xPDOTransport::ACTION_UNINSTALL:
         break;
