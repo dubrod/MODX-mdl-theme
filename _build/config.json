@@ -259,6 +259,7 @@
             "isfolder": 0,
             "published": 1,
             "setAsHome": 1,
+            "content_type": 1,
             "tvs": [
               {
                 "name": "content_tpl",
@@ -310,6 +311,7 @@
           "template": "MX Template",
           "published": 1,
           "content": "[[$style-guide-mdl]]",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -325,7 +327,7 @@
             },
             {
               "name": "page_img",
-              "value": "assets/img/pineapple.jpg"
+              "value": ""
             },
             {
               "name": "fpost_ids",
@@ -333,7 +335,7 @@
             },
             {
               "name": "hero_banner",
-              "value": "yes"
+              "value": ""
             },
             {
               "name": "carousel_ids",
@@ -362,6 +364,7 @@
           "template": "MX Template",
           "published": 1,
           "isfolder": 1,
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -415,6 +418,7 @@
           "template": "MX Template",
           "content": "<p>Deciding when to let go of the past and try new adventures is always stressful, and leading an Open-Source Software project like MODX affords me ample opportunity to experience this nexus of freewill. Unfortunately, it does not always provide the same abundance of time and resources needed to focus on making the hard choices.</p>",
           "parent": "Articles",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -468,6 +472,7 @@
           "template": "MX Template",
           "content": "<p>Since then, we’ve had a wonderful response, with generous donors from around the world. To date we’ve raised a $29,648 including the $25,000 from The Ohio State University—just shy of 60% of our goal! The other comes from:</p><ul><li>76 awesome MODX Community members</li><li>Each contributing an average of $57</li><li>Three individuals generously gave $500</li><li>Eight others showed a big thumbs-up with $100</li><li>43% of supporters have made contributions of $25</li></ul>",
           "parent": "Articles",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -521,6 +526,7 @@
           "template": "MX Template",
           "content": "<p>We’re proud to announce that the fourth, official MODXpo will take place on November 21 and 22 in Munich, Germany.</p><p>The previous official MODXpo was hosted in <a href=\"http://2013.modxpo.eu/\" title=\"MODXpo 2013 in Cologne, Germany - MODXpo Europe 2013\">November 2013 in Cologne, Germany</a>. After a year hiatus (though not without an <a href=\"https://conference.modmore.com/\" title=\"Reimagined MODX Conference  &amp;bull; modmore.com\">awesome MODX conference</a> in between), web designer and MODX Ambassador, <a href=\"http://www.bdcreative-design.com/\" title=\"Home - BD Website Architecture and Web Design\">Benjamin Davis</a>, has taken the reins as chief organizer for the next official MODXpo with major help from the <a href=\"http://www.meetup.com/MODX-Muenchen/\" title=\"MODX Meetup München (Munich)\">MODX Munich Meetup Group</a> and other <a href=\"http://modx.com/ambassadors\" title=\"MODX Ambassadors\">MODX Ambassadors</a>.</p>",
           "parent": "Articles",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -536,7 +542,7 @@
             },
             {
               "name": "page_img",
-              "value": "assets/img/skyhigh.jpg"
+              "value": ""
             },
             {
               "name": "fpost_ids",
@@ -544,7 +550,7 @@
             },
             {
               "name": "hero_banner",
-              "value": "yes"
+              "value": ""
             },
             {
               "name": "carousel_ids",
@@ -574,6 +580,7 @@
           "template": "MX Template",
           "content": "<p>We’ve improved the documentation, made the Dashboard faster to work with, updated to the latest MODX releases including 2.3.5, updated the web server stacks and more. You can also now enable Two-factor Authentication (2fA) for MODX Cloud Dashboard logins, improving security and keeping your data safe.</p><h3>Prepare for PHP 5.6</h3><p>Speaking of PHP, but we wanted to let you know that in the coming weeks, MODX Cloud will upgrade PHP to 5.6.x and nginx to 1.8.x, corresponding with PHP 5.4.x coming to its end of support. Cloud account holders will receive a notice via email as well. We will make a test server available for users that wish to test the build in Cloud.</p>",
           "parent": "Articles",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -627,6 +634,7 @@
           "template": "MX Template",
           "content": "<p>The biggest change in this update is that MODX Cloud now serves your sites via PHP 5.6.x and nginx 1.8.x. Most sites should perform faster thanks to improved opcache and code efficiency, and we’ve ensured your sites will be on a stable, supported server stack. Other highlights include:</p><ul><li>Improved documentation for SSL, nginx rewrites and overall organization.</li><li>Improved reliability and behavior of robots.txt when the same domain was accidentally added to multiple times or to multiple Clouds.</li><li>Fixed a bug with next invoice display for some users.</li><li>Solved a bug where some users had blank pages requiring a refresh when Two-Factor Authentication (2FA) was enabled.</li><li>Updated the billing system to accommodate the upcoming launch of Private Servers.</li><li>And finally, don’t forget anyone can test sites running under SSL for free when building new projects on the internal <em>c000X.paas…</em> MODX Cloud URLs.</li></ul><h3>Ihr habt entschieden!</h3>",
           "parent": "Articles",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -642,7 +650,7 @@
             },
             {
               "name": "page_img",
-              "value": "assets/img/liberty.jpg"
+              "value": ""
             },
             {
               "name": "fpost_ids",
@@ -677,6 +685,7 @@
           "alias": "contact",
           "template": "MX Template",
           "content": "[[!$mxt.feature_contact_form_[[++mxt.theme]]]]",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -728,6 +737,7 @@
           "alias": "search-results",
           "template": "MX Template",
           "content": "[[!SimpleSearch? &containerTpl=`tpl_searchresultwrapper_mdl` &tpl=`tpl_searchresult_mdl`]]",
+          "content_type": 1,
           "tvs": [
             {
               "name": "content_tpl",
@@ -804,18 +814,16 @@
         "version": ">=1.3.0"
       }
   ],
-
-  "resolver": {
-    "resolversDir": "resolvers",
-    "before": ["sample_content.php"],
-    "after": ["sample_settings.php", "config.php"]
-  },
   "build": {
-      "readme": "docs/index.md",
-      "license": "docs/license.md",
-      "changelog": "docs/changelog.md",
-      "setupOptions": {
-        "source": "setup.options.php"
-      }
+    "readme": "docs/index.md",
+    "license": "docs/license.md",
+    "changelog": "docs/changelog.md",
+    "setupOptions": {
+      "source": "setup.options.php"
+    },
+    "resolver": {
+      "before": ["sample_content.php"],
+      "after": ["sample_settings.php", "config.php"]
+    }
   }
 }

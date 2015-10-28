@@ -6,32 +6,32 @@
   array (
     'Chunks' => 
     array (
-      '88070fc060a2cc78c7e6b2bf2e34781f' => 
+      'eaac772abfdb070c4f7fb6386ecdbeb8' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
         'unique_key' => 'name',
         'class' => 'modChunk',
         'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"custom_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<style>\\n\\/*global*\\/\\n.centered-content{max-width: 85%; margin-top: 1rem; margin-bottom: 1rem;}\\n.mdl-cell p, .mdl-cell h1, .mdl-cell h2, .mdl-cell h3, .mdl-cell h4\\n.centered-content h1,.centered-content h2,.centered-content h3,.centered-content h4{padding: 0 1rem;}\\n.mdl-cell p:first-of-type{padding-top: 1rem;}\\n.content-accent-bar{width:100%; height: 3px;}\\n.page--meta span{display: block; padding: .25rem 1rem;}\\n.hero-banner img{max-width: 100%;}\\n.mdl-card__media h3 a{text-decoration: none;}\\n.sidebar--body{float: left;}  .sidebar--side{}\\n.sidebar--feature h3, .sidebar--feature p{margin:0; padding:0;}\\n.mdl-textfield{display: block;}\\nform{margin:1rem;}\\nh3 a{text-decoration: none;}\\n.centered-content table{margin: 1rem;}\\n.mdl-textfield__error{visibility: visible;}\\n.sisea-search-form{margin:0;}\\n\\n\\/*header*\\/\\n.mdl-layout__header .mdl-layout__drawer-button{color: #[[++mdl_drawer_button_color]];}\\n\\/*for some reason header is behind menu button*\\/\\n.mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row{padding-left:60px;}\\n\\n\\/*drawer & navigation*\\/\\n.mdl-navigation .material-icons{margin-right: 1rem; vertical-align: middle;}\\n\\n\\n\\/*mobile*\\/\\n@media (max-width: 680px){\\n    .centered-content{max-width: 95%;}\\n    .sidebar--body{float: none;}\\n}\\n<\\/style>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<style>\\n\\/*global*\\/\\n.centered-content{max-width: 85%; margin-top: 1rem; margin-bottom: 1rem;}\\n.mdl-cell p, .mdl-cell h1, .mdl-cell h2, .mdl-cell h3, .mdl-cell h4\\n.centered-content h1,.centered-content h2,.centered-content h3,.centered-content h4{padding: 0 1rem;}\\n.mdl-cell p:first-of-type{padding-top: 1rem;}\\n.content-accent-bar{width:100%; height: 3px;}\\n.page--meta span{display: block; padding: .25rem 1rem;}\\n.hero-banner img{max-width: 100%;}\\n.mdl-card__media h3 a{text-decoration: none;}\\n.sidebar--body{float: left;}  .sidebar--side{}\\n.sidebar--feature h3, .sidebar--feature p{margin:0; padding:0;}\\n.mdl-textfield{display: block;}\\nform{margin:1rem;}\\nh3 a{text-decoration: none;}\\n.centered-content table{margin: 1rem;}\\n.mdl-textfield__error{visibility: visible;}\\n.sisea-search-form{margin:0;}\\n\\n\\/*header*\\/\\n.mdl-layout__header .mdl-layout__drawer-button{color: #[[++mdl_drawer_button_color]];}\\n\\/*for some reason header is behind menu button*\\/\\n.mdl-layout--fixed-drawer>.mdl-layout__header .mdl-layout__header-row{padding-left:60px;}\\n\\n\\/*drawer & navigation*\\/\\n.mdl-navigation .material-icons{margin-right: 1rem; vertical-align: middle;}\\n\\n\\n\\/*mobile*\\/\\n@media (max-width: 680px){\\n    .centered-content{max-width: 95%;}\\n    .sidebar--body{float: none;}\\n}\\n<\\/style>\\n"}',
-        'guid' => 'a64665aed2bb2c625a623c1a398f19af',
+        'guid' => '26937a8c4ebf0b5ebb8013fb4e73a902',
         'native_key' => NULL,
-        'signature' => '6d7b0779aa6279752e89b3bbfeb69da8',
+        'signature' => '39cc2cefdc65d6ecb18b0cbec3b9bf71',
       ),
-      'b34e1a44aea4929a4cc28bbece5a05c4' => 
+      '65029247c8984ebeae54dac96bb6319a' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
         'unique_key' => 'name',
         'class' => 'modChunk',
         'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"style-guide-mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<h1>Heading 1<\\/h1>\\n<p>Nullam quis risus eget <a href=\\"#\\">urna mollis ornare<\\/a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.<\\/p>\\n<p><small>This line of text is meant to be &lt;small&gt; print.<\\/small><\\/p>\\n<h2>Heading 2<\\/h2>\\n<p>The following snippet of text is <strong>rendered as bold text<\\/strong>.<\\/p>\\n<p>The following snippet of text is <em>rendered as italicized text<\\/em>.<\\/p>\\n\\n<h3>Heading 3<\\/h3>\\n\\n<blockquote>Blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nteger posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<\\/blockquote>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL\\n    <ul>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<\\/ul>\\n<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ol>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<\\/ol>\\n\\n<hr>\\n<h4>Table<\\/h4>\\n\\n<!-- Responsive table starts here -->\\n  <!-- For correct display on small screens you must add \'data-title\' to each \'td\' in your table -->\\n  <!-- Table starts here -->\\n  <table  class=\\"mdl-data-table\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Name<\\/th>\\n          <th>Link<\\/th>\\n          <th>Status<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        <tr>\\n          <td data-title=\\"ID\\">1<\\/td>\\n          <td data-title=\\"Name\\">Material Design Color Palette<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-color-palette\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">2<\\/td>\\n          <td data-title=\\"Name\\">Material Design Iconic Font<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/uqCsB\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-iconic-font\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">3<\\/td>\\n          <td data-title=\\"Name\\">Material Design Hierarchical Display<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/eNaEBM\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-hierarchical-display\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">4<\\/td>\\n          <td data-title=\\"Name\\">Material Design Sidebar<\\/td>\\n          <td data-title=\\"Link\\"><a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/dIgco\\" target=\\"_blank\\">Codepen<\\/a><\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">5<\\/td>\\n          <td data-title=\\"Name\\">Material Design Tiles<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/wtApI\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">6<\\/td>\\n          <td data-title=\\"Name\\">Material Design Typography<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/IkaFL\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-typography\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">7<\\/td>\\n          <td data-title=\\"Name\\">Material Design Buttons<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Gubja\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">8<\\/td>\\n          <td data-title=\\"Name\\">Material Design Form Elements<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/yaozl\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">9<\\/td>\\n          <td data-title=\\"Name\\">Material Design Email Template<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/qEVqzx\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">10<\\/td>\\n          <td data-title=\\"Name\\">Material Design Animation Timing (old one)<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Jbrho\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n      <\\/tbody>\\n    <\\/table>\\n\\n<hr>\\n\\n<h4>Form<\\/h4>\\n<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n<form role=\\"form\\">\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"user\\" name=\\"user\\" pattern=\\"[A-Z,a-z, ]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"user\\">Full name<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Letters and spaces only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Digits only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\"><\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n    <\\/div>\\n\\n    <button class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n<\\/form>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<h1>Heading 1<\\/h1>\\n<p>Nullam quis risus eget <a href=\\"#\\">urna mollis ornare<\\/a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.<\\/p>\\n<p><small>This line of text is meant to be &lt;small&gt; print.<\\/small><\\/p>\\n<h2>Heading 2<\\/h2>\\n<p>The following snippet of text is <strong>rendered as bold text<\\/strong>.<\\/p>\\n<p>The following snippet of text is <em>rendered as italicized text<\\/em>.<\\/p>\\n\\n<h3>Heading 3<\\/h3>\\n\\n<blockquote>Blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nteger posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.<\\/blockquote>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ul>\\n<li>Standard UL<\\/li>\\n<li>Standard UL\\n    <ul>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<li>Nested UL<\\/li>\\n<\\/ul>\\n<\\/li>\\n<li>Standard UL<\\/li>\\n<\\/ul>\\n\\n<ol>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<li>OL with numbers<\\/li>\\n<\\/ol>\\n\\n<hr>\\n<h4>Table<\\/h4>\\n\\n<!-- Responsive table starts here -->\\n  <!-- For correct display on small screens you must add \'data-title\' to each \'td\' in your table -->\\n  <!-- Table starts here -->\\n  <table  class=\\"mdl-data-table\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Name<\\/th>\\n          <th>Link<\\/th>\\n          <th>Status<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        <tr>\\n          <td data-title=\\"ID\\">1<\\/td>\\n          <td data-title=\\"Name\\">Material Design Color Palette<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-color-palette\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">2<\\/td>\\n          <td data-title=\\"Name\\">Material Design Iconic Font<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/uqCsB\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-iconic-font\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">3<\\/td>\\n          <td data-title=\\"Name\\">Material Design Hierarchical Display<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/eNaEBM\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-hierarchical-display\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">4<\\/td>\\n          <td data-title=\\"Name\\">Material Design Sidebar<\\/td>\\n          <td data-title=\\"Link\\"><a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/dIgco\\" target=\\"_blank\\">Codepen<\\/a><\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">5<\\/td>\\n          <td data-title=\\"Name\\">Material Design Tiles<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/wtApI\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">6<\\/td>\\n          <td data-title=\\"Name\\">Material Design Typography<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/IkaFL\\" target=\\"_blank\\">Codepen<\\/a>\\n            <a href=\\"https:\\/\\/github.com\\/zavoloklom\\/material-design-typography\\" target=\\"_blank\\">GitHub<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">7<\\/td>\\n          <td data-title=\\"Name\\">Material Design Buttons<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Gubja\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">8<\\/td>\\n          <td data-title=\\"Name\\">Material Design Form Elements<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/yaozl\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">In progress<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">9<\\/td>\\n          <td data-title=\\"Name\\">Material Design Email Template<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/qEVqzx\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n        <tr>\\n          <td data-title=\\"ID\\">10<\\/td>\\n          <td data-title=\\"Name\\">Material Design Animation Timing (old one)<\\/td>\\n          <td data-title=\\"Link\\">\\n            <a href=\\"http:\\/\\/codepen.io\\/zavoloklom\\/pen\\/Jbrho\\" target=\\"_blank\\">Codepen<\\/a>\\n          <\\/td>\\n          <td data-title=\\"Status\\">Completed<\\/td>\\n        <\\/tr>\\n      <\\/tbody>\\n    <\\/table>\\n\\n<hr>\\n\\n<h4>Form<\\/h4>\\n<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n<form role=\\"form\\">\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"user\\" name=\\"user\\" pattern=\\"[A-Z,a-z, ]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"user\\">Full name<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Letters and spaces only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      <span class=\\"mdl-textfield__error\\">Digits only<\\/span>\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\"><\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n    <\\/div>\\n\\n    <button class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n<\\/form>\\n"}',
-        'guid' => '7600c33b28b054c4b83146ec7ec2dbbe',
+        'guid' => 'adc2f47aa1835014a5629ccf604f094a',
         'native_key' => NULL,
-        'signature' => 'c7b784e8c1c8838e8d4da33773e4a6bb',
+        'signature' => 'fe658391c22d5c9401cb3dd503460e8d',
       ),
     ),
     'Children' => 
     array (
-      '8c54390e7a79b813e2ed8b0ec06f4207' => 
+      'cca2602f6c02ef1d6b0f0bfcbb010231' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
@@ -42,105 +42,105 @@
         ),
         'class' => 'modCategory',
         'object' => '{"id":null,"parent":0,"category":"Features","rank":0}',
-        'guid' => 'd2d5708d2b38c20803fd85ea13034dee',
+        'guid' => '5458e67d20a50e315ae61bf75d018394',
         'native_key' => NULL,
-        'signature' => '35a6ed4fb9cc49cbe00079617ecc4942',
+        'signature' => '4aea42b84a9b9260144687ac8b55cd20',
         'related_objects' => 
         array (
           'Chunks' => 
           array (
-            'a5c7f2d34782bd02426ec9a00540f532' => 
+            'c13f37d7d8b40a52a452c7847902f122' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_contact_form_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n[[!FormIt?\\n   &hooks=`email`\\n   &emailTpl=`tpl_contactemail_[[++mxt.theme]]`\\n   &emailTo=`[[++emailsender]]`\\n   &emailSubject=`Website Contact Form`\\n   &validate=`name:required,email:email:required,phone:required,text:required:stripTags`\\n   &successMessage=`Email sent successfully.`\\n ]]\\n \\n<form role=\\"form\\" id=\\"contactForm\\" action=\\"[[~[[*id]]]]#contactForm\\" method=\\"post\\">\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"name\\" name=\\"name\\" pattern=\\"[A-Z,a-z, ]*\\"  value=\\"[[!+fi.name]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"name\\">Full name<\\/label>\\n      [[!+fi.error.name:notempty=`<span class=\\"mdl-textfield__error\\">Letters and spaces only. [[!+fi.error.name]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" value=\\"[[!+fi.email]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n      [[!+fi.error.email:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.email]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" value=\\"[[!+fi.phone]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      [[!+fi.error.phone:notempty=`<span class=\\"mdl-textfield__error\\">Digits Only. [[!+fi.error.phone]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n      [[!+fi.error.text:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.text]]<\\/span>`]]\\n    <\\/div>\\n\\n    <button type=\\"submit\\" class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n    <br><br>\\n    [[!+fi.successMessage:notempty=`<div class=\\"mdl-color--primary mdl-color-text--white\\">[[!+fi.successMessage]]<\\/div>`]]\\n\\n<\\/form>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!--https:\\/\\/github.com\\/google\\/material-design-lite\\/tree\\/master\\/src\\/textfield-->\\n[[!FormIt?\\n   &hooks=`email`\\n   &emailTpl=`tpl_contactemail_[[++mxt.theme]]`\\n   &emailTo=`[[++emailsender]]`\\n   &emailSubject=`Website Contact Form`\\n   &validate=`name:required,email:email:required,phone:required,text:required:stripTags`\\n   &successMessage=`Email sent successfully.`\\n ]]\\n \\n<form role=\\"form\\" id=\\"contactForm\\" action=\\"[[~[[*id]]]]#contactForm\\" method=\\"post\\">\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"name\\" name=\\"name\\" pattern=\\"[A-Z,a-z, ]*\\"  value=\\"[[!+fi.name]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"name\\">Full name<\\/label>\\n      [[!+fi.error.name:notempty=`<span class=\\"mdl-textfield__error\\">Letters and spaces only. [[!+fi.error.name]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"email\\" name=\\"email\\" value=\\"[[!+fi.email]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"email\\">Email address<\\/label>\\n      [[!+fi.error.email:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.email]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <input class=\\"mdl-textfield__input\\" type=\\"text\\" id=\\"phone\\" name=\\"phone\\" pattern=\\"[0-9]*\\" value=\\"[[!+fi.phone]]\\" \\/>\\n      <label class=\\"mdl-textfield__label\\" for=\\"phone\\">Phone<\\/label>\\n      [[!+fi.error.phone:notempty=`<span class=\\"mdl-textfield__error\\">Digits Only. [[!+fi.error.phone]]<\\/span>`]]\\n    <\\/div>\\n\\n    <div class=\\"mdl-textfield mdl-js-textfield\\">\\n      <textarea class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"text\\" rows=\\"5\\" id=\\"text\\" value=\\"[[!+fi.text]]\\">[[!+fi.text]]<\\/textarea>\\n      <label class=\\"mdl-textfield__label\\" for=\\"text\\">Message<\\/label>\\n      [[!+fi.error.text:notempty=`<span class=\\"mdl-textfield__error\\">[[!+fi.error.text]]<\\/span>`]]\\n    <\\/div>\\n\\n    <button type=\\"submit\\" class=\\"mdl-button mdl-js-button mdl-button--raised mdl-color--accent mdl-color-text--white\\">SEND<\\/button>\\n    <br><br>\\n    [[!+fi.successMessage:notempty=`<div class=\\"mdl-color--primary mdl-color-text--white\\">[[!+fi.successMessage]]<\\/div>`]]\\n\\n<\\/form>\\n"}',
-              'guid' => '5186ad59e648efe793683a0bf9e47953',
+              'guid' => 'd2f3c35314635c1bffa1372816d0a59f',
               'native_key' => NULL,
-              'signature' => '700389528a3337b4a0e3b3563f750d5e',
+              'signature' => '24f7c584256886cd4501002c75d12952',
             ),
-            '6dc8acdd213a1f6b71bd8dcca1f2321f' => 
+            '8e1ba49d337d66b85cfb2457f942d44f' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_featured_posts_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\n    &parents=`-1`\\n    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\n    &sortdir=`ASC`\\n    &tpl=`tpl_featured_posts_mdl`\\n    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*fpost_ids:is=``:then=`-`:else=``]]getResources?\\n    &parents=`-1`\\n    &resources=`[[*fpost_ids:is=`default`:then=`[[++mxt.default_fposts]]`:else=`[[*fpost_ids]]`]]`\\n    &sortdir=`ASC`\\n    &tpl=`tpl_featured_posts_mdl`\\n    &includeTVs=`1` &processTVs=`1` &tvPrefix=`tv.`\\n]]\\n"}',
-              'guid' => '8f614bd11e0bddce68a3283dadfa37ad',
+              'guid' => '8eea73465fa240dbf34fea99dedbdcc5',
               'native_key' => NULL,
-              'signature' => 'f426995f2c9f3f0ed21f17e2c6800594',
+              'signature' => '87c20426d4ec32fac4827960247222cc',
             ),
-            '898b5e971989f78bd37e46087b73cb6b' => 
+            'cdba212f001721ee5ea8610203aa7fef' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_grid_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
-              'guid' => 'd7798b33313afea1f64e1e38607c7664',
+              'guid' => '03d85d4e9083f8bda7630674ef0cecd7',
               'native_key' => NULL,
-              'signature' => '695ef93d26ffc8015cc76198d536e84b',
+              'signature' => '59b29e9d8dc8b4cd7eed47c0b06b45d4',
             ),
-            '477f2b93f669418222023e593597f0dc' => 
+            '2c749bad6f5d17262ab76533f51f3ed7' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_gridallbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
-              'guid' => '952a14422ba7d4390dbddf1ed7ceb9ea',
+              'guid' => '0cc636e8f7416de8db8f828391792ccc',
               'native_key' => NULL,
-              'signature' => '1caa510029ce3ecae2e1ccfc8a09fd7d',
+              'signature' => '8effba055a3144af0fe2b3c46c744fd6',
             ),
-            '01a7e7e9a6d997ac5c3ff6a2899ee102' => 
+            'c9482dbc127f21f5bc113eef9c81fc89' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_gridbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &sortby=`RAND()`\\n    &limit=`3`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_gridbyparent_mdl`\\n    &sortby=`RAND()`\\n    &limit=`3`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
-              'guid' => '79689ab07453dab8c647eb832a41f522',
+              'guid' => 'a9ed9428538618ccfdfa925402528499',
               'native_key' => NULL,
-              'signature' => 'ccf49e61db4ebd46d3e0d9a837806dac',
+              'signature' => '008671ca71b273142221ee534b86bea7',
             ),
-            '77c19f5038d4e49461320b6331e24901' => 
+            'ffa3a77637f2260fc8dcebd4a23475c7' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_hero_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*hero_banner:is=`yes`:then=`\\n  <div class=\\"hero-banner\\">[[*page_img:notempty=`<img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\">`]]<\\/div>\\n`]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*hero_banner:is=`yes`:then=`\\n  <div class=\\"hero-banner\\">[[*page_img:notempty=`<img src=\\"[[*page_img]]\\" alt=\\"[[*pagetitle]]\\">`]]<\\/div>\\n`]]\\n"}',
-              'guid' => '743cf721d1c82c3670b838f555a193d9',
+              'guid' => '0d2a71140ee2fc1a827c156e36a58068',
               'native_key' => NULL,
-              'signature' => '8d57e0c5fbfb46ac6ab228f5915704c7',
+              'signature' => '6088b80618830cdae7de16d3abe0e85a',
             ),
-            'e9434a6af9b3af7d583df6be9d77d727' => 
+            '41782475712be2a75b21b3c7e0908b5d' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listallbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listbyparent:is=``:then=`-`:else=``]]getResources?\\n    &parents=`[[*listbyparent]]`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &limit=`0`\\n    &sortby=`publishedon`\\n    &sortdir=`DESC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
-              'guid' => 'b7e8390a2def0ef0c15f134d0e177997',
+              'guid' => 'a506fa521ea8ba63eb92edd08ebd65d4',
               'native_key' => NULL,
-              'signature' => '9dfbba678f6a59860217252248566f90',
+              'signature' => '4835e24fe7e05dd733ba0c15f8b3b364',
             ),
-            '6185e02c6a12148beb5a0b2bc34fb613' => 
+            'dd274e7387f4985a3e5c054e30a79d92' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.feature_listbyid_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &parents=`-1`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &sortdir=`ASC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[[[*listing_ids:is=``:then=`-`:else=``]]getResources?\\n    &resources=`[[*listing_ids]]`\\n    &parents=`-1`\\n    &tpl=`tpl_listbyparent_mdl`\\n    &sortdir=`ASC`\\n    &includeTVs=`1`\\n    &processTVs=`1`\\n    &tvPrefix=`tv.`\\n]]\\n"}',
-              'guid' => 'afb5f7f79b459a89339018e3de819eca',
+              'guid' => 'e5566d651fc1845d2e16f83f8dbe7bf4',
               'native_key' => NULL,
-              'signature' => '2741d77bd6709d5d4b7205357c1a48c3',
+              'signature' => '244793e894802f466a109a45476fe6d3',
             ),
           ),
         ),
       ),
-      '26a0dd1e123b02532352bed02336ca38' => 
+      '1f717772af3866f166a38f9fcc0ff75c' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
@@ -151,50 +151,50 @@
         ),
         'class' => 'modCategory',
         'object' => '{"id":null,"parent":0,"category":"Gallery","rank":0}',
-        'guid' => 'b26eabfd5c5bd4206d4c09ba0e8b72b0',
+        'guid' => '84c1e1c97e847b52cf1cb2acd02f67f7',
         'native_key' => NULL,
-        'signature' => '0befb9e632a1dad192063aaafeb41ffa',
+        'signature' => 'bd1ad442a471b115a8b311863c264f92',
         'related_objects' => 
         array (
           'Chunks' => 
           array (
-            '5d6c59d0bbdd813ce5e669e244b1ad12' => 
+            '0d4186735693ef311ddf499f3ecb5dbf' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
-              'guid' => 'a6cb6256f1d14a070f6743a317106362',
+              'guid' => 'b6de9b207aabeb7b13c85fd471668568',
               'native_key' => NULL,
-              'signature' => '3c14a6fb3418385164896f55d1b0a3c1',
+              'signature' => 'c14622441e1881c0d95534658b7d499a',
             ),
-            'bb2b5d4ad2b423b1bb00d5e2c77983c1' => 
+            '88ec2d246db534e1f83ac7d5725bef2e' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
-              'guid' => '9f80a60c3145de5469ad692c925b7946',
+              'guid' => '657f89cc6ec865d9a44ff0c320c8d1ca',
               'native_key' => NULL,
-              'signature' => '1975a77e407202b4739455c64a9edfc5',
+              'signature' => '1304269bcf17e17cad1a830a31ea6e72',
             ),
-            '3432ca40e98977af88796499af890b71' => 
+            '6bc2832471883194b63a5d31a01d985c' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.gallery_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
-              'guid' => 'd79d9c2552519cb53d6649e8416540ee',
+              'guid' => 'b19fc713d17d08b082513d44fdd85f3f',
               'native_key' => NULL,
-              'signature' => '680628d20903c2f79081f4072584a6ca',
+              'signature' => 'f404c6aad20d241f901e98ca28f46b36',
             ),
           ),
         ),
       ),
-      'ec1d83f6625955290c7d57cd49fb3080' => 
+      'b50d8de201027af429d0170616080db3' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
@@ -205,50 +205,50 @@
         ),
         'class' => 'modCategory',
         'object' => '{"id":null,"parent":0,"category":"Global","rank":0}',
-        'guid' => '1ea378a359556dc8b0aab639b4384e74',
+        'guid' => '3374dae85e4e576233d5a3ce1e37bffd',
         'native_key' => NULL,
-        'signature' => '55fee801c7cec6b09780af56ca4fb0e5',
+        'signature' => '8c4f9d97e5f0acb7eb0090941c53b532',
         'related_objects' => 
         array (
           'Chunks' => 
           array (
-            'edff595987a4ab62ba4af7bc36b72238' => 
+            '628f35d25bfd93802c9b78df028e78e4' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<\\/div> <!-- mdl-layout -->\\n<script src=\\"[[++mdl_js_link]]\\"><\\/script>\\n<\\/body>\\n<\\/html>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<\\/div> <!-- mdl-layout -->\\n<script src=\\"[[++mdl_js_link]]\\"><\\/script>\\n<\\/body>\\n<\\/html>\\n"}',
-              'guid' => 'c07d136d022587da3ebbed790153f380',
+              'guid' => 'b4b9a74a4cd5b42e854512f062a86192',
               'native_key' => NULL,
-              'signature' => '1bc57c118b504e8ec4c3c39c6d7a7fb7',
+              'signature' => 'f1ee91cd4548cf1d5c1209be001ddada',
             ),
-            '48fa5d16092e939f20bb4de1e1b23c37' => 
+            'c2c8b7dee9642d716ecf80a6fa657dee' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!-- mdl header -->\\n<header class=\\"mdl-layout__header [[++mdl_ovr_header_bg:notempty=`mdl-color--[[++mdl_ovr_header_bg]]`]] [[++mdl_ovr_header_text:notempty=`mdl-color-text--[[++mdl_ovr_header_text]]`]]\\">\\n  <div class=\\"mdl-layout__header-row\\">\\n    <span class=\\"mdl-layout-title mdl-color-text--accent\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/span>\\n    <div class=\\"mdl-layout-spacer\\"><\\/div>\\n    <div class=\\"mdl-textfield mdl-js-textfield mdl-textfield--expandable\\">\\n      <label class=\\"mdl-button mdl-js-button mdl-button--icon\\" for=\\"search\\">\\n        <i class=\\"material-icons\\">search<\\/i>\\n      <\\/label>\\n      <div class=\\"mdl-textfield__expandable-holder\\">\\n        [[!SimpleSearchForm? &landing=`10` &tpl=`tpl_search_mdl`]]\\n      <\\/div>\\n    <\\/div>\\n  <\\/div>\\n<\\/header>\\n\\n<!-- mdl drawer -->\\n<div class=\\"mdl-layout__drawer [[++mdl_ovr_drawer_bg:notempty=`mdl-color--[[++mdl_ovr_drawer_bg]]`]]\\">\\n  <header style=\\"padding: .60rem 1rem;\\" class=\\"[[++mdl_ovr_logo_bg:notempty=`mdl-color--[[++mdl_ovr_logo_bg]]`]] [[++mdl_ovr_logo_text:notempty=`mdl-color-text--[[++mdl_ovr_logo_text]]`]]\\">\\n    <img src=\\"[[++mxt.default_theme_img]]\\"> <h6 style=\\"display:inline;\\">[[++mxt.default_slogan]]<\\/h6>\\n  <\\/header>\\n  <nav class=\\"mdl-navigation\\">\\n    [[getResources? &parents=`0` &depth=`0` &limit=`0` &sortby=`{\\"menuindex\\":\\"ASC\\"}` &tpl=`drawer-nav-link_mdl`]]\\n  <\\/nav>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!-- mdl header -->\\n<header class=\\"mdl-layout__header [[++mdl_ovr_header_bg:notempty=`mdl-color--[[++mdl_ovr_header_bg]]`]] [[++mdl_ovr_header_text:notempty=`mdl-color-text--[[++mdl_ovr_header_text]]`]]\\">\\n  <div class=\\"mdl-layout__header-row\\">\\n    <span class=\\"mdl-layout-title mdl-color-text--accent\\">[[*longtitle:default=`[[*pagetitle]]`]]<\\/span>\\n    <div class=\\"mdl-layout-spacer\\"><\\/div>\\n    <div class=\\"mdl-textfield mdl-js-textfield mdl-textfield--expandable\\">\\n      <label class=\\"mdl-button mdl-js-button mdl-button--icon\\" for=\\"search\\">\\n        <i class=\\"material-icons\\">search<\\/i>\\n      <\\/label>\\n      <div class=\\"mdl-textfield__expandable-holder\\">\\n        [[!SimpleSearchForm? &landing=`10` &tpl=`tpl_search_mdl`]]\\n      <\\/div>\\n    <\\/div>\\n  <\\/div>\\n<\\/header>\\n\\n<!-- mdl drawer -->\\n<div class=\\"mdl-layout__drawer [[++mdl_ovr_drawer_bg:notempty=`mdl-color--[[++mdl_ovr_drawer_bg]]`]]\\">\\n  <header style=\\"padding: .60rem 1rem;\\" class=\\"[[++mdl_ovr_logo_bg:notempty=`mdl-color--[[++mdl_ovr_logo_bg]]`]] [[++mdl_ovr_logo_text:notempty=`mdl-color-text--[[++mdl_ovr_logo_text]]`]]\\">\\n    <img src=\\"[[++mxt.default_theme_img]]\\"> <h6 style=\\"display:inline;\\">[[++mxt.default_slogan]]<\\/h6>\\n  <\\/header>\\n  <nav class=\\"mdl-navigation\\">\\n    [[getResources? &parents=`0` &depth=`0` &limit=`0` &sortby=`{\\"menuindex\\":\\"ASC\\"}` &tpl=`drawer-nav-link_mdl`]]\\n  <\\/nav>\\n<\\/div>\\n"}',
-              'guid' => '849d9c1ec76cc9ff5f472382d014f56d',
+              'guid' => '9f3e296d8fe3dd1960e436d49b4f4e58',
               'native_key' => NULL,
-              'signature' => 'ccef3759b501454ba1d42ae35171e5d0',
+              'signature' => '5330d75708c9366ee5235b2a6d52d420',
             ),
-            'c3beb9951afa318fd4f83fcaf2b1d65f' => 
+            '238c40c8e85a65381d291a4e5ee99aad' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.global_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<!DOCTYPE html>\\n<html lang=\\"en\\">\\n<head>\\n    <!-- You have loaded Theme [[++mxt.theme]] -->\\n    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\n    <meta charset=\\"UTF-8\\">\\n    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\n    <meta name=\\"description\\" content=\\"[[*description]]\\">\\n\\n    <title>[[*pagetitle]] - [[++site_name]]<\\/title>\\n\\n    <link rel=\\"stylesheet\\" href=\\"\\/\\/storage.googleapis.com\\/code.getmdl.io\\/1.0.2\\/material.[[++mdl_primary_color]]-[[++mdl_accent_color]].min.css\\">\\n    <link rel=\\"stylesheet\\" href=\\"[[++mdl_font_link]]\\">\\n    [[$custom_mdl]]\\n<\\/head>\\n<body>\\n<div class=\\"mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header\\">\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<!DOCTYPE html>\\n<html lang=\\"en\\">\\n<head>\\n    <!-- You have loaded Theme [[++mxt.theme]] -->\\n    <!-- You have Selected Content Template \\"[[*content_tpl]]\\" -->\\n    <meta charset=\\"UTF-8\\">\\n    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">\\n    <meta name=\\"description\\" content=\\"[[*description]]\\">\\n\\n    <title>[[*pagetitle]] - [[++site_name]]<\\/title>\\n\\n    <link rel=\\"stylesheet\\" href=\\"\\/\\/storage.googleapis.com\\/code.getmdl.io\\/1.0.2\\/material.[[++mdl_primary_color]]-[[++mdl_accent_color]].min.css\\">\\n    <link rel=\\"stylesheet\\" href=\\"[[++mdl_font_link]]\\">\\n    [[$custom_mdl]]\\n<\\/head>\\n<body>\\n<div class=\\"mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header\\">\\n"}',
-              'guid' => '2f89336d2950f25602071b0615cb967e',
+              'guid' => 'fcba8b0c2f20826bb3d7b89a4bb8dac7',
               'native_key' => NULL,
-              'signature' => 'b7f7010eca5eb8d9a00c1b1ddeb68898',
+              'signature' => '9454c24cd3194c376646969bda971717',
             ),
           ),
         ),
       ),
-      'd670b3080f090f7e6029cc8fd44a9c44' => 
+      '5bb01a68105e591b6e41dc4029648087' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
@@ -259,94 +259,94 @@
         ),
         'class' => 'modCategory',
         'object' => '{"id":null,"parent":0,"category":"Grid","rank":0}',
-        'guid' => 'c7a908290b663dce91b99a5d7f245504',
+        'guid' => 'adef9736ee3105c6b7a2ba0675624e0a',
         'native_key' => NULL,
-        'signature' => 'e888ee211bc3df01a7ea1d0e0f43b446',
+        'signature' => '7e98c67b58607e72c52268e609c03c35',
         'related_objects' => 
         array (
           'Chunks' => 
           array (
-            '16e95086eb9f698f4a88403a6a68af58' => 
+            '367c2cf2d16b283ee08888b67ad750d9' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_body_blank_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n[[$mxt.feature_gridallbyparent_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n[[$mxt.feature_gridallbyparent_mdl]]\\n"}',
-              'guid' => 'a568b38215ce90dc25791e67fe1248d8',
+              'guid' => 'bc13ccf1ce8a9f04aa48d9a23eab9c17',
               'native_key' => NULL,
-              'signature' => 'd010933537603860eb676aa7ff5cb59b',
+              'signature' => 'a98b2fa010a7f19ebae5e1f37c6acfa9',
             ),
-            '57ff2a2fac8f91a70359179119e162ac' => 
+            'd6feceb42e351537aa03f1586b1c75f6' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_body_page_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_gridallbyparent_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_gridallbyparent_mdl]]\\n"}',
-              'guid' => 'bf617b0b78abd886f03b49b7a987ed65',
+              'guid' => '76cbde99d36382a6c29f7e2706523c3d',
               'native_key' => NULL,
-              'signature' => '5bfc80620870959fe985078d08455a82',
+              'signature' => '1bb7e1ccf7f3d55b7e369fbbe494dc25',
             ),
-            'caa03aea30021b7be0b290934bcacffe' => 
+            '7175fe80f19a4ad66e02d63a333f30cb' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_body_sidebar_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.feature_gridallbyparent_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.feature_gridallbyparent_mdl]]\\n"}',
-              'guid' => 'be5d13eeaa6e0a272e3f83e8ea6c077f',
+              'guid' => 'f00f86c9c94c2f2859224975944865c9',
               'native_key' => NULL,
-              'signature' => '498afeb0d03367bbab11504ff4df8f7f',
+              'signature' => '0608498c5f4d6d457b5fbdbecd6f5d5b',
             ),
-            '4c72cc209db431d399c24ac26894b640' => 
+            '736c088cef8cd6f96731a0a6aee96e6a' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_content_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.grid_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.grid_body_page_mdl]]`]]\\n            [[*body_tpl:is=`sidebar`:then=`[[$mxt.grid_body_sidebar_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.grid_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.grid_body_page_mdl]]`]]\\n            [[*body_tpl:is=`sidebar`:then=`[[$mxt.grid_body_sidebar_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n"}',
-              'guid' => '7806c6047e8cd995f140c60890dec90c',
+              'guid' => '68faea16e66781148177eb5ac652132e',
               'native_key' => NULL,
-              'signature' => '2022f4008732a2b00b3dda5d246d4c95',
+              'signature' => 'e532fc85f4bb93cd359e3b65d46f3e7c',
             ),
-            '4a47da629483c7761c3384392c417945' => 
+            '90a06d2f7aad58ac3e110a2a7012a437' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
-              'guid' => 'cb0d3d1570b4f6187b50e97b2d8c349b',
+              'guid' => 'c9f6965491e22c8896dc146e2125af97',
               'native_key' => NULL,
-              'signature' => '767d76d2126fe83a9ca45afdeb56f80c',
+              'signature' => 'b54c6eda604f4c836fadb4ca074aefc2',
             ),
-            'aa4e26ed3332929a74bef4dea944028e' => 
+            'e4a96baf0a6c6440450ef1041ea0acea' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
-              'guid' => '0cc0af8e3fb8a4d25f73078454f8986f',
+              'guid' => 'f998e17e7b98d16e1de260c67e9c360f',
               'native_key' => NULL,
-              'signature' => 'f5f1d6956be50bf875351f2a9d3b5264',
+              'signature' => 'f039fe381210f5ee2914a8b66117ac65',
             ),
-            '49f05a110d90572216dd907f06e2554b' => 
+            '36ff1196d763e2815144db5fa6f7bc4c' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.grid_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
-              'guid' => '3d3e7c8ffef033555899c33f1835f28a',
+              'guid' => '99548c5d03536a6c64ac6eee2e767bc8',
               'native_key' => NULL,
-              'signature' => 'c007d40263ea9bfcd4b708513a53ad47',
+              'signature' => '001133efbca339a1a9e88ee1d3450bc4',
             ),
           ),
         ),
       ),
-      'e34fe57929113fcf9faa1a36e55aa309' => 
+      '840e7a3b888e15bacfd1034e11d1a1b4' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
@@ -357,83 +357,83 @@
         ),
         'class' => 'modCategory',
         'object' => '{"id":null,"parent":0,"category":"Listing","rank":0}',
-        'guid' => 'a4fcad86674eb2532a259b71c64c7eef',
+        'guid' => 'cbb2c90059070848d4017a6f76093eb7',
         'native_key' => NULL,
-        'signature' => '132ac75fc9fe7610c630d727f260ed55',
+        'signature' => '4483da9a4378f510b5a484487df1fa42',
         'related_objects' => 
         array (
           'Chunks' => 
           array (
-            '4da40654c3e266bf37cceaecc276e9b3' => 
+            'b90150e3edea61be80f279b20797907b' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_body_blank_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n"}',
-              'guid' => '98d77bc906810988405fd5031987caaa',
+              'guid' => '17a20c48f3b354097d987f2870c482f8',
               'native_key' => NULL,
-              'signature' => 'c8bd16d1d74fd4cee884e5ac21507aba',
+              'signature' => 'd3aabe25f2d69cb734ac53e3c51410af',
             ),
-            '26392fac74d95c46e97a8f665239bc84' => 
+            '10d35949c0172d19a16376c98ca845c4' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_body_page_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n[[$mxt.feature_listallbyparent_mdl]]\\n[[$mxt.feature_listbyid_mdl]]\\n"}',
-              'guid' => '50dbdde1eeea5a8517b97bd1423a8375',
+              'guid' => '137881d07784237484603dd61cb2e85e',
               'native_key' => NULL,
-              'signature' => 'bdfe2ae708aa6289dbd45b1f164d0785',
+              'signature' => '6440f8f4ad76fadcc47cf67aea724a4a',
             ),
-            'c6bc1c8fdfca55c838801f0e9d3b0f5f' => 
+            '37b3f17dd3c1db3fe9df27e083f6863e' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_content_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.listing_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.listing_body_page_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n    <div class=\\"mdl-grid centered-content\\">\\n            [[*body_tpl:is=`blank`:then=`[[$mxt.listing_body_blank_mdl]]`]]\\n            [[*body_tpl:is=`page`:then=`[[$mxt.listing_body_page_mdl]]`]]\\n    <\\/div>\\n<\\/main>\\n"}',
-              'guid' => '73681273b6aa82790434d047ba325d02',
+              'guid' => 'bc413e212bc115da366911a86c483160',
               'native_key' => NULL,
-              'signature' => '9e8d470fffb0bf7900c154fe8bd9264e',
+              'signature' => '496988095256fe7f60ecaad999a0e6e8',
             ),
-            '4ff18a414b5d13a063e89881d7e7fcf5' => 
+            'a23ac795bab23b302a4c151958ada5eb' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
-              'guid' => '2c7575963fe2aa4051a4c52c5636ea13',
+              'guid' => '72553690cc61dff9ee95199235d614bb',
               'native_key' => NULL,
-              'signature' => 'd96887e713430648cf986ce837370792',
+              'signature' => 'f6d91ac2a88b08802b6efa36a72813f8',
             ),
-            '7d98826d9716c3aeaaa08d4e40bc0570' => 
+            '517302f98fa8191d90e00b1e0b887df7' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
-              'guid' => '9988e3e040e88fbdd48f0031b6cb00a4',
+              'guid' => '61bd59571411f8cfd1d500f8f14d8a41',
               'native_key' => NULL,
-              'signature' => 'f0c04a90088d2f80439c60fd9e5514ec',
+              'signature' => '98574e5d1ca379536c353dab95c50b88',
             ),
-            '30eb4c9aa1ab2713e72e28018f4e72d7' => 
+            '48507982ff799a308f4f3ded63c4ce9b' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.listing_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
-              'guid' => '33ca3a42cef280d24dcd5a875ef3ad02',
+              'guid' => 'c1b6c0d5a6a1122cb2619ba6d90c81bf',
               'native_key' => NULL,
-              'signature' => 'a838996010a85f84eff3d285852503ff',
+              'signature' => '8279bf4028905b0fac7d9a0364c282aa',
             ),
           ),
         ),
       ),
-      '067b5308ce455d160baa1770d7b8e4f8' => 
+      '41675668781b46c172be240d79d4d9f7' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
@@ -444,94 +444,94 @@
         ),
         'class' => 'modCategory',
         'object' => '{"id":null,"parent":0,"category":"Page","rank":0}',
-        'guid' => '4593c2c649d5afc222d5db569af2be9f',
+        'guid' => 'bb4e3b8f2bc26d1a1b9db54e5bc725f7',
         'native_key' => NULL,
-        'signature' => 'e0dc3221545a9fbcf875c8a934f40111',
+        'signature' => 'a02bf36ff99c9958ecc7aaa3ef67670c',
         'related_objects' => 
         array (
           'Chunks' => 
           array (
-            '6445708e345a40723f35250d79de929f' => 
+            '509784688d22a3f3383675b40607daa6' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_blank_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[*content]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[*content]]\\n"}',
-              'guid' => 'f5b84bcf22394548284e1001c72e0034',
+              'guid' => '4354834425c11f72cd48df3a426366d4',
               'native_key' => NULL,
-              'signature' => 'd00b7dbba378744498de981cd15d5368',
+              'signature' => '0a5efd9b366dbd997a602b3206ed53fc',
             ),
-            '6f02cf29f16409d62e399bef1f2528de' => 
+            'ab3f497d0bc6f80961cb2a7f1aa04342' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_page_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n        [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n        [[*content]]\\n    <\\/div>\\n\\n    [[$mxt.feature_featured_posts_mdl]]\\n    [[$mxt.feature_gridbyparent_mdl]]\\n    [[$mxt.feature_grid_mdl]]\\n\\n<\\/div><!-- centered-content -->\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n        [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n        [[*content]]\\n    <\\/div>\\n\\n    [[$mxt.feature_featured_posts_mdl]]\\n    [[$mxt.feature_gridbyparent_mdl]]\\n    [[$mxt.feature_grid_mdl]]\\n\\n<\\/div><!-- centered-content -->\\n"}',
-              'guid' => 'ac1b3823e0c362c283d3fd783aa1bd2e',
+              'guid' => '31da20c21ed09f762c55f98f522cdb29',
               'native_key' => NULL,
-              'signature' => '98faab604e0679d09d0400ffd819280b',
+              'signature' => 'e690147c24676d1efa05fa4f2c836f0c',
             ),
-            '33df7aef0b9be602f295e7a310c69b72' => 
+            '8606dde37c78f969953aec651faeb535' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_body_sidebar_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n\\n        <div class=\\"mdl-cell--8-col sidebar--body\\">\\n            [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n            [[*content]]\\n        <\\/div>\\n\\n        <div class=\\"sidebar--side\\">\\n            [[$mxt.feature_featured_posts_mdl]]\\n            [[$mxt.feature_gridbyparent_mdl]]\\n            [[$mxt.feature_grid_mdl]]\\n        <\\/div>\\n    <\\/div>\\n<\\/div><!-- centered-content -->\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-grid centered-content\\">\\n    <div class=\\"mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col\\">\\n        <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n        [[$mxt.feature_hero_mdl]]\\n        <div class=\\"page--meta mdl-color--blue-grey-200\\">\\n            <span class=\\"mdl-color-text--blue-grey-700\\">[[*publishedon:strtotime:date=`%B %e, %Y`]]<\\/span>\\n        <\\/div>\\n\\n        <div class=\\"mdl-cell--8-col sidebar--body\\">\\n            [[*introtext:notempty=`<p class=\\"introtext mdl-color-text--grey-500\\"><em>[[*introtext]]<\\/em><\\/p>`]]\\n            [[*content]]\\n        <\\/div>\\n\\n        <div class=\\"sidebar--side\\">\\n            [[$mxt.feature_featured_posts_mdl]]\\n            [[$mxt.feature_gridbyparent_mdl]]\\n            [[$mxt.feature_grid_mdl]]\\n        <\\/div>\\n    <\\/div>\\n<\\/div><!-- centered-content -->\\n"}',
-              'guid' => 'b29da1d393543bb7cf2aa88e64f31124',
+              'guid' => '7471910da188ea837dd3aee4be6d3041',
               'native_key' => NULL,
-              'signature' => 'f239e5e8effa0dfe6039706979187857',
+              'signature' => '74fac0cd8ed5be7fe907b0dd5ecbc326',
             ),
-            '94c826ae3de3922d18187313e745c227' => 
+            '97c27e1120f9ab22c4c1521bab2b0508' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_content_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n\\n     [[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.page_body_blank_mdl]]\\n     [[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.page_body_page_mdl]]\\n     [[[[*body_tpl:is=`sidebar`:then=``:else=`-`]]$mxt.page_body_sidebar_mdl]]\\n\\n<\\/main>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<main class=\\"mdl-layout__content [[++mdl_body_color:notempty=`mdl-color--[[++mdl_body_color]]`]]\\">\\n\\n     [[[[*body_tpl:is=`blank`:then=``:else=`-`]]$mxt.page_body_blank_mdl]]\\n     [[[[*body_tpl:is=`page`:then=``:else=`-`]]!$mxt.page_body_page_mdl]]\\n     [[[[*body_tpl:is=`sidebar`:then=``:else=`-`]]$mxt.page_body_sidebar_mdl]]\\n\\n<\\/main>\\n"}',
-              'guid' => 'f86bc1cdaa3822564f30814a3c1beeae',
+              'guid' => '87236b4159e44f5c8c46c3517372ee8e',
               'native_key' => NULL,
-              'signature' => '9c370fceda0cbaea10e4535a91d2bc91',
+              'signature' => '9da8726aa573d1e35e15782228377342',
             ),
-            '87a207a674d60dd8632fc215168e7ff1' => 
+            'a127927370afab2ff843876fc21e5c5f' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_end_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_end_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_end_mdl]]\\n"}',
-              'guid' => 'c27aeeb20bcae9ba0cd771448a12e8fc',
+              'guid' => '592e9d5d4a3031aba265154b0e267e4c',
               'native_key' => NULL,
-              'signature' => '95654e08f37e1d8e51b71a31cccf900f',
+              'signature' => '8e8f5a34965779db3a2b5db2037ac537',
             ),
-            '5703991420815b49148f88c53f61ac1d' => 
+            '376b3002ab6e4170288fe8a0ee6190b8' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_header_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_header_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_header_mdl]]\\n"}',
-              'guid' => '26b529230b6f4235ba5c563e7352800a',
+              'guid' => '347e67149496f06519bcf00a3f4f315f',
               'native_key' => NULL,
-              'signature' => '71e113eb520cbd6a76df4000d792c370',
+              'signature' => '7d360cddc4c5f92d8f8148fb705f8eda',
             ),
-            '75dab14e25029e2df3ebac92bb0ff52a' => 
+            'ff1948e4c771876c492c0e9b69670b55' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"mxt.page_start_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"[[$mxt.global_start_mdl]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"[[$mxt.global_start_mdl]]\\n"}',
-              'guid' => 'cac39bc85179a89c75a1e3263a8b7147',
+              'guid' => '4a91a2065c3da1ce63707eb942bac77b',
               'native_key' => NULL,
-              'signature' => 'd6103442f6fa59c7ebb064db0ca36a4f',
+              'signature' => 'a94696991d7e4453c62bc2f5fafff9a4',
             ),
           ),
         ),
       ),
-      '82779232e23973a0f823a6331f9957b9' => 
+      '749c180bdf495494870d13beed56e1ae' => 
       array (
         'preserve_keys' => false,
         'update_object' => true,
@@ -542,100 +542,100 @@
         ),
         'class' => 'modCategory',
         'object' => '{"id":null,"parent":0,"category":"TPLs","rank":0}',
-        'guid' => '014c2fc9a9fff4426894ce7322933f32',
+        'guid' => '57f239b24ba650895bc7c4187a5512b7',
         'native_key' => NULL,
-        'signature' => '636fba0d1b10996c9e986c53f0cdee7e',
+        'signature' => '6510a92e6aa1c0157fd91a3ba7918e28',
         'related_objects' => 
         array (
           'Chunks' => 
           array (
-            '96adc92050cff30e696b0b78639e2857' => 
+            'a8f886481bdb1ac557acbfd0bc9e6bd2' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"drawer-nav-link_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<a class=\\"mdl-navigation__link\\" href=\\"[[~[[+id]]]]\\"><i class=\\"material-icons [[++mdl_ovr_drawer_text:notempty=`mdl-color-text--[[++mdl_ovr_drawer_text]]`]]\\" role=\\"presentation\\">[[+link_attributes]]<\\/i>[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<a class=\\"mdl-navigation__link\\" href=\\"[[~[[+id]]]]\\"><i class=\\"material-icons [[++mdl_ovr_drawer_text:notempty=`mdl-color-text--[[++mdl_ovr_drawer_text]]`]]\\" role=\\"presentation\\">[[+link_attributes]]<\\/i>[[+menutitle:default=`[[+pagetitle]]`]]<\\/a>\\n"}',
-              'guid' => '253097a0f870b4c2869e4b3881ea4f20',
+              'guid' => '21bdc802c93ed3bd40a5496071d96682',
               'native_key' => NULL,
-              'signature' => '49932d72e46ec422749b92790db967bc',
+              'signature' => '4315274443010a629baa8a65d6547add',
             ),
-            'e8f0b53635968f4070c289eebd9b14e8' => 
+            'e29cfe75693c28deda4fd8da2c098f0c' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_contactemail_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"Contact: [[+name]]<br>\\nPhone: [[+phone]]<br>\\nEmail: [[+email]]<br>\\n<br>\\nMessage:\\n[[+text]]\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"Contact: [[+name]]<br>\\nPhone: [[+phone]]<br>\\nEmail: [[+email]]<br>\\n<br>\\nMessage:\\n[[+text]]\\n"}',
-              'guid' => '5ce5080638f879e3e876c16169be959b',
+              'guid' => '370a68095c99ec5fc0ba2c292e2c8d2c',
               'native_key' => NULL,
-              'signature' => '937d48e650b2ddf742787c3b5c2c8714',
+              'signature' => '507a67a9376ad21907057ba4a4119d7c',
             ),
-            '7a11e143365c88c390f3ffa6c3f5b289' => 
+            '7f691ea7b281efd3234e9711b33a4fbf' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_featured_posts_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-cell [[*body_tpl:is=`page`:then=`mdl-cell--12-col`:else=`mdl-cell--4-col`]] mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n    <div class=\\"mdl-card__media\\" [[+tv.page_img:notempty=`style=\\"background-image:url([[+tv.page_img]]);min-height:100px;\\"`]]><\\/div>\\n    <div class=\\"mdl-card__supporting-text sidebar--feature\\">\\n        <h3>[[+menutitle:default=`[[+pagetitle]]`]]<\\/h3>\\n        <p>\\n            [[+introtext]]\\n            <br>\\n            <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n        <\\/p>\\n    <\\/div>\\n    <div class=\\"mdl-card__actions mdl-card--border\\">\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"mdl-button mdl-js-button mdl-js-ripple-effect\\">Read More<\\/a>\\n    <\\/div>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-cell [[*body_tpl:is=`page`:then=`mdl-cell--12-col`:else=`mdl-cell--4-col`]] mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-color--accent content-accent-bar\\"><\\/div>\\n    <div class=\\"mdl-card__media\\" [[+tv.page_img:notempty=`style=\\"background-image:url([[+tv.page_img]]);min-height:100px;\\"`]]><\\/div>\\n    <div class=\\"mdl-card__supporting-text sidebar--feature\\">\\n        <h3>[[+menutitle:default=`[[+pagetitle]]`]]<\\/h3>\\n        <p>\\n            [[+introtext]]\\n            <br>\\n            <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n        <\\/p>\\n    <\\/div>\\n    <div class=\\"mdl-card__actions mdl-card--border\\">\\n        <a href=\\"[[~[[+id]]]]\\" class=\\"mdl-button mdl-js-button mdl-js-ripple-effect\\">Read More<\\/a>\\n    <\\/div>\\n<\\/div>\\n"}',
-              'guid' => '2ff31f7f387993d05d107a12b8d4ca6d',
+              'guid' => 'a78a6ed572edb2395a443ccd5f3c601f',
               'native_key' => NULL,
-              'signature' => 'fc2420f481cec8065a616ba57f05910d',
+              'signature' => '6e16922201412361825742ac844c31b1',
             ),
-            '1e038a484f6fb15d39f53317a15d9fd1' => 
+            'f342745e32d14049c37e79294e504a23' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_gridbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media\\" style=\\"background-image:url([[+tv.page_img]]);\\">\\n      <h3><a class=\\"mdl-color-text--white\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n    <\\/div>\\n    <div class=\\"mdl-card__supporting-text\\">\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-cell mdl-cell--4-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media\\" style=\\"background-image:url([[+tv.page_img]]);\\">\\n      <h3><a class=\\"mdl-color-text--white\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n    <\\/div>\\n    <div class=\\"mdl-card__supporting-text\\">\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n"}',
-              'guid' => '5e72c1e2fb908eefa4b179c495370674',
+              'guid' => '045167cc2c9e80eda3f77d4cb57bd85a',
               'native_key' => NULL,
-              'signature' => '4d05e454d58bcc79aea2cd489f72ec0c',
+              'signature' => 'faf78c9d35c45d6ad5581ebda9d9ea68',
             ),
-            'ecee031b92c3daafdf9404cb13d41669' => 
+            '3faac28ee5cc7643751609d29797453f' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_listbyparent_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"mdl-grid mdl-cell--12-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media mdl-cell--4-col\\" style=\\"background-image:url([[+tv.page_img]]);\\"><\\/div>\\n    <div class=\\"mdl-card__supporting-text mdl-cell--8-col\\">\\n        <h3><a class=\\"mdl-color-text--primary\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<div class=\\"mdl-grid mdl-cell--12-col mdl-card mdl-shadow--2dp\\">\\n    <div class=\\"mdl-card__media mdl-cell--4-col\\" style=\\"background-image:url([[+tv.page_img]]);\\"><\\/div>\\n    <div class=\\"mdl-card__supporting-text mdl-cell--8-col\\">\\n        <h3><a class=\\"mdl-color-text--primary\\" href=\\"[[~[[+id]]]]\\">[[+menutitle:default=`[[+pagetitle]]`]]<\\/a><\\/h3>\\n        <strong>[[+introtext]]<\\/strong><br>\\n        <span><em>[[+publishedon:strtotime:date=`%B %e, %Y`]]<\\/em><\\/span>\\n    <\\/div>\\n<\\/div>\\n"}',
-              'guid' => '645471423870d9fac1e769a7f4984302',
+              'guid' => '39ac44e2e117a8be6f331dd3a44793cf',
               'native_key' => NULL,
-              'signature' => '692759468edc5a7c6feb2d22ec712bd4',
+              'signature' => '9598bef374a06a92c28b35a2b968da93',
             ),
-            '69d64fb9eed2efe1210c9a5a8620391c' => 
+            'ff8c77ae0c85168635c6407f119322af' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_search_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<form class=\\"sisea-search-form\\" action=\\"[[~[[+landing:default=`[[*id]]`]]]]\\" method=\\"[[+method:default=`get`]]\\">\\n    <input class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"[[+searchIndex]]\\" id=\\"[[+searchIndex]]\\" value=\\"[[+searchValue]]\\" \\/>\\n    <label class=\\"mdl-textfield__label\\" for=\\"search\\">Enter your query...<\\/label>\\n    <input type=\\"hidden\\" name=\\"id\\" value=\\"[[+landing:default=[[*id]]]]\\" \\/>\\n    <input type=\\"hidden\\" value=\\"[[%sisea.search? &namespace=`sisea` &topic=`default`]]\\" \\/>\\n<\\/form>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<form class=\\"sisea-search-form\\" action=\\"[[~[[+landing:default=`[[*id]]`]]]]\\" method=\\"[[+method:default=`get`]]\\">\\n    <input class=\\"mdl-textfield__input\\" type=\\"text\\" name=\\"[[+searchIndex]]\\" id=\\"[[+searchIndex]]\\" value=\\"[[+searchValue]]\\" \\/>\\n    <label class=\\"mdl-textfield__label\\" for=\\"search\\">Enter your query...<\\/label>\\n    <input type=\\"hidden\\" name=\\"id\\" value=\\"[[+landing:default=[[*id]]]]\\" \\/>\\n    <input type=\\"hidden\\" value=\\"[[%sisea.search? &namespace=`sisea` &topic=`default`]]\\" \\/>\\n<\\/form>\\n"}',
-              'guid' => '5e8d51b97e57299696af573c263ff99d',
+              'guid' => 'fb99967dd85ea221a66d7be706685c1b',
               'native_key' => NULL,
-              'signature' => '5fcc00027e3ef42e235a13931afcbd93',
+              'signature' => '060c89d2533ccd2e452cd2b7e2e9f40d',
             ),
-            'f826096dc4aaf3fe54116c2b7bf3f4b7' => 
+            'fb834921b47634f8bd850d4e6765c87e' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_searchresult_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<tr>\\n  <td data-title=\\"ID\\">[[+idx]]<\\/td>\\n  <td data-title=\\"Title\\"><a href=\\"[[+link:is=``:then=`[[~[[+id]]]]`:else=`[[+link]]`]]\\" title=\\"[[+longtitle]]\\">[[+pagetitle]]<\\/a><\\/td>\\n  <td data-title=\\"Content\\">[[+extract]]<\\/td>\\n<\\/tr>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<tr>\\n  <td data-title=\\"ID\\">[[+idx]]<\\/td>\\n  <td data-title=\\"Title\\"><a href=\\"[[+link:is=``:then=`[[~[[+id]]]]`:else=`[[+link]]`]]\\" title=\\"[[+longtitle]]\\">[[+pagetitle]]<\\/a><\\/td>\\n  <td data-title=\\"Content\\">[[+extract]]<\\/td>\\n<\\/tr>\\n"}',
-              'guid' => 'bc50c74447768c57cf564c651eaaf429',
+              'guid' => '9a79581b9554c32cf09c2af1839c628b',
               'native_key' => NULL,
-              'signature' => 'e0a736a2f1904a2493fa900b16a696a6',
+              'signature' => 'b71a3bf18a95a8ad2edca853a4b6a04c',
             ),
-            'e6d8075716f9e13ae0767f5d76d65060' => 
+            'd86ca1ac8e02dbc902a7d9502ad9a411' => 
             array (
               'preserve_keys' => false,
               'update_object' => true,
               'unique_key' => 'name',
               'class' => 'modChunk',
               'object' => '{"id":null,"source":0,"property_preprocess":0,"name":"tpl_searchresultwrapper_mdl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<p class=\\"sisea-results\\"><strong>[[+resultInfo]]<\\/strong><\\/p>\\n\\n<table class=\\"mdl-data-table\\" style=\\"white-space: normal;\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Title<\\/th>\\n          <th>Content<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        [[+results]]\\n    <\\/tbody>\\n<\\/table>\\n\\n<div class=\\"page--meta sisea-paging mdl-color--primary\\"><span class=\\"sisea-result-pages mdl-color-text--white\\">[[%sisea.result_pages? &namespace=`sisea` &topic=`default`]]<\\/span>[[+paging]]<\\/div>\\n","locked":0,"properties":"a:0:{}","static":0,"static_file":"","content":"<p class=\\"sisea-results\\"><strong>[[+resultInfo]]<\\/strong><\\/p>\\n\\n<table class=\\"mdl-data-table\\" style=\\"white-space: normal;\\">\\n      <thead>\\n        <tr>\\n          <th>ID<\\/th>\\n          <th>Title<\\/th>\\n          <th>Content<\\/th>\\n        <\\/tr>\\n      <\\/thead>\\n      <tbody>\\n        [[+results]]\\n    <\\/tbody>\\n<\\/table>\\n\\n<div class=\\"page--meta sisea-paging mdl-color--primary\\"><span class=\\"sisea-result-pages mdl-color-text--white\\">[[%sisea.result_pages? &namespace=`sisea` &topic=`default`]]<\\/span>[[+paging]]<\\/div>\\n"}',
-              'guid' => 'f952a5cc1f141346f6635186854e7e5a',
+              'guid' => 'e7e2fff2bdc21726fd9b5e64aa013810',
               'native_key' => NULL,
-              'signature' => '940096067e7c018536a2e0e0955740dd',
+              'signature' => '3cac3fd9d956057ae2944f59ba42f80c',
             ),
           ),
         ),
@@ -704,27 +704,42 @@
   array (
     0 => 
     array (
-      'type' => 'file',
-      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/0b6c4ab003a4606a5647a3ae9497b2f5\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"mdl-theme"}',
+      'type' => 'php',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/5ef0b3370accee14fa43c1830f83de11.sample_content.resolver","type":"php","name":"sample_content"}',
     ),
     1 => 
     array (
       'type' => 'file',
-      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/0b6c4ab003a4606a5647a3ae9497b2f5\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"mdl-theme"}',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/5ef0b3370accee14fa43c1830f83de11\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"mdl-theme"}',
     ),
     2 => 
     array (
+      'type' => 'file',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/5ef0b3370accee14fa43c1830f83de11\\/2\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"mdl-theme"}',
+    ),
+    3 => 
+    array (
       'type' => 'php',
-      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/0b6c4ab003a4606a5647a3ae9497b2f5.gpm.resolve.resources.resolver","type":"php","name":"gpm.resolve.resources"}',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/5ef0b3370accee14fa43c1830f83de11.gpm.resolve.resources.resolver","type":"php","name":"gpm.resolve.resources"}',
+    ),
+    4 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/5ef0b3370accee14fa43c1830f83de11.sample_settings.resolver","type":"php","name":"sample_settings"}',
+    ),
+    5 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"mdl-theme-1.0.0-pl\\/modCategory\\/5ef0b3370accee14fa43c1830f83de11.config.resolver","type":"php","name":"config"}',
     ),
   ),
   'validate' => NULL,
   'vehicle_package' => 'transport',
   'vehicle_class' => 'xPDOObjectVehicle',
-  'guid' => '5a2d551c5446a30909c57954368447a6',
+  'guid' => '2acda66b0d3184cf0d5500b946f6a6f3',
   'package' => 'modx',
   'class' => 'modCategory',
-  'signature' => '0b6c4ab003a4606a5647a3ae9497b2f5',
+  'signature' => '5ef0b3370accee14fa43c1830f83de11',
   'native_key' => NULL,
   'object' => '{"id":null,"parent":0,"category":"MDL Theme","rank":0}',
 );

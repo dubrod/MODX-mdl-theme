@@ -178,6 +178,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   1 => 
@@ -217,7 +218,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       'page_img' => 
       array (
         'name' => 'page_img',
-        'value' => 'assets/img/pineapple.jpg',
+        'value' => '',
       ),
       'fpost_ids' => 
       array (
@@ -227,7 +228,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       'hero_banner' => 
       array (
         'name' => 'hero_banner',
-        'value' => 'yes',
+        'value' => '',
       ),
       'carousel_ids' => 
       array (
@@ -251,6 +252,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   2 => 
@@ -324,6 +326,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   3 => 
@@ -397,6 +400,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   4 => 
@@ -470,6 +474,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   5 => 
@@ -509,7 +514,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       'page_img' => 
       array (
         'name' => 'page_img',
-        'value' => 'assets/img/skyhigh.jpg',
+        'value' => '',
       ),
       'fpost_ids' => 
       array (
@@ -519,7 +524,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       'hero_banner' => 
       array (
         'name' => 'hero_banner',
-        'value' => 'yes',
+        'value' => '',
       ),
       'carousel_ids' => 
       array (
@@ -543,6 +548,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   6 => 
@@ -616,6 +622,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   7 => 
@@ -655,7 +662,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       'page_img' => 
       array (
         'name' => 'page_img',
-        'value' => 'assets/img/liberty.jpg',
+        'value' => '',
       ),
       'fpost_ids' => 
       array (
@@ -689,6 +696,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
   ),
   8 => 
@@ -762,6 +770,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
     'richtext' => 0,
   ),
@@ -836,6 +845,7 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
       ),
     ),
     'template' => 'MX Template',
+    'content_type' => 1,
     'published' => 1,
     'hidemenu' => 1,
     'richtext' => 0,
